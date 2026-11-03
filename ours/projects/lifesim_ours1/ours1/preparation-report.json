@@ -1,0 +1,28 @@
+{
+  "status": "static_preparation_passed",
+  "model_calls": 0,
+  "episodes_executed": 0,
+  "training_steps": 0,
+  "base_templates": 32,
+  "public_episodes": 2304,
+  "paired_sets": 1152,
+  "proposed_baselines": [
+    "current_session",
+    "history_retrieval"
+  ],
+  "functional_protocol_tests_run": false,
+  "native_integration_run": false,
+  "sha256": {
+    "configs/experiment.json": "7758ab7f1c7fc1c5fe86d96494a63bebdbe74eaa3d0169de9942b5b82d19906b",
+    "configs/response.schema.json": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa",
+    "data/private/oracle.jsonl": "6f78303a222d120dfd760682c06d49bebf0deeaf229d449dd57730d76d648112",
+    "data/private/pairs.json": "a0d4775714a74822e09ecd9f0ac09ae134144f7f8dae96b40aceb41f5f2464a3",
+    "data/private/subsets.json": "2c2c87136cd41fa3713d136bec6fbdceacfe53de93c000dc8b4f907b095fffad",
+    "data/private/templates.json": "3a87f4b83d561a9159f42445ca9c072602be9e6c651642bbcfb922a442f6b760",
+    "data/public/episodes.jsonl": "42e20f0b5d5438b6142f40ea38d34f00be98dd2afa84f3d2c4a0fc2efbc34abd",
+    "generation/generate.py": "1c75531bb228882631487b8411897cb0921eb81edfb6abe5ba56faa46cc7985c",
+    "generation/templates.py": "e08b1ebceb762bc21530eeab4531b2005244937bafcccba6e83a0894a02c6e2e",
+    "scripts/prepare.py": "94dfcc128758fb446c791935dc31a2d502a01e6374b70dd5f7d9f3b0c283e7c4",
+    "scripts/protocol.py": "624611a9bf28db6e276af87f6b33b3a6f52c90c3b77dee3d6caa9ee3b6c82179"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "cases": 16,
+  "phases_per_case": 3,
+  "monotonic_timestamps": true,
+  "clarification_and_correct_actions": true
+}

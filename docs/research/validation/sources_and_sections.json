@@ -1,0 +1,1081 @@
+{
+  "checked_on": "2026-10-23",
+  "note": "Primary-source links; broad search is not an exhaustive guarantee. Proposals are not experimental results.",
+  "pages": [
+    {
+      "title": "本版怎样读，哪些结论还不能下",
+      "section": "阅读说明",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "阅读路线",
+      "section": "阅读说明",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "先认识人物，再看可选方案",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "第一种情况：要求已经说完整",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "第二种情况：要求没有明说，但留下了线索",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "第三种情况：后来一句话改变了当前目标",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "第四种情况：没有证据，就不能要求模型猜出来",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "给刚才发生的事起名字",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "传统意图识别，与这里的任务有什么区别",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": null,
+      "sources": [
+        {
+          "title": "BANKING77 · 原始论文",
+          "url": "https://aclanthology.org/2020.nlp4convai-1.5/"
+        },
+        {
+          "title": "CLINC150 · 论文/数据附件",
+          "url": "https://aclanthology.org/D19-1131/"
+        },
+        {
+          "title": "SGD · 原始论文",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6394"
+        }
+      ]
+    },
+    {
+      "title": "读 CLINC 原图：请求清楚，也可能不在服务范围内",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": "clinc_scope",
+      "sources": [
+        {
+          "title": "CLINC150 · 论文/数据附件",
+          "url": "https://aclanthology.org/D19-1131/"
+        }
+      ]
+    },
+    {
+      "title": "目前难在哪里：先把不同困难分开",
+      "section": "一 · 同一场会议，逐步理解任务",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "先区分四个问题，才不会把理论混在一起",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "逆向规划：从选择倒推目的，也要考虑知识",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Baker 等，2009 原文",
+          "url": "https://web.mit.edu/9.s915/www/classes/cognition2009.pdf"
+        },
+        {
+          "title": "信念、欲望与感知，2017",
+          "url": "https://www.nature.com/articles/s41562-017-0064"
+        }
+      ]
+    },
+    {
+      "title": "潜在情境：偏好变了，还是正在做另一件事",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Gershman & Niv，2010",
+          "url": "https://swh.princeton.edu/~yael/Publications/GershmanNiv2010.pdf"
+        },
+        {
+          "title": "任务状态认知地图，2014",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4001869/"
+        }
+      ]
+    },
+    {
+      "title": "事件边界与变化检测：何时重新解释历史",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "事件分段综述，2017",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5602591/"
+        },
+        {
+          "title": "Yu & Dayan，2005",
+          "url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/yud2005.pdf"
+        }
+      ]
+    },
+    {
+      "title": "来源监控：用户原话与助手猜测不能变成同一种记忆",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "来源监控框架，1993",
+          "url": "https://memlab.yale.edu/sites/default/files/files/1993_Johnson_Hashtroudi_Lindsay_PsychBull.pdf"
+        }
+      ]
+    },
+    {
+      "title": "元认知与资源理性：不知道什么，值得查到什么程度",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Nelson & Narens，1990",
+          "url": "https://www.imbs.uci.edu/~lnarens/1990/Nelson%26Narens_Book_Chapter_1990.pdf"
+        },
+        {
+          "title": "资源理性分析，2020",
+          "url": "https://cocosci.princeton.edu/papers/liederresource.pdf"
+        }
+      ]
+    },
+    {
+      "title": "偏好可能在选择中形成：提问不是透明的测量仪",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Slovic，1995 偏好建构",
+          "url": "https://scholarsbank.uoregon.edu/items/8bfbe1ef-a008-470a-a730-625bfc00c192"
+        },
+        {
+          "title": "Schwarz，1999",
+          "url": "https://cci.drexel.edu/faculty/sgasson/Readings/Schwarz%20%5B1999%5D%20Self-reports%20-%20How%20the%20questions%20shape%20the%20answers.pdf"
+        }
+      ]
+    },
+    {
+      "title": "共同基础与合作原则：理解是双方一起完成的",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Grice，1975",
+          "url": "https://web.stanford.edu/class/psych205/papers/Grice-1975.pdf"
+        },
+        {
+          "title": "Clark & Brennan，1991",
+          "url": "https://www.cs.cmu.edu/~illah/CLASSDOCS/Clark91.pdf"
+        }
+      ]
+    },
+    {
+      "title": "会话修复：哪里没懂，就修哪里",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "会话修复，1977",
+          "url": "https://www.troyspier.com/assets/files/bibliographies/discourse/schegloff_jefferson_sacks_preference_self_correction.pdf"
+        },
+        {
+          "title": "跨语言修复，2015",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4573759/"
+        }
+      ]
+    },
+    {
+      "title": "知识地位与角色：谁有资格确认哪类事实",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Heritage，2012",
+          "url": "https://www.sscnet.ucla.edu/soc/faculty/heritage/Site/Publications_files/EPISTEMICS_IN_ACTION.pdf"
+        },
+        {
+          "title": "Goffman，Forms of Talk，1981",
+          "url": "https://eclass.uoa.gr/modules/document/file.php/EDS143/%28University%20of%20Pennsylvania%20Publications%20in%20Conduct%20and%20Communication%29%20Erving%20Goffman%20-%20Forms%20of%20Talk-University%20of%20Pennsylvania%20Press%20%281981%29.pdf"
+        }
+      ]
+    },
+    {
+      "title": "礼貌与面子：同一个问题，社会成本也可能不同",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Politeness，1987 出版社",
+          "url": "https://www.cambridge.org/highereducation/books/politeness/89113EE2FB4A1D254D4A8D2011E542E4"
+        },
+        {
+          "title": "后续讨论与概念边界",
+          "url": "https://assets.cambridge.org/97811087/30945/excerpt/9781108730945_excerpt.pdf"
+        }
+      ]
+    },
+    {
+      "title": "情境行动：计划有用，但不能代替正在发生的活动",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Suchman：Plans 章节",
+          "url": "https://www.cambridge.org/core/books/abs/humanmachine-reconfigurations/plans/486980BE0B03AE3DF9C2181D74F26E64"
+        },
+        {
+          "title": "Vera & Simon，1993 回应",
+          "url": "https://home.cs.colorado.edu/~mozer/Teaching/syllabi/3702/readings/VeraSimon1993.pdf"
+        }
+      ]
+    },
+    {
+      "title": "分布式认知与厚描：意义不全在一段聊天里",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Hutchins，1995 作者介绍",
+          "url": "https://pages.ucsd.edu/~ehutchins/citw.html"
+        },
+        {
+          "title": "Geertz，1973 厚描",
+          "url": "https://people.ucsc.edu/~ktellez/geertz1973.pdf"
+        }
+      ]
+    },
+    {
+      "title": "把这些理论变成研究变量，而不是装饰",
+      "section": "二 · 认知与社会科学：为什么理解会出错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Gollwitzer，1999 实施意图",
+          "url": "https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/c/6235/files/2019/02/gollwitzer-1999-implementation-intentions.pdf"
+        },
+        {
+          "title": "主动推断过程理论",
+          "url": "https://activeinference.github.io/papers/process_theory.pdf"
+        }
+      ]
+    },
+    {
+      "title": "LongMemEval：先确认旧信息能否被正确找回和更新",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "longmem_examples",
+      "sources": [
+        {
+          "title": "LongMemEval · 论文",
+          "url": "https://arxiv.org/abs/2410.10813"
+        },
+        {
+          "title": "LongMemEval · 官方代码/数据",
+          "url": "https://github.com/xiaowu0162/LongMemEval"
+        }
+      ]
+    },
+    {
+      "title": "PrefEval：记住偏好之后，回答是否真的受它影响",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "prefeval_setup",
+      "sources": [
+        {
+          "title": "PrefEval · 论文",
+          "url": "https://arxiv.org/abs/2502.09597"
+        },
+        {
+          "title": "PrefEval · 代码/数据入口",
+          "url": "https://prefeval.github.io/"
+        }
+      ]
+    },
+    {
+      "title": "PersonaMem：为什么不能给用户贴一个永久标签",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": null,
+      "sources": [
+        {
+          "title": "PersonaMem-v1 · 论文",
+          "url": "https://arxiv.org/abs/2504.14225"
+        },
+        {
+          "title": "PersonaMem-v2 · 论文",
+          "url": "https://arxiv.org/abs/2512.06688"
+        },
+        {
+          "title": "PersonaMem-v3 · 论文",
+          "url": "https://arxiv.org/abs/2608.21381v2"
+        },
+        {
+          "title": "PersonaMem-v3 · 官方代码/评测",
+          "url": "https://github.com/bowen-upenn/PersonaMem-v3"
+        }
+      ]
+    },
+    {
+      "title": "PersonaMem 第一版原图：后来的信息改变建议",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "persona_v1",
+      "sources": [
+        {
+          "title": "PersonaMem-v1 · 论文",
+          "url": "https://arxiv.org/abs/2504.14225"
+        },
+        {
+          "title": "PersonaMem-v1 · 官方代码/数据",
+          "url": "https://github.com/bowen-upenn/PersonaMem"
+        }
+      ]
+    },
+    {
+      "title": "PersonaMem 第二版原图：信息藏在别的任务里",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "persona_v2",
+      "sources": [
+        {
+          "title": "PersonaMem-v2 · 论文",
+          "url": "https://arxiv.org/abs/2512.06688"
+        },
+        {
+          "title": "PersonaMem-v2 · 官方数据集",
+          "url": "https://huggingface.co/datasets/bowen-upenn/PersonaMem-v2"
+        }
+      ]
+    },
+    {
+      "title": "PersonaMem 第三版原图：跨场景理解，也要避免错用",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "persona_scope",
+      "sources": [
+        {
+          "title": "PersonaMem-v3 · 论文",
+          "url": "https://arxiv.org/abs/2608.21381v2"
+        },
+        {
+          "title": "PersonaMem-v3 · 官方代码/评测",
+          "url": "https://github.com/bowen-upenn/PersonaMem-v3"
+        }
+      ]
+    },
+    {
+      "title": "经典起点：为什么一个动作可以有多个解释",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Kautz 1986 · 论文 PDF",
+          "url": "https://cdn.aaai.org/AAAI/1986/AAAI86-006.pdf"
+        },
+        {
+          "title": "IRL 2000 · 论文 PDF",
+          "url": "https://ai.stanford.edu/~ang/papers/icml00-irl.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Baker 与 SIPS：先想“想做这件事的人会怎样行动”",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "sips_backtrack",
+      "sources": [
+        {
+          "title": "Baker 2009 · 论文 PDF",
+          "url": "https://web.mit.edu/9.s915/www/classes/cognition2009.pdf"
+        },
+        {
+          "title": "SIPS · 论文",
+          "url": "https://arxiv.org/abs/2006.07532"
+        }
+      ]
+    },
+    {
+      "title": "语言、省略与合作：几条经典思想怎样接起来",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": null,
+      "sources": [
+        {
+          "title": "RSA 2012 · 论文 PDF",
+          "url": "https://web.stanford.edu/~ngoodman/papers/FrankGoodman-Science2012.pdf"
+        },
+        {
+          "title": "POMDP 对话综述 · PDF",
+          "url": "https://cs.brown.edu/courses/csci2951-k/papers/young13.pdf"
+        },
+        {
+          "title": "Horvitz 1999 · 论文 PDF",
+          "url": "https://erichorvitz.com/chi99horvitz.pdf"
+        },
+        {
+          "title": "CIRL 2016 · 论文",
+          "url": "https://arxiv.org/abs/1606.03137"
+        }
+      ]
+    },
+    {
+      "title": "IN3：把缺少的信息问出来，再执行任务",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "in3_overview",
+      "sources": [
+        {
+          "title": "IN3 · ACL 论文及资源",
+          "url": "https://aclanthology.org/2024.acl-long.61/"
+        },
+        {
+          "title": "IN3 · 官方代码/数据",
+          "url": "https://github.com/thunlp/Tell_Me_More"
+        }
+      ]
+    },
+    {
+      "title": "IN3 的数据原图：先说明缺什么，才知道问什么",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "in3_data",
+      "sources": [
+        {
+          "title": "IN3 · ACL 论文及资源",
+          "url": "https://aclanthology.org/2024.acl-long.61/"
+        },
+        {
+          "title": "IN3 · 官方代码/数据",
+          "url": "https://github.com/thunlp/Tell_Me_More"
+        }
+      ]
+    },
+    {
+      "title": "CLIPS：同一句话，要和用户正在做的事一起理解",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "clips_overview",
+      "sources": [
+        {
+          "title": "CLIPS · 论文",
+          "url": "https://arxiv.org/abs/2402.17930v1"
+        },
+        {
+          "title": "CLIPS · 官方代码/教程",
+          "url": "https://github.com/cosilab/CLIPS.jl"
+        }
+      ]
+    },
+    {
+      "title": "CLIPS 的概率图：只需要先读懂这条因果顺序",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "clips_graph",
+      "sources": [
+        {
+          "title": "CLIPS · 论文",
+          "url": "https://arxiv.org/abs/2402.17930v1"
+        },
+        {
+          "title": "CLIPS · 官方代码/教程",
+          "url": "https://github.com/cosilab/CLIPS.jl"
+        }
+      ]
+    },
+    {
+      "title": "PPP 与 UserVille：问了一个问题，也可能增加很多工作",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "ppp_environment",
+      "sources": [
+        {
+          "title": "UserVille / PPP · 论文",
+          "url": "https://arxiv.org/abs/2511.02208v2"
+        },
+        {
+          "title": "PPP · 官方代码/环境",
+          "url": "https://github.com/sunnweiwei/PPP-Agent"
+        }
+      ]
+    },
+    {
+      "title": "EComAgentBench：完整需求分布在三个地方",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "ecom_task",
+      "sources": [
+        {
+          "title": "EComAgentBench · 论文",
+          "url": "https://arxiv.org/abs/2606.17698v3"
+        }
+      ]
+    },
+    {
+      "title": "EComAgentBench 的构建图：先固定要求，再写成语言",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "ecom_pipeline",
+      "sources": [
+        {
+          "title": "EComAgentBench · 论文",
+          "url": "https://arxiv.org/abs/2606.17698v3"
+        }
+      ]
+    },
+    {
+      "title": "TRIP-Bench：用户改了一项要求，整个计划都可能受影响",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "trip_overview",
+      "sources": [
+        {
+          "title": "TRIP-Bench · 论文",
+          "url": "https://arxiv.org/abs/2602.01675"
+        }
+      ]
+    },
+    {
+      "title": "Drift-Bench++：用户没有完整说明变化时怎么办",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": "drift_interaction",
+      "sources": [
+        {
+          "title": "Drift-Bench++ · 论文 v1",
+          "url": "https://arxiv.org/abs/2609.38604v1"
+        },
+        {
+          "title": "Drift-Bench++ · 官方项目入口",
+          "url": "https://drift-bench-plus.github.io/"
+        }
+      ]
+    },
+    {
+      "title": "还有哪些困难任务：它们与会议问题各差一步",
+      "section": "三 · 技术基础：记忆、推断与连续任务",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Act2Intention · 论文",
+          "url": "https://arxiv.org/abs/2608.14132"
+        },
+        {
+          "title": "PASK / LatentNeeds-Bench · 论文",
+          "url": "https://arxiv.org/abs/2604.08000v1"
+        },
+        {
+          "title": "ConsintBench · 论文 v1",
+          "url": "https://arxiv.org/abs/2510.13499v1"
+        },
+        {
+          "title": "ConsintBench · 作者代码",
+          "url": "https://github.com/OliverLeeXZ/ConsintBench"
+        }
+      ]
+    },
+    {
+      "title": "先回到 1999：何时介入早就是决策问题",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "horvitz",
+      "sources": [
+        {
+          "title": "Horvitz，CHI 1999 原文",
+          "url": "https://erichorvitz.com/chi99horvitz.pdf"
+        },
+        {
+          "title": "打断成本，2003",
+          "url": "https://erichorvitz.com/iw.pdf"
+        }
+      ]
+    },
+    {
+      "title": "VoI：一个问题值不值得问，取决于能否改善任务",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "voi",
+      "sources": [
+        {
+          "title": "ACL 2026 论文与资源",
+          "url": "https://aclanthology.org/2026.acl-long.1987/"
+        },
+        {
+          "title": "作者代码入口",
+          "url": "https://github.com/dong-river/VOI_communication"
+        }
+      ]
+    },
+    {
+      "title": "Steerable Clarification：成本给定后，学会改变交互方式",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "steer",
+      "sources": [
+        {
+          "title": "COLM 2026，v3 原文",
+          "url": "https://arxiv.org/abs/2512.04068v3"
+        }
+      ]
+    },
+    {
+      "title": "REVOIR：先问，还是先做再接受纠正",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "revoir",
+      "sources": [
+        {
+          "title": "REVOIR，2026-09 预印本",
+          "url": "https://arxiv.org/abs/2609.37588v1"
+        }
+      ]
+    },
+    {
+      "title": "Ask, Relax, or Act：不确定，不一定需要提问",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "relax",
+      "sources": [
+        {
+          "title": "Ask, Relax, or Act，2026-10",
+          "url": "https://arxiv.org/abs/2610.03102v1"
+        }
+      ]
+    },
+    {
+      "title": "AskBench：缺信息与错误前提，需要不同处理",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "askbench",
+      "sources": [
+        {
+          "title": "AskBench，ACL Findings 2026",
+          "url": "https://aclanthology.org/2026.findings-acl.845/"
+        }
+      ]
+    },
+    {
+      "title": "DECISIVE：把文件证据与偏好询问连接起来",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "decisive",
+      "sources": [
+        {
+          "title": "DECISIVE，ACL 2026",
+          "url": "https://aclanthology.org/2026.acl-long.1465/"
+        }
+      ]
+    },
+    {
+      "title": "PersonaAgent：记忆必须影响行动，行动又反过来影响记忆",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "personagent",
+      "sources": [
+        {
+          "title": "PersonaAgent，ACL Findings 2026",
+          "url": "https://aclanthology.org/2026.findings-acl.1315/"
+        }
+      ]
+    },
+    {
+      "title": "1,000 Personas：最直接的个人适应近邻",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "personas1000",
+      "sources": [
+        {
+          "title": "1,000 Personas，v3 原文",
+          "url": "https://arxiv.org/abs/2602.04000v3"
+        }
+      ]
+    },
+    {
+      "title": "这篇近邻已经指出：忽略建议不等于不喜欢建议",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": null,
+      "sources": [
+        {
+          "title": "原文第 10 节讨论",
+          "url": "https://arxiv.org/pdf/2602.04000v3"
+        }
+      ]
+    },
+    {
+      "title": "10 月新观点：置信度也要解释来自哪里",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "vision",
+      "sources": [
+        {
+          "title": "Vision：不确定性与主动助手，2026-10",
+          "url": "https://arxiv.org/abs/2610.15948v1"
+        }
+      ]
+    },
+    {
+      "title": "π-Bench：长期个人助手已成为直接评测对象",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "pibench",
+      "sources": [
+        {
+          "title": "π-Bench，v3",
+          "url": "https://arxiv.org/abs/2605.14678v3"
+        }
+      ]
+    },
+    {
+      "title": "STITCH：检索相关，不代表当前适用",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "stitch",
+      "sources": [
+        {
+          "title": "Grounding Agent Memory in Contextual Intent",
+          "url": "https://arxiv.org/abs/2601.10702v2"
+        }
+      ]
+    },
+    {
+      "title": "IntentFlux／StateForge：用户改口之后，旧要求仍在起作用",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "flux",
+      "sources": [
+        {
+          "title": "IntentFlux／StateForge，2026-09",
+          "url": "https://arxiv.org/abs/2609.32520v1"
+        }
+      ]
+    },
+    {
+      "title": "模拟用户研究：看起来像人，不等于能训练出更好的助手",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "simutility",
+      "sources": [
+        {
+          "title": "Quantifying the Utility of User Simulators",
+          "url": "https://arxiv.org/abs/2605.09808v1"
+        },
+        {
+          "title": "作者代码与模型",
+          "url": "https://github.com/schang-lab/utility-of-user-simulators"
+        }
+      ]
+    },
+    {
+      "title": "相邻领域还有哪些，为什么不逐篇展开",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Pare，预印本",
+          "url": "https://arxiv.org/abs/2604.00842v1"
+        },
+        {
+          "title": "Mem-PAL，AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/40385/44346"
+        },
+        {
+          "title": "PM-Bench",
+          "url": "https://arxiv.org/abs/2607.12385"
+        },
+        {
+          "title": "GroupMemBench",
+          "url": "https://arxiv.org/abs/2605.14498"
+        },
+        {
+          "title": "AgentZeroMemory",
+          "url": "https://arxiv.org/abs/2608.29606v1"
+        },
+        {
+          "title": "HumanLM，ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/wu26k.html"
+        },
+        {
+          "title": "Beyond Cooperative Simulators",
+          "url": "https://arxiv.org/abs/2605.12894"
+        }
+      ]
+    },
+    {
+      "title": "从人类反馈学习：新项目仍需面对老问题",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": null,
+      "sources": [
+        {
+          "title": "TAMER，2009",
+          "url": "https://www.cs.utexas.edu/~bradknox/papers/kcap09-knox.pdf"
+        },
+        {
+          "title": "Coactive Learning，2012",
+          "url": "https://arxiv.org/abs/1205.4213"
+        },
+        {
+          "title": "日志反馈学习，2015",
+          "url": "https://proceedings.mlr.press/v37/swaminathan15.html"
+        }
+      ]
+    },
+    {
+      "title": "有限交互下学会提问：已有真人结果，仍不是长期个人适应",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "limited",
+      "sources": [
+        {
+          "title": "有限交互下意图澄清，2026-10",
+          "url": "https://arxiv.org/abs/2610.04719v1"
+        }
+      ]
+    },
+    {
+      "title": "10 月 14 日：输入的含糊，与模型能识别的含糊不同",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": "modelambiguity",
+      "sources": [
+        {
+          "title": "Model-Dependent Input Ambiguity，2026-10",
+          "url": "https://arxiv.org/abs/2610.20052v1"
+        }
+      ]
+    },
+    {
+      "title": "补充检索：深度研究、动态意图与中间步骤求助",
+      "section": "四 · 最新近邻：个人助手、澄清与自适应",
+      "figure": null,
+      "sources": [
+        {
+          "title": "IntentRL，2026-02",
+          "url": "https://arxiv.org/abs/2602.03468"
+        },
+        {
+          "title": "Evolving User Intent，2026-07",
+          "url": "https://arxiv.org/abs/2607.20734"
+        },
+        {
+          "title": "信息增益澄清，2026-06",
+          "url": "https://arxiv.org/abs/2606.03135"
+        },
+        {
+          "title": "中间步骤求助，2026-06",
+          "url": "https://arxiv.org/abs/2606.11349"
+        },
+        {
+          "title": "Argus，2026-08",
+          "url": "https://arxiv.org/abs/2608.05144"
+        }
+      ]
+    },
+    {
+      "title": "研究问题应该怎样改写",
+      "section": "五 · 从已有工作提炼具体方向",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "方向一：含糊反馈下，何时应该暂缓更新个人偏好",
+      "section": "五 · 从已有工作提炼具体方向",
+      "figure": null,
+      "sources": [
+        {
+          "title": "直接近邻：1,000 Personas",
+          "url": "https://arxiv.org/abs/2602.04000v3"
+        },
+        {
+          "title": "直接近邻：PersonaAgent",
+          "url": "https://aclanthology.org/2026.findings-acl.1315/"
+        }
+      ]
+    },
+    {
+      "title": "方向二：推断怎样在记忆里变成“用户说过的话”",
+      "section": "五 · 从已有工作提炼具体方向",
+      "figure": null,
+      "sources": [
+        {
+          "title": "STITCH",
+          "url": "https://arxiv.org/abs/2601.10702v2"
+        },
+        {
+          "title": "AgentZeroMemory",
+          "url": "https://arxiv.org/abs/2608.29606v1"
+        }
+      ]
+    },
+    {
+      "title": "方向三：一次例外以后，系统能否恢复原情境策略",
+      "section": "五 · 从已有工作提炼具体方向",
+      "figure": null,
+      "sources": [
+        {
+          "title": "IntentFlux",
+          "url": "https://arxiv.org/abs/2609.32520v1"
+        },
+        {
+          "title": "PersonaMem v3",
+          "url": "https://arxiv.org/abs/2608.21381v2"
+        }
+      ]
+    },
+    {
+      "title": "暂时不建议把什么当作主要贡献",
+      "section": "五 · 从已有工作提炼具体方向",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "先把最小实验的输入与输出固定下来",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "样例一：用户已经说清楚，助手却漏掉要求",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "样例二：任务方案正确，但确实问得太多",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "样例三：当前忙碌，与长期讨厌提问不同",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "样例四：输入完全相同，就必须允许无法区分",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "数据怎样构造：先有可验证世界，再生成自然语言",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "长期序列怎样构造，怎样避免答案泄漏",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "baseline 怎样实现：先把简单但必要的对照补齐",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "强对照怎样实现：与论文路线比较，而不是借用名字",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": [
+        {
+          "title": "Steerable Clarification",
+          "url": "https://arxiv.org/abs/2512.04068v3"
+        },
+        {
+          "title": "REVOIR",
+          "url": "https://arxiv.org/abs/2609.37588v1"
+        },
+        {
+          "title": "PersonaAgent",
+          "url": "https://aclanthology.org/2026.findings-acl.1315/"
+        }
+      ]
+    },
+    {
+      "title": "我们的方法原型：允许“不知道为什么”，再决定是否更新",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "一个可以先实现的决策规则",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "最重要的消融：删掉哪一步，结果会坏在哪里",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "指标逐项定义：完成事情与少打扰都要测",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "怎样判断权衡更好，而不是藏在一个总分里",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "什么结果值得继续，什么结果应停止或收缩",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "真人 pilot：先验证反馈含义，再谈显著提升",
+      "section": "六 · 可执行 pilot：避免把负面反馈学错",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "算力安排：先冻结模型，减少无效生成",
+      "section": "七 · 四张 80GB 卡下怎样推进",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "规模怎么算，什么时候才扩大",
+      "section": "七 · 四张 80GB 卡下怎样推进",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "正式 benchmark：用三层证据支持同一个结论",
+      "section": "七 · 四张 80GB 卡下怎样推进",
+      "figure": null,
+      "sources": [
+        {
+          "title": "π-Bench",
+          "url": "https://arxiv.org/abs/2605.14678v3"
+        },
+        {
+          "title": "Pare",
+          "url": "https://arxiv.org/abs/2604.00842v1"
+        },
+        {
+          "title": "IntentFlux",
+          "url": "https://arxiv.org/abs/2609.32520v1"
+        },
+        {
+          "title": "Drift-Bench++",
+          "url": "https://arxiv.org/abs/2609.38604v1"
+        },
+        {
+          "title": "AskBench",
+          "url": "https://aclanthology.org/2026.findings-acl.845/"
+        }
+      ]
+    },
+    {
+      "title": "按工作产物推进，而不是先承诺一个庞大系统",
+      "section": "七 · 四张 80GB 卡下怎样推进",
+      "figure": null,
+      "sources": []
+    },
+    {
+      "title": "读完以后，应该能够清楚表达的研究主张",
+      "section": "七 · 四张 80GB 卡下怎样推进",
+      "figure": null,
+      "sources": []
+    }
+  ]
+}

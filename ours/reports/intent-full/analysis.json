@@ -1,0 +1,1317 @@
+{
+  "groups": {
+    "gptoss/lifesim_ours1/correction_priority": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2200,
+          "first_correct": 1240,
+          "questions": 963,
+          "unnecessary_questions": 10,
+          "irrelevant_questions": 0,
+          "claims": 1180,
+          "unsupported_rule_claims": 173,
+          "checkpoints_with_claims": 1180,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 1943,
+          "first_correct": 1912,
+          "questions": 31,
+          "unnecessary_questions": 31,
+          "irrelevant_questions": 0,
+          "claims": 1305,
+          "unsupported_rule_claims": 101,
+          "checkpoints_with_claims": 1302,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2277,
+          "first_correct": 2132,
+          "questions": 147,
+          "unnecessary_questions": 147,
+          "irrelevant_questions": 2,
+          "claims": 1237,
+          "unsupported_rule_claims": 7,
+          "checkpoints_with_claims": 1236,
+          "evidence_visible": 2304
+        }
+      },
+      "error_episodes": 304
+    },
+    "gptoss/lifesim_ours1/current_session": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2262,
+          "first_correct": 54,
+          "questions": 2208,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 180,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 180,
+          "evidence_visible": 0
+        },
+        "1": {
+          "n": 2304,
+          "correct": 1889,
+          "first_correct": 1885,
+          "questions": 4,
+          "unnecessary_questions": 4,
+          "irrelevant_questions": 0,
+          "claims": 640,
+          "unsupported_rule_claims": 53,
+          "checkpoints_with_claims": 640,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2304,
+          "first_correct": 0,
+          "questions": 2304,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 339,
+          "unsupported_rule_claims": 2,
+          "checkpoints_with_claims": 339,
+          "evidence_visible": 0
+        }
+      },
+      "error_episodes": 275
+    },
+    "gptoss/lifesim_ours1/full_history": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2092,
+          "first_correct": 1354,
+          "questions": 738,
+          "unnecessary_questions": 5,
+          "irrelevant_questions": 0,
+          "claims": 1213,
+          "unsupported_rule_claims": 282,
+          "checkpoints_with_claims": 1213,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2032,
+          "first_correct": 2015,
+          "questions": 17,
+          "unnecessary_questions": 17,
+          "irrelevant_questions": 0,
+          "claims": 1455,
+          "unsupported_rule_claims": 217,
+          "checkpoints_with_claims": 1454,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2250,
+          "first_correct": 1954,
+          "questions": 299,
+          "unnecessary_questions": 299,
+          "irrelevant_questions": 16,
+          "claims": 1372,
+          "unsupported_rule_claims": 80,
+          "checkpoints_with_claims": 1372,
+          "evidence_visible": 2304
+        }
+      },
+      "error_episodes": 216
+    },
+    "gptoss/lifesim_ours1/history_retrieval": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2198,
+          "first_correct": 1223,
+          "questions": 977,
+          "unnecessary_questions": 14,
+          "irrelevant_questions": 0,
+          "claims": 1102,
+          "unsupported_rule_claims": 161,
+          "checkpoints_with_claims": 1102,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 1964,
+          "first_correct": 1944,
+          "questions": 20,
+          "unnecessary_questions": 20,
+          "irrelevant_questions": 0,
+          "claims": 1273,
+          "unsupported_rule_claims": 100,
+          "checkpoints_with_claims": 1272,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 1595,
+          "first_correct": 1154,
+          "questions": 449,
+          "unnecessary_questions": 44,
+          "irrelevant_questions": 6,
+          "claims": 1302,
+          "unsupported_rule_claims": 969,
+          "checkpoints_with_claims": 1298,
+          "evidence_visible": 666
+        }
+      },
+      "error_episodes": 279
+    },
+    "gptoss/mempabench_ours1/correction_priority": {
+      "phases": {
+        "0": {
+          "n": 2688,
+          "correct": 2673,
+          "first_correct": 1215,
+          "questions": 1460,
+          "unnecessary_questions": 49,
+          "irrelevant_questions": 0,
+          "claims": 633,
+          "unsupported_rule_claims": 8,
+          "checkpoints_with_claims": 633,
+          "evidence_visible": 1261
+        },
+        "1": {
+          "n": 2688,
+          "correct": 2590,
+          "first_correct": 2523,
+          "questions": 67,
+          "unnecessary_questions": 67,
+          "irrelevant_questions": 0,
+          "claims": 927,
+          "unsupported_rule_claims": 102,
+          "checkpoints_with_claims": 927,
+          "evidence_visible": 2688
+        },
+        "2": {
+          "n": 2688,
+          "correct": 2624,
+          "first_correct": 1982,
+          "questions": 643,
+          "unnecessary_questions": 643,
+          "irrelevant_questions": 6,
+          "claims": 451,
+          "unsupported_rule_claims": 13,
+          "checkpoints_with_claims": 446,
+          "evidence_visible": 2688
+        }
+      },
+      "error_episodes": 55
+    },
+    "gptoss/mempabench_ours1/current_session": {
+      "phases": {
+        "0": {
+          "n": 2688,
+          "correct": 2550,
+          "first_correct": 130,
+          "questions": 2429,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 8,
+          "claims": 8,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 8,
+          "evidence_visible": 0
+        },
+        "1": {
+          "n": 2688,
+          "correct": 2365,
+          "first_correct": 2365,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 379,
+          "unsupported_rule_claims": 47,
+          "checkpoints_with_claims": 379,
+          "evidence_visible": 2688
+        },
+        "2": {
+          "n": 2688,
+          "correct": 2577,
+          "first_correct": 129,
+          "questions": 2449,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 1,
+          "claims": 87,
+          "unsupported_rule_claims": 11,
+          "checkpoints_with_claims": 87,
+          "evidence_visible": 0
+        }
+      },
+      "error_episodes": 199
+    },
+    "gptoss/mempabench_ours1/full_history": {
+      "phases": {
+        "0": {
+          "n": 2688,
+          "correct": 2681,
+          "first_correct": 1285,
+          "questions": 1397,
+          "unnecessary_questions": 54,
+          "irrelevant_questions": 0,
+          "claims": 627,
+          "unsupported_rule_claims": 9,
+          "checkpoints_with_claims": 627,
+          "evidence_visible": 1344
+        },
+        "1": {
+          "n": 2688,
+          "correct": 2606,
+          "first_correct": 2583,
+          "questions": 23,
+          "unnecessary_questions": 23,
+          "irrelevant_questions": 0,
+          "claims": 933,
+          "unsupported_rule_claims": 82,
+          "checkpoints_with_claims": 933,
+          "evidence_visible": 2688
+        },
+        "2": {
+          "n": 2688,
+          "correct": 2616,
+          "first_correct": 1441,
+          "questions": 1175,
+          "unnecessary_questions": 1175,
+          "irrelevant_questions": 3,
+          "claims": 938,
+          "unsupported_rule_claims": 32,
+          "checkpoints_with_claims": 935,
+          "evidence_visible": 2688
+        }
+      },
+      "error_episodes": 68
+    },
+    "gptoss/mempabench_ours1/history_retrieval": {
+      "phases": {
+        "0": {
+          "n": 2688,
+          "correct": 2599,
+          "first_correct": 1087,
+          "questions": 1512,
+          "unnecessary_questions": 44,
+          "irrelevant_questions": 0,
+          "claims": 668,
+          "unsupported_rule_claims": 24,
+          "checkpoints_with_claims": 668,
+          "evidence_visible": 1114
+        },
+        "1": {
+          "n": 2688,
+          "correct": 2577,
+          "first_correct": 2527,
+          "questions": 50,
+          "unnecessary_questions": 50,
+          "irrelevant_questions": 0,
+          "claims": 991,
+          "unsupported_rule_claims": 95,
+          "checkpoints_with_claims": 990,
+          "evidence_visible": 2688
+        },
+        "2": {
+          "n": 2688,
+          "correct": 2290,
+          "first_correct": 456,
+          "questions": 1834,
+          "unnecessary_questions": 55,
+          "irrelevant_questions": 0,
+          "claims": 710,
+          "unsupported_rule_claims": 321,
+          "checkpoints_with_claims": 708,
+          "evidence_visible": 184
+        }
+      },
+      "error_episodes": 54
+    },
+    "gptoss/pi_bench_ours1/correction_priority": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2164,
+          "first_correct": 1277,
+          "questions": 894,
+          "unnecessary_questions": 3,
+          "irrelevant_questions": 0,
+          "claims": 1397,
+          "unsupported_rule_claims": 232,
+          "checkpoints_with_claims": 1397,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2213,
+          "first_correct": 2204,
+          "questions": 9,
+          "unnecessary_questions": 9,
+          "irrelevant_questions": 0,
+          "claims": 1601,
+          "unsupported_rule_claims": 63,
+          "checkpoints_with_claims": 1601,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2219,
+          "first_correct": 1972,
+          "questions": 251,
+          "unnecessary_questions": 251,
+          "irrelevant_questions": 7,
+          "claims": 1484,
+          "unsupported_rule_claims": 11,
+          "checkpoints_with_claims": 1481,
+          "evidence_visible": 2304
+        }
+      },
+      "error_episodes": 78
+    },
+    "gptoss/pi_bench_ours1/current_session": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2301,
+          "first_correct": 6,
+          "questions": 2295,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 523,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 523,
+          "evidence_visible": 0
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2168,
+          "first_correct": 2168,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 768,
+          "unsupported_rule_claims": 5,
+          "checkpoints_with_claims": 768,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2304,
+          "first_correct": 1,
+          "questions": 2303,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 770,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 770,
+          "evidence_visible": 0
+        }
+      },
+      "error_episodes": 101
+    },
+    "gptoss/pi_bench_ours1/full_history": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2090,
+          "first_correct": 1349,
+          "questions": 741,
+          "unnecessary_questions": 2,
+          "irrelevant_questions": 0,
+          "claims": 1420,
+          "unsupported_rule_claims": 311,
+          "checkpoints_with_claims": 1420,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2175,
+          "first_correct": 2166,
+          "questions": 9,
+          "unnecessary_questions": 9,
+          "irrelevant_questions": 0,
+          "claims": 1631,
+          "unsupported_rule_claims": 184,
+          "checkpoints_with_claims": 1630,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2258,
+          "first_correct": 1981,
+          "questions": 278,
+          "unnecessary_questions": 278,
+          "irrelevant_questions": 8,
+          "claims": 1522,
+          "unsupported_rule_claims": 56,
+          "checkpoints_with_claims": 1520,
+          "evidence_visible": 2304
+        }
+      },
+      "error_episodes": 97
+    },
+    "gptoss/pi_bench_ours1/history_retrieval": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2156,
+          "first_correct": 1277,
+          "questions": 886,
+          "unnecessary_questions": 3,
+          "irrelevant_questions": 0,
+          "claims": 1345,
+          "unsupported_rule_claims": 237,
+          "checkpoints_with_claims": 1345,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2219,
+          "first_correct": 2213,
+          "questions": 6,
+          "unnecessary_questions": 6,
+          "irrelevant_questions": 0,
+          "claims": 1543,
+          "unsupported_rule_claims": 94,
+          "checkpoints_with_claims": 1543,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 1444,
+          "first_correct": 918,
+          "questions": 534,
+          "unnecessary_questions": 84,
+          "irrelevant_questions": 2,
+          "claims": 1547,
+          "unsupported_rule_claims": 1255,
+          "checkpoints_with_claims": 1538,
+          "evidence_visible": 342
+        }
+      },
+      "error_episodes": 63
+    },
+    "gptoss/proagentbench_ours1/correction_priority": {
+      "phases": {
+        "0": {
+          "n": 3264,
+          "correct": 3261,
+          "first_correct": 1629,
+          "questions": 1632,
+          "unnecessary_questions": 3,
+          "irrelevant_questions": 0,
+          "claims": 1401,
+          "unsupported_rule_claims": 8,
+          "checkpoints_with_claims": 1401,
+          "evidence_visible": 1629
+        },
+        "1": {
+          "n": 3264,
+          "correct": 2689,
+          "first_correct": 2636,
+          "questions": 54,
+          "unnecessary_questions": 54,
+          "irrelevant_questions": 0,
+          "claims": 2189,
+          "unsupported_rule_claims": 309,
+          "checkpoints_with_claims": 2183,
+          "evidence_visible": 3264
+        },
+        "2": {
+          "n": 3264,
+          "correct": 3235,
+          "first_correct": 2889,
+          "questions": 346,
+          "unnecessary_questions": 346,
+          "irrelevant_questions": 28,
+          "claims": 963,
+          "unsupported_rule_claims": 36,
+          "checkpoints_with_claims": 958,
+          "evidence_visible": 3264
+        }
+      },
+      "error_episodes": 439
+    },
+    "gptoss/proagentbench_ours1/current_session": {
+      "phases": {
+        "0": {
+          "n": 3264,
+          "correct": 3262,
+          "first_correct": 1,
+          "questions": 3261,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 177,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 177,
+          "evidence_visible": 0
+        },
+        "1": {
+          "n": 3264,
+          "correct": 2525,
+          "first_correct": 2520,
+          "questions": 5,
+          "unnecessary_questions": 5,
+          "irrelevant_questions": 0,
+          "claims": 891,
+          "unsupported_rule_claims": 283,
+          "checkpoints_with_claims": 891,
+          "evidence_visible": 3264
+        },
+        "2": {
+          "n": 3264,
+          "correct": 3253,
+          "first_correct": 11,
+          "questions": 3242,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 303,
+          "unsupported_rule_claims": 1,
+          "checkpoints_with_claims": 303,
+          "evidence_visible": 0
+        }
+      },
+      "error_episodes": 531
+    },
+    "gptoss/proagentbench_ours1/full_history": {
+      "phases": {
+        "0": {
+          "n": 3264,
+          "correct": 3262,
+          "first_correct": 1631,
+          "questions": 1632,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 1,
+          "claims": 1125,
+          "unsupported_rule_claims": 2,
+          "checkpoints_with_claims": 1125,
+          "evidence_visible": 1632
+        },
+        "1": {
+          "n": 3264,
+          "correct": 2700,
+          "first_correct": 2687,
+          "questions": 13,
+          "unnecessary_questions": 13,
+          "irrelevant_questions": 0,
+          "claims": 1863,
+          "unsupported_rule_claims": 248,
+          "checkpoints_with_claims": 1863,
+          "evidence_visible": 3264
+        },
+        "2": {
+          "n": 3264,
+          "correct": 3205,
+          "first_correct": 2093,
+          "questions": 1124,
+          "unnecessary_questions": 1124,
+          "irrelevant_questions": 7,
+          "claims": 1118,
+          "unsupported_rule_claims": 21,
+          "checkpoints_with_claims": 1117,
+          "evidence_visible": 3264
+        }
+      },
+      "error_episodes": 444
+    },
+    "gptoss/proagentbench_ours1/history_retrieval": {
+      "phases": {
+        "0": {
+          "n": 3264,
+          "correct": 3202,
+          "first_correct": 1568,
+          "questions": 1634,
+          "unnecessary_questions": 2,
+          "irrelevant_questions": 0,
+          "claims": 1385,
+          "unsupported_rule_claims": 46,
+          "checkpoints_with_claims": 1385,
+          "evidence_visible": 1567
+        },
+        "1": {
+          "n": 3264,
+          "correct": 2679,
+          "first_correct": 2636,
+          "questions": 44,
+          "unnecessary_questions": 44,
+          "irrelevant_questions": 0,
+          "claims": 2263,
+          "unsupported_rule_claims": 307,
+          "checkpoints_with_claims": 2262,
+          "evidence_visible": 3264
+        },
+        "2": {
+          "n": 3264,
+          "correct": 2704,
+          "first_correct": 750,
+          "questions": 1957,
+          "unnecessary_questions": 20,
+          "irrelevant_questions": 3,
+          "claims": 939,
+          "unsupported_rule_claims": 637,
+          "checkpoints_with_claims": 939,
+          "evidence_visible": 165
+        }
+      },
+      "error_episodes": 388
+    },
+    "qwen/lifesim_ours1/correction_priority": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2282,
+          "first_correct": 929,
+          "questions": 1353,
+          "unnecessary_questions": 201,
+          "irrelevant_questions": 0,
+          "claims": 3417,
+          "unsupported_rule_claims": 1098,
+          "checkpoints_with_claims": 2302,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2276,
+          "first_correct": 2275,
+          "questions": 1,
+          "unnecessary_questions": 1,
+          "irrelevant_questions": 0,
+          "claims": 2311,
+          "unsupported_rule_claims": 95,
+          "checkpoints_with_claims": 2299,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2262,
+          "first_correct": 1789,
+          "questions": 473,
+          "unnecessary_questions": 473,
+          "irrelevant_questions": 0,
+          "claims": 2837,
+          "unsupported_rule_claims": 102,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 2304
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/lifesim_ours1/current_session": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2304,
+          "first_correct": 0,
+          "questions": 2304,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2304,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 0
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2256,
+          "first_correct": 2256,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2256,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2256,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2304,
+          "first_correct": 0,
+          "questions": 2304,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2304,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 0
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/lifesim_ours1/full_history": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2273,
+          "first_correct": 1063,
+          "questions": 1210,
+          "unnecessary_questions": 82,
+          "irrelevant_questions": 0,
+          "claims": 3271,
+          "unsupported_rule_claims": 1339,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2252,
+          "first_correct": 2213,
+          "questions": 39,
+          "unnecessary_questions": 39,
+          "irrelevant_questions": 0,
+          "claims": 2308,
+          "unsupported_rule_claims": 188,
+          "checkpoints_with_claims": 2269,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2212,
+          "first_correct": 2139,
+          "questions": 73,
+          "unnecessary_questions": 73,
+          "irrelevant_questions": 0,
+          "claims": 2420,
+          "unsupported_rule_claims": 217,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 2304
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/lifesim_ours1/history_retrieval": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2280,
+          "first_correct": 935,
+          "questions": 1345,
+          "unnecessary_questions": 194,
+          "irrelevant_questions": 0,
+          "claims": 3407,
+          "unsupported_rule_claims": 1088,
+          "checkpoints_with_claims": 2301,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2269,
+          "first_correct": 2269,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2309,
+          "unsupported_rule_claims": 93,
+          "checkpoints_with_claims": 2298,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 1939,
+          "first_correct": 874,
+          "questions": 1083,
+          "unnecessary_questions": 12,
+          "irrelevant_questions": 0,
+          "claims": 3033,
+          "unsupported_rule_claims": 1417,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 660
+        }
+      },
+      "error_episodes": 1
+    },
+    "qwen/mempabench_ours1/correction_priority": {
+      "phases": {
+        "0": {
+          "n": 2688,
+          "correct": 2688,
+          "first_correct": 668,
+          "questions": 2020,
+          "unnecessary_questions": 593,
+          "irrelevant_questions": 0,
+          "claims": 3218,
+          "unsupported_rule_claims": 93,
+          "checkpoints_with_claims": 2688,
+          "evidence_visible": 1261
+        },
+        "1": {
+          "n": 2688,
+          "correct": 2685,
+          "first_correct": 2678,
+          "questions": 7,
+          "unnecessary_questions": 7,
+          "irrelevant_questions": 0,
+          "claims": 2692,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2685,
+          "evidence_visible": 2688
+        },
+        "2": {
+          "n": 2688,
+          "correct": 2685,
+          "first_correct": 535,
+          "questions": 2150,
+          "unnecessary_questions": 2150,
+          "irrelevant_questions": 0,
+          "claims": 3880,
+          "unsupported_rule_claims": 80,
+          "checkpoints_with_claims": 2688,
+          "evidence_visible": 2688
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/mempabench_ours1/current_session": {
+      "phases": {
+        "0": {
+          "n": 2688,
+          "correct": 2688,
+          "first_correct": 0,
+          "questions": 2688,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2578,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2578,
+          "evidence_visible": 0
+        },
+        "1": {
+          "n": 2688,
+          "correct": 2570,
+          "first_correct": 2570,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2576,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2576,
+          "evidence_visible": 2688
+        },
+        "2": {
+          "n": 2688,
+          "correct": 2688,
+          "first_correct": 0,
+          "questions": 2688,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2581,
+          "unsupported_rule_claims": 118,
+          "checkpoints_with_claims": 2581,
+          "evidence_visible": 0
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/mempabench_ours1/full_history": {
+      "phases": {
+        "0": {
+          "n": 2688,
+          "correct": 2687,
+          "first_correct": 758,
+          "questions": 1929,
+          "unnecessary_questions": 585,
+          "irrelevant_questions": 0,
+          "claims": 3471,
+          "unsupported_rule_claims": 465,
+          "checkpoints_with_claims": 2688,
+          "evidence_visible": 1344
+        },
+        "1": {
+          "n": 2688,
+          "correct": 2687,
+          "first_correct": 2684,
+          "questions": 3,
+          "unnecessary_questions": 3,
+          "irrelevant_questions": 0,
+          "claims": 2690,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2687,
+          "evidence_visible": 2688
+        },
+        "2": {
+          "n": 2688,
+          "correct": 2527,
+          "first_correct": 1108,
+          "questions": 1429,
+          "unnecessary_questions": 1429,
+          "irrelevant_questions": 0,
+          "claims": 4301,
+          "unsupported_rule_claims": 1319,
+          "checkpoints_with_claims": 2688,
+          "evidence_visible": 2688
+        }
+      },
+      "error_episodes": 2
+    },
+    "qwen/mempabench_ours1/history_retrieval": {
+      "phases": {
+        "0": {
+          "n": 2688,
+          "correct": 2686,
+          "first_correct": 524,
+          "questions": 2162,
+          "unnecessary_questions": 590,
+          "irrelevant_questions": 0,
+          "claims": 3267,
+          "unsupported_rule_claims": 145,
+          "checkpoints_with_claims": 2688,
+          "evidence_visible": 1114
+        },
+        "1": {
+          "n": 2688,
+          "correct": 2681,
+          "first_correct": 2675,
+          "questions": 6,
+          "unnecessary_questions": 6,
+          "irrelevant_questions": 0,
+          "claims": 2687,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2681,
+          "evidence_visible": 2688
+        },
+        "2": {
+          "n": 2688,
+          "correct": 2616,
+          "first_correct": 110,
+          "questions": 2506,
+          "unnecessary_questions": 43,
+          "irrelevant_questions": 0,
+          "claims": 3708,
+          "unsupported_rule_claims": 1075,
+          "checkpoints_with_claims": 2688,
+          "evidence_visible": 153
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/pi_bench_ours1/correction_priority": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2284,
+          "first_correct": 955,
+          "questions": 1329,
+          "unnecessary_questions": 177,
+          "irrelevant_questions": 0,
+          "claims": 3382,
+          "unsupported_rule_claims": 1059,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2292,
+          "first_correct": 2292,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2308,
+          "unsupported_rule_claims": 60,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2235,
+          "first_correct": 1412,
+          "questions": 829,
+          "unnecessary_questions": 829,
+          "irrelevant_questions": 0,
+          "claims": 3186,
+          "unsupported_rule_claims": 132,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 2304
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/pi_bench_ours1/current_session": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2304,
+          "first_correct": 0,
+          "questions": 2304,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2304,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 0
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2304,
+          "first_correct": 2304,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2304,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2304,
+          "first_correct": 0,
+          "questions": 2304,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2304,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 0
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/pi_bench_ours1/full_history": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2271,
+          "first_correct": 1073,
+          "questions": 1198,
+          "unnecessary_questions": 70,
+          "irrelevant_questions": 0,
+          "claims": 3185,
+          "unsupported_rule_claims": 1173,
+          "checkpoints_with_claims": 2303,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2276,
+          "first_correct": 2238,
+          "questions": 38,
+          "unnecessary_questions": 38,
+          "irrelevant_questions": 0,
+          "claims": 2329,
+          "unsupported_rule_claims": 183,
+          "checkpoints_with_claims": 2286,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 2117,
+          "first_correct": 1951,
+          "questions": 178,
+          "unnecessary_questions": 178,
+          "irrelevant_questions": 0,
+          "claims": 2543,
+          "unsupported_rule_claims": 385,
+          "checkpoints_with_claims": 2302,
+          "evidence_visible": 2304
+        }
+      },
+      "error_episodes": 3
+    },
+    "qwen/pi_bench_ours1/history_retrieval": {
+      "phases": {
+        "0": {
+          "n": 2304,
+          "correct": 2286,
+          "first_correct": 958,
+          "questions": 1328,
+          "unnecessary_questions": 176,
+          "irrelevant_questions": 0,
+          "claims": 3364,
+          "unsupported_rule_claims": 1043,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 1152
+        },
+        "1": {
+          "n": 2304,
+          "correct": 2291,
+          "first_correct": 2291,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 2309,
+          "unsupported_rule_claims": 63,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 2304
+        },
+        "2": {
+          "n": 2304,
+          "correct": 1889,
+          "first_correct": 574,
+          "questions": 1326,
+          "unnecessary_questions": 56,
+          "irrelevant_questions": 0,
+          "claims": 3360,
+          "unsupported_rule_claims": 1775,
+          "checkpoints_with_claims": 2304,
+          "evidence_visible": 336
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/proagentbench_ours1/correction_priority": {
+      "phases": {
+        "0": {
+          "n": 3264,
+          "correct": 3261,
+          "first_correct": 938,
+          "questions": 2326,
+          "unnecessary_questions": 691,
+          "irrelevant_questions": 6,
+          "claims": 4154,
+          "unsupported_rule_claims": 247,
+          "checkpoints_with_claims": 3264,
+          "evidence_visible": 1629
+        },
+        "1": {
+          "n": 3264,
+          "correct": 3199,
+          "first_correct": 3199,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 3202,
+          "unsupported_rule_claims": 13,
+          "checkpoints_with_claims": 3202,
+          "evidence_visible": 3264
+        },
+        "2": {
+          "n": 3264,
+          "correct": 3258,
+          "first_correct": 2186,
+          "questions": 1072,
+          "unnecessary_questions": 1072,
+          "irrelevant_questions": 0,
+          "claims": 4205,
+          "unsupported_rule_claims": 95,
+          "checkpoints_with_claims": 3264,
+          "evidence_visible": 3264
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/proagentbench_ours1/current_session": {
+      "phases": {
+        "0": {
+          "n": 3264,
+          "correct": 3240,
+          "first_correct": 0,
+          "questions": 3264,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 48,
+          "claims": 3176,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 3176,
+          "evidence_visible": 0
+        },
+        "1": {
+          "n": 3264,
+          "correct": 3264,
+          "first_correct": 3264,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 3264,
+          "unsupported_rule_claims": 19,
+          "checkpoints_with_claims": 3264,
+          "evidence_visible": 3264
+        },
+        "2": {
+          "n": 3264,
+          "correct": 3240,
+          "first_correct": 0,
+          "questions": 3264,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 48,
+          "claims": 3122,
+          "unsupported_rule_claims": 0,
+          "checkpoints_with_claims": 3122,
+          "evidence_visible": 0
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/proagentbench_ours1/full_history": {
+      "phases": {
+        "0": {
+          "n": 3264,
+          "correct": 3263,
+          "first_correct": 1041,
+          "questions": 2222,
+          "unnecessary_questions": 590,
+          "irrelevant_questions": 1,
+          "claims": 3573,
+          "unsupported_rule_claims": 166,
+          "checkpoints_with_claims": 3264,
+          "evidence_visible": 1632
+        },
+        "1": {
+          "n": 3264,
+          "correct": 3263,
+          "first_correct": 3263,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 3263,
+          "unsupported_rule_claims": 4,
+          "checkpoints_with_claims": 3263,
+          "evidence_visible": 3264
+        },
+        "2": {
+          "n": 3264,
+          "correct": 2646,
+          "first_correct": 2187,
+          "questions": 468,
+          "unnecessary_questions": 468,
+          "irrelevant_questions": 0,
+          "claims": 3466,
+          "unsupported_rule_claims": 712,
+          "checkpoints_with_claims": 3264,
+          "evidence_visible": 3264
+        }
+      },
+      "error_episodes": 0
+    },
+    "qwen/proagentbench_ours1/history_retrieval": {
+      "phases": {
+        "0": {
+          "n": 3264,
+          "correct": 3259,
+          "first_correct": 878,
+          "questions": 2384,
+          "unnecessary_questions": 689,
+          "irrelevant_questions": 6,
+          "claims": 4205,
+          "unsupported_rule_claims": 297,
+          "checkpoints_with_claims": 3264,
+          "evidence_visible": 1567
+        },
+        "1": {
+          "n": 3264,
+          "correct": 3206,
+          "first_correct": 3206,
+          "questions": 0,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 3209,
+          "unsupported_rule_claims": 16,
+          "checkpoints_with_claims": 3209,
+          "evidence_visible": 3264
+        },
+        "2": {
+          "n": 3264,
+          "correct": 3258,
+          "first_correct": 162,
+          "questions": 3096,
+          "unnecessary_questions": 0,
+          "irrelevant_questions": 0,
+          "claims": 4884,
+          "unsupported_rule_claims": 1635,
+          "checkpoints_with_claims": 3264,
+          "evidence_visible": 162
+        }
+      },
+      "error_episodes": 0
+    }
+  },
+  "missing": []
+}

@@ -1,0 +1,4147 @@
+[
+  {
+    "template_id": "pro_365a7cb7b529ddca",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[HANDLE_041]云文档",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者1.json",
+      "event_id": "p001_1_1",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者1",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_fd02285a5e359345",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]搜索文本替换换行方法",
+    "source_history": [
+      "[USER_001]编辑文本文件",
+      "[USER_001]浏览网页",
+      "[USER_001]浏览网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者1.json",
+      "event_id": "p001_1_940",
+      "event_index": 606,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者1",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_7e2e982f5f5fc8d2",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_093] 安装过程",
+    "source_history": [
+      "[USER_001]解压文件夹",
+      "[USER_001]安装[USER_040]软件",
+      "[USER_001]浏览文件资源管理器"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者1.json",
+      "event_id": "p001_1_1771",
+      "event_index": 1211,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者1",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_bac94684cb2b3a51",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]操作命令行设置环境变量",
+    "source_history": [
+      "[USER_001]调试Python代码连接超时",
+      "SSH反向隧道建立操作",
+      "[USER_001]调试Python脚本连接超时"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者1.json",
+      "event_id": "p001_1_2487",
+      "event_index": 1817,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者1",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_97d26a2544179729",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]访问[HANDLE_020]页面失败",
+    "source_history": [
+      "[USER_001]访问[HANDLE_015] [HANDLE_004]开发平台",
+      "[USER_001]搜索[HANDLE_015]与[HANDLE_011]对比",
+      "[USER_001]浏览CSDN技术博客"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者1.json",
+      "event_id": "p001_1_3285",
+      "event_index": 2423,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者1",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_65e89f80020c711a",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用截图工具截取论文图表",
+    "source_history": [
+      "[USER_001]阅读英文文献图表",
+      "[USER_001]使用[HANDLE_035]分析论文图表",
+      "[USER_001]阅读英文文献图表"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者1.json",
+      "event_id": "p001_1_4103",
+      "event_index": 3029,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者1",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_ee4fa47d7a7f5327",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]阅读英文文献",
+    "source_history": [
+      "[USER_001]阅读英文文献图表",
+      "[USER_001]阅读英文文献",
+      "[USER_001]阅读学术论文"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者1.json",
+      "event_id": "p001_1_4821",
+      "event_index": 3634,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者1",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_7c78b2eea8d729f3",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [
+      "PowerPoint文件打开瞬间",
+      "[USER_001]打开PPT文件查看",
+      "[USER_001]打开PPT文件查看内容"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者1.json",
+      "event_id": "p001_1_5776",
+      "event_index": 4240,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者1",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_15ff362167777e0b",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查看数据采集流程文档",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者10.json",
+      "event_id": "p010_1_2",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者10",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_631f0084353f92e7",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]配置代理工具[HANDLE_021]",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001]浏览网页",
+      "[USER_001]打开[HANDLE_035]网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者10.json",
+      "event_id": "p010_1_76",
+      "event_index": 33,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者10",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_fab3e56b3f2d3148",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查看AI游戏设计海报",
+    "source_history": [
+      "[USER_001]使用Snipaste截图工具",
+      "[USER_001]使用Snipaste截图工具",
+      "[USER_001]查看AI游戏设计海报"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者10.json",
+      "event_id": "p010_1_138",
+      "event_index": 66,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者10",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_f4fbc6d36a1288a7",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在文件资源管理器中搜索文件",
+    "source_history": [
+      "[USER_001]浏览PPT演示文稿",
+      "[USER_001]在文件资源管理器中操作",
+      "[USER_001]在[HANDLE_001]中浏览文献"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者10.json",
+      "event_id": "p010_1_178",
+      "event_index": 99,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者10",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_5727ef76f1915274",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：配置LLM参数测试AI任务拆解",
+    "source_history": [
+      "[USER_001]使用Snipaste截图工具",
+      "[USER_001]使用颜色转换工具",
+      "[USER_001]配置本地LLM进行任务管理"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者10.json",
+      "event_id": "p010_1_223",
+      "event_index": 132,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者10",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_ca945f9d1f5aa498",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在系统中搜索OCR工具",
+    "source_history": [
+      "[USER_001]通过AI秘书进行任务规划",
+      "[USER_001]在[HANDLE_001]中管理任务文献",
+      "[USER_001]在[HANDLE_001]中查看任务管理插图"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者10.json",
+      "event_id": "p010_1_268",
+      "event_index": 165,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者10",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_de0778101e1d2bdf",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用Snipaste贴图辅助阅读",
+    "source_history": [
+      "[USER_001]使用Snipaste贴图工具",
+      "使用Snipaste进行截图贴图",
+      "[USER_001]使用Snipaste贴图辅助阅读"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者10.json",
+      "event_id": "p010_1_312",
+      "event_index": 198,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者10",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_36b0528726b7f7ae",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用任务管理器监控系统",
+    "source_history": [
+      "[USER_001]打开文件资源管理器",
+      "[USER_001]浏览文件资源管理器",
+      "[USER_001]打开文件资源管理器"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者10.json",
+      "event_id": "p010_1_354",
+      "event_index": 231,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者10",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_87002a71398ff9f5",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览B站音乐视频",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者11.json",
+      "event_id": "p011_1_12",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者11",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_a290937545a6289b",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑WPS文档",
+    "source_history": [
+      "[USER_001]编辑[HANDLE_002]",
+      "[USER_001]编辑WPS文档",
+      "[USER_001]编辑[HANDLE_002]"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者11.json",
+      "event_id": "p011_1_69",
+      "event_index": 40,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者11",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_5db5df33d46a5a1a",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览B站视频页面",
+    "source_history": [
+      "[USER_001]编辑[HANDLE_002]",
+      "[USER_001]在WPS中编辑文档",
+      "[USER_001]编辑[HANDLE_002]"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者11.json",
+      "event_id": "p011_1_109",
+      "event_index": 80,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者11",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_f9c10494d7efa76f",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：WPS弹窗广告展示",
+    "source_history": [
+      "[USER_001]编辑技术实验报告",
+      "[USER_001]查看[ADDR_001]文件",
+      "[HANDLE_010]启动中"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者11.json",
+      "event_id": "p011_1_156",
+      "event_index": 120,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者11",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_6c1c0428419964ea",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]上传文件至在线平台",
+    "source_history": [
+      "[USER_001]搜索[HANDLE_009]相关信息",
+      "[USER_001]浏览[ADDR_005]课程列表",
+      "[USER_001]浏览课程作业页面"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者11.json",
+      "event_id": "p011_1_222",
+      "event_index": 161,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者11",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_1e94520a6d1d045f",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001][ADDR_001]浏览与文件管理",
+    "source_history": [
+      "[USER_001]打开PDF复习资料",
+      "[USER_001][ADDR_001]浏览",
+      "[USER_001]打开WPS文档空白页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者11.json",
+      "event_id": "p011_1_262",
+      "event_index": 201,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者11",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_ae57349b08be7822",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查看[ADDR_001]文件",
+    "source_history": [
+      "[USER_001]浏览本地作业文件夹",
+      "[USER_001]浏览文件夹内容",
+      "[USER_001]浏览文件夹内容"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者11.json",
+      "event_id": "p011_1_302",
+      "event_index": 241,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者11",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_ce5423d048e31db1",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]访问多AI平台管理页面",
+    "source_history": [
+      "[USER_001]浏览[ADDR_004]",
+      "[USER_001]浏览网页",
+      "[USER_001]浏览网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者11.json",
+      "event_id": "p011_1_344",
+      "event_index": 281,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者11",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_fbcce954f4d50cd1",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览下载文件夹",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者12.json",
+      "event_id": "p012_1_2",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者12",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_02988a276c02b75e",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]阅读飞书文档",
+    "source_history": [
+      "[USER_001]浏览下载文件夹",
+      "[USER_001]在飞书查看会议记录",
+      "[USER_001]桌面活动监控"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者12.json",
+      "event_id": "p012_1_10",
+      "event_index": 6,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者12",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_858d7da8aad97f9e",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览Safari起始页",
+    "source_history": [
+      "[USER_001]查看桌面预览",
+      "[USER_001]浏览下载文件夹",
+      "[USER_001]浏览GitHub项目页面"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者12.json",
+      "event_id": "p012_1_17",
+      "event_index": 13,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者12",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_d1b1c90a8e6a4417",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [
+      "[USER_001]访问在线图片编辑器",
+      "[USER_001]浏览网页",
+      "[USER_001]访问在线图像编辑器"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者12.json",
+      "event_id": "p012_1_23",
+      "event_index": 19,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者12",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_0160447761841a2d",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [
+      "[USER_001]浏览照片库",
+      "[USER_001]浏览文档与在线编辑器",
+      "[USER_001]使用在线图片编辑器"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者12.json",
+      "event_id": "p012_1_30",
+      "event_index": 26,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者12",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_a9734cd638ef8f40",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用Photos编辑图片",
+    "source_history": [
+      "[USER_001]浏览照片库",
+      "[USER_001]浏览照片库",
+      "[USER_001]浏览照片库"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者12.json",
+      "event_id": "p012_1_36",
+      "event_index": 32,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者12",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_9e0b8ca6856d3ff0",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览Reddit社区讨论",
+    "source_history": [
+      "[USER_001]浏览GIMP下载页面",
+      "[USER_001]浏览Reddit社区讨论",
+      "[USER_001]登录系统界面"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者12.json",
+      "event_id": "p012_1_43",
+      "event_index": 39,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者12",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_244cb36fa2a15df9",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用[HANDLE_014]远程连接",
+    "source_history": [
+      "[USER_001]浏览GIMP官网",
+      "[USER_001]浏览GIMP下载页面",
+      "[USER_001]浏览GIMP官网"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者12.json",
+      "event_id": "p012_1_49",
+      "event_index": 45,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者12",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_07e6630b9e62808a",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者13.json",
+      "event_id": "p013_1_1",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者13",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_27c2b0d522bfaeca",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：文件资源管理器短暂活动",
+    "source_history": [
+      "[USER_001]编辑PPT文件",
+      "[USER_001]浏览网页",
+      "[USER_001]编辑PPT文件"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者13.json",
+      "event_id": "p013_1_165",
+      "event_index": 158,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者13",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_ff6262b07b0e148d",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在[USER_007]中查询[USER_008]会章程相关问题",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001]浏览网页",
+      "[USER_001]浏览网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者13.json",
+      "event_id": "p013_1_327",
+      "event_index": 316,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者13",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_365e4b537b2e3150",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在[HANDLE_002]中查看PDF文档",
+    "source_history": [
+      "[USER_001]查看PDF文档",
+      "[USER_001]查看PDF文档",
+      "[USER_001]查看PDF文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者13.json",
+      "event_id": "p013_1_493",
+      "event_index": 474,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者13",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_340cf8e60c5a4fdb",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览文件夹内容",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001]打开PDF文件查看",
+      "资源管理器窗口短暂打开"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者13.json",
+      "event_id": "p013_1_665",
+      "event_index": 632,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者13",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_273ede88a79a05f7",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在[HANDLE_003]平台进行对话交互",
+    "source_history": [
+      "[USER_001]在[HANDLE_003]平台进行对话交互",
+      "[USER_001]与[HANDLE_006]交互",
+      "[USER_001]操作快速设置面板"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者13.json",
+      "event_id": "p013_1_840",
+      "event_index": 790,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者13",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_f95ba3ea0d254024",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]打开PDF文档阅读",
+    "source_history": [
+      "[USER_001]打开加密PDF阅读",
+      "[HANDLE_002]打开PDF文档中",
+      "[USER_001]阅读加密PDF文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者13.json",
+      "event_id": "p013_1_1120",
+      "event_index": 948,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者13",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_319b77ff48bbe21e",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查看PDF文档",
+    "source_history": [
+      "[USER_001]在[HANDLE_003]进行对话交互",
+      "[USER_001]查看PDF文档",
+      "[USER_001]在[HANDLE_003]进行对话交互"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者13.json",
+      "event_id": "p013_1_1405",
+      "event_index": 1106,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者13",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_ac63c85a9633a706",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用 msedge.exe",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者14.json",
+      "event_id": "p014_1_3",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者14",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_401651669246cd91",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [
+      "[USER_001]使用 msedge.exe"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者14.json",
+      "event_id": "p014_1_4",
+      "event_index": 1,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者14",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_f7249eb943d606f3",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]访问Grok平台等待加载",
+    "source_history": [
+      "[USER_001]使用 msedge.exe",
+      "[USER_001]浏览网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者14.json",
+      "event_id": "p014_1_5",
+      "event_index": 2,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者14",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_33a7c07fbdd54bef",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查看[SECRET_001]年度报告",
+    "source_history": [
+      "[USER_001]使用 msedge.exe",
+      "[USER_001]浏览网页",
+      "[USER_001]访问Grok平台等待加载"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者14.json",
+      "event_id": "p014_1_50",
+      "event_index": 3,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者14",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_2e0cfceb2e60528e",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览文件与文档",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001]访问Grok平台等待加载",
+      "[USER_001]查看[SECRET_001]年度报告"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者14.json",
+      "event_id": "p014_1_86",
+      "event_index": 4,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者14",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_19d912c3907519f8",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：Word文档启动中",
+    "source_history": [
+      "[USER_001]访问Grok平台等待加载",
+      "[USER_001]查看[SECRET_001]年度报告",
+      "[USER_001]浏览文件与文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者14.json",
+      "event_id": "p014_1_87",
+      "event_index": 5,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者14",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_44fe403d4808d540",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑学术文档",
+    "source_history": [
+      "[USER_001]查看[SECRET_001]年度报告",
+      "[USER_001]浏览文件与文档",
+      "Word文档启动中"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者14.json",
+      "event_id": "p014_1_88",
+      "event_index": 6,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者14",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_48ce809c249edb2f",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在文件资源管理器中浏览文献",
+    "source_history": [
+      "[USER_001]浏览文件与文档",
+      "Word文档启动中",
+      "[USER_001]编辑学术文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者14.json",
+      "event_id": "p014_1_89",
+      "event_index": 7,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者14",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_48a72b96644c4f64",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：用户浏览下载文件夹",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者15.json",
+      "event_id": "p015_1_2",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者15",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_009caec43a66a871",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：用户浏览Reddit社区讨论",
+    "source_history": [
+      "用户使用在线图像编辑器",
+      "用户使用Photos编辑图片",
+      "用户使用Photopea编辑图片"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者15.json",
+      "event_id": "p015_1_30",
+      "event_index": 18,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者15",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_5e1d8c7f3fe65eb4",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：用户在[HANDLE_004]内打开文件选择器",
+    "source_history": [
+      "[HANDLE_006]设备激活成功页面",
+      "用户浏览[HANDLE_006]仓库页面",
+      "用户浏览即时通讯应用"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者15.json",
+      "event_id": "p015_1_50",
+      "event_index": 35,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者15",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_072e2a2eaa01d627",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：用户在[HANDLE_002]中编辑Python代码",
+    "source_history": [
+      "用户在[HANDLE_002]中编辑Python代码",
+      "用户在[HANDLE_002]中编辑Python代码",
+      "用户在[HANDLE_002]中编辑Python代码"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者15.json",
+      "event_id": "p015_1_69",
+      "event_index": 53,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者15",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_986418bd2f83f7e2",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：用户在[HANDLE_002]中编辑Python代码",
+    "source_history": [
+      "用户在[HANDLE_004]应用中操作",
+      "用户在[HANDLE_002]中编辑Python代码",
+      "用户在[HANDLE_002]中编辑Python代码"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者15.json",
+      "event_id": "p015_1_86",
+      "event_index": 70,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者15",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_fe5e230de20ae6be",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：用户在[HANDLE_002]中查看项目",
+    "source_history": [
+      "用户编辑config.yaml文件",
+      "用户在[HANDLE_002]中编辑项目",
+      "用户编辑数据库文件"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者15.json",
+      "event_id": "p015_1_105",
+      "event_index": 88,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者15",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_7c7be214710d4cf5",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：用户在[HANDLE_002]中查看项目",
+    "source_history": [
+      "用户在[HANDLE_002]中查看项目",
+      "用户使用在线画布工具",
+      "用户浏览[HANDLE_022]相册"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者15.json",
+      "event_id": "p015_1_129",
+      "event_index": 105,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者15",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_73aea86ee199b2fb",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：用户在[HANDLE_004]应用中操作",
+    "source_history": [
+      "用户浏览[USER_001]系统页面",
+      "用户使用[HANDLE_036]",
+      "用户浏览[SECRET_001]"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者15.json",
+      "event_id": "p015_1_160",
+      "event_index": 123,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者15",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_efaf571ac7473824",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑金融分析文档",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者16.json",
+      "event_id": "p016_1_4",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者16",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_b43af9e073ed4ffe",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在VSCode中调试Python代码",
+    "source_history": [
+      "[USER_001]切换任务窗口",
+      "[USER_001]浏览文件夹内容",
+      "[USER_001]在VSCode中调试Python代码"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者16.json",
+      "event_id": "p016_1_277",
+      "event_index": 185,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者16",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_76ee6bbdc2114390",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在VSCode中调试Python代码",
+    "source_history": [
+      "[USER_001]在VSCode中调试Python代码",
+      "[USER_001]在VSCode中编辑Python代码",
+      "[USER_001]调试Python代码报错"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者16.json",
+      "event_id": "p016_1_493",
+      "event_index": 371,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者16",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_1e41d220e23857d0",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[HANDLE_018]安全跳转页面",
+    "source_history": [
+      "[USER_001]切换任务窗口",
+      "[USER_001]浏览[HANDLE_018]技术文章",
+      "[USER_001]浏览[HANDLE_018]技术文章"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者16.json",
+      "event_id": "p016_1_706",
+      "event_index": 556,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者16",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_8a57db927f35ef61",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑财务分析表格",
+    "source_history": [
+      "[USER_001]编辑[HANDLE_004]文档表格",
+      "[USER_001]编辑Excel投资分析表",
+      "[USER_001]切换任务窗口"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者16.json",
+      "event_id": "p016_1_981",
+      "event_index": 742,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者16",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_0f9c4813ea0ea0d3",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览文件夹内容",
+    "source_history": [
+      "[USER_001]在VSCode中查看回测图表",
+      "[USER_001]在VSCode中编辑Python代码",
+      "[USER_001]浏览文件夹内容"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者16.json",
+      "event_id": "p016_1_1259",
+      "event_index": 927,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者16",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_a079342db3d93111",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查看Jupyter图表结果",
+    "source_history": [
+      "[USER_001]在[HANDLE_004]中审阅PDF文档",
+      "[USER_001]在[HANDLE_008]中切换任务窗口",
+      "[USER_001]在VS Code中编辑Jupyter Notebook"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者16.json",
+      "event_id": "p016_1_1480",
+      "event_index": 1113,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者16",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_e845549ffa9e88aa",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用 msedge.exe",
+    "source_history": [
+      "[USER_001]编辑竞选稿文档",
+      "[USER_001]编辑[HANDLE_004]文档",
+      "[USER_001]在[HANDLE_004]中编辑文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者16.json",
+      "event_id": "p016_1_1750",
+      "event_index": 1298,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者16",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_b6d8e68121dd3284",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[HANDLE_068]数据Excel表",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者17.json",
+      "event_id": "p017_1_1",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者17",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_dfba7109ac4e19fa",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在Excel中查看股票数据",
+    "source_history": [
+      "[USER_001]保存网页为PDF文件",
+      "[USER_001]浏览医药公司[HANDLE_004]新闻",
+      "[USER_001]浏览医药公司新闻页面"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者17.json",
+      "event_id": "p017_1_773",
+      "event_index": 632,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者17",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_b3316df86ddaec49",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑PowerPoint演示文稿",
+    "source_history": [
+      "[USER_001]编辑PowerPoint演示文稿",
+      "[USER_001]编辑[HANDLE_021]",
+      "[USER_001]编辑PowerPoint演示文稿"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者17.json",
+      "event_id": "p017_1_1661",
+      "event_index": 1264,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者17",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_32c4cd04768ab568",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑PDF文档",
+    "source_history": [
+      "[USER_001]阅读PDF行业报告",
+      "[USER_001]使用[HANDLE_064]截取文档内容",
+      "[USER_001]阅读PDF行业研报"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者17.json",
+      "event_id": "p017_1_2589",
+      "event_index": 1896,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者17",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_c58b88f75c3f04b0",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]操作Excel表格",
+    "source_history": [
+      "[USER_001]处于桌面空闲状态",
+      "[USER_001]打开Excel文件",
+      "[USER_001]在Excel中查看数据图表"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者17.json",
+      "event_id": "p017_1_3467",
+      "event_index": 2529,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者17",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_80b8e9892962328d",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[HANDLE_037]产品管线网页",
+    "source_history": [
+      "[USER_001]浏览[USER_022]结果页",
+      "[USER_001]编辑[USER_004]相关Excel表格",
+      "[USER_001]浏览网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者17.json",
+      "event_id": "p017_1_4242",
+      "event_index": 3161,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者17",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_8b9ce40ea6f177bd",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[USER_004]治疗数据表格",
+    "source_history": [
+      "[USER_001]查看PDF医学文献",
+      "[USER_001]在Excel中查看[USER_004]数据表",
+      "[USER_001]阅读医学PDF文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者17.json",
+      "event_id": "p017_1_4900",
+      "event_index": 3793,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者17",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_0ac930692d7f0f5a",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在Excel中处理[USER_004]数据",
+    "source_history": [
+      "[USER_001]编辑[USER_004]相关Excel表格",
+      "[USER_001]在Excel中查看[USER_004]数据表",
+      "[USER_001]在Excel中操作表格数据"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者17.json",
+      "event_id": "p017_1_5582",
+      "event_index": 4425,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "heldout",
+    "cluster_id": "志愿者17",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_0169b05375da6f15",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者2.json",
+      "event_id": "p002_1_3",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者2",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_4090c3538e5a6df2",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑PowerPoint演示文稿",
+    "source_history": [
+      "[USER_001]浏览ThinkCell更新公告",
+      "[USER_001]浏览文件资源管理器",
+      "PowerPoint文件加载中"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者2.json",
+      "event_id": "p002_1_802",
+      "event_index": 509,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者2",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_8b09f0755cf9992b",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]切换任务窗口",
+    "source_history": [
+      "[USER_001]填写邮箱准备登录",
+      "[USER_001]访问商业平台网站",
+      "[USER_001]访问Cortex平台登录页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者2.json",
+      "event_id": "p002_1_1401",
+      "event_index": 1019,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者2",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_ef9a75b2e9cb7295",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在记事本中编辑文本",
+    "source_history": [
+      "[USER_001]编辑PowerPoint演示文稿",
+      "[USER_001]编辑PowerPoint演示文稿",
+      "资源管理器短暂操作"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者2.json",
+      "event_id": "p002_1_2038",
+      "event_index": 1528,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者2",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_d1684b620bd6df97",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览证券[HANDLE_023]",
+    "source_history": [
+      "[USER_001]浏览收藏夹网页",
+      "[USER_001]浏览网页",
+      "[USER_001]浏览PDF智能阅读器网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者2.json",
+      "event_id": "p002_1_2671",
+      "event_index": 2037,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者2",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_441c686aaf41e64d",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]打开[HANDLE_008]表格文件",
+    "source_history": [
+      "[USER_001]编辑[HANDLE_008]表格",
+      "[USER_001]编辑投资数据Excel表",
+      "[USER_001]编辑[HANDLE_008]表格文件"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者2.json",
+      "event_id": "p002_1_3815",
+      "event_index": 2546,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者2",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_9efea982cdc2c1c9",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览企业信息网页",
+    "source_history": [
+      "[USER_001]编辑会议纪要文档",
+      "[USER_001]在[HANDLE_008]中编辑文档",
+      "[USER_001]浏览企业数据平台"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者2.json",
+      "event_id": "p002_1_4676",
+      "event_index": 3056,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者2",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_66073d88e0e4cb04",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001]浏览[USER_152]官网",
+      "[USER_001]浏览文件夹内容"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者2.json",
+      "event_id": "p002_1_5544",
+      "event_index": 3565,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者2",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_890b6bca970c91ad",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者3.json",
+      "event_id": "p003_1_4",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者3",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_f013fbf88bcc6cbb",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在[SECRET_001]中编辑技术文档",
+    "source_history": [
+      "[USER_001]在[SECRET_001]中调整[USER_004]格式",
+      "[USER_001]在[SECRET_001]中编辑技术文档",
+      "[USER_001]在[SECRET_001]中调整[USER_004]格式"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者3.json",
+      "event_id": "p003_1_390",
+      "event_index": 249,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者3",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_fb34e0c5d77dd62a",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[SECRET_001]技术文档",
+    "source_history": [
+      "[USER_001]编辑WPS文档",
+      "[USER_001]编辑[SECRET_001]技术文档",
+      "[USER_001]查看WPS文档格式规范"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者3.json",
+      "event_id": "p003_1_729",
+      "event_index": 499,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者3",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_03764ec7830743db",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用电路设计软件",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001][USER_006][HANDLE_028]相关网页",
+      "[USER_001]浏览EDA平台网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者3.json",
+      "event_id": "p003_1_1062",
+      "event_index": 748,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者3",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_d58373b194f5fcc6",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在PCB设计软件中操作电路图",
+    "source_history": [
+      "[USER_001]在IDE中查看项目文件",
+      "[USER_001]绘制电梯控制电路原理图",
+      "使用[HANDLE_006]进行[HANDLE_013]设计"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者3.json",
+      "event_id": "p003_1_1343",
+      "event_index": 998,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者3",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_2e57d27744510491",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[SECRET_001]文档",
+    "source_history": [
+      "[USER_001]浏览网页并编辑文档",
+      "[USER_001]浏览并编辑[HANDLE_004]课程文档",
+      "[USER_001]编辑[SECRET_001]文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者3.json",
+      "event_id": "p003_1_1665",
+      "event_index": 1247,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者3",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_42b3ad62f4b58d68",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[SECRET_001]文档",
+    "source_history": [
+      "[USER_001]编辑课程设计[USER_005]",
+      "[USER_001]编辑技术文档",
+      "[USER_001]浏览网页并编辑文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者3.json",
+      "event_id": "p003_1_1957",
+      "event_index": 1497,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者3",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_dee662655fb2fc11",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览学术网页",
+    "source_history": [
+      "[USER_001]编辑[SECRET_001]文档参考文献",
+      "[USER_001]在[SECRET_001]中编辑参考文献",
+      "[USER_001]编辑[SECRET_001]文档标题样式"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者3.json",
+      "event_id": "p003_1_2242",
+      "event_index": 1746,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者3",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_65d790b43af94582",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]执行本地搜索操作",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者4.json",
+      "event_id": "p004_1_1",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者4",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_56416d5664251b79",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览截图文件夹",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001]查看文件属性",
+      "[USER_001]浏览网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者4.json",
+      "event_id": "p004_1_68",
+      "event_index": 63,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者4",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_2ac9881050bfaeeb",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览本地文件夹",
+    "source_history": [
+      "[USER_001]解压文件包",
+      "[USER_001]解压文件操作",
+      "[USER_001]解压文件"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者4.json",
+      "event_id": "p004_1_134",
+      "event_index": 126,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者4",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_b54edd6afeb1a6c9",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]观看医学教学视频",
+    "source_history": [
+      "[USER_001]浏览文件资源管理器",
+      "[USER_001]观看医学教学视频",
+      "[USER_001]桌面浏览"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者4.json",
+      "event_id": "p004_1_203",
+      "event_index": 189,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者4",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_e97695670f4603e5",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]进行网站登录操作",
+    "source_history": [
+      "[USER_001]浏览教学平台主页",
+      "[USER_001]访问高校教学平台",
+      "[USER_001]浏览教学平台网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者4.json",
+      "event_id": "p004_1_270",
+      "event_index": 251,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者4",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_352a5b09c9ec40b3",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览在线课程页面",
+    "source_history": [
+      "[USER_001]浏览在线学习页面",
+      "[USER_001]浏览网页",
+      "[USER_001]填写举报表单"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者4.json",
+      "event_id": "p004_1_340",
+      "event_index": 314,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者4",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_4e53491bf2b1af26",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑Excel表格数据",
+    "source_history": [
+      "[USER_001]浏览在线学习平台课程",
+      "[USER_001]编辑Excel表格",
+      "[USER_001]编辑Excel表格数据"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者4.json",
+      "event_id": "p004_1_530",
+      "event_index": 377,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者4",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_da46af3b0d9beec8",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：桌面图标整理或应用启动",
+    "source_history": [
+      "[USER_001]浏览文件夹内容",
+      "[USER_001]浏览截图文件夹",
+      "[USER_001]浏览文件夹内容"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者4.json",
+      "event_id": "p004_1_809",
+      "event_index": 440,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者4",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_664c4e8b3b81e3cb",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：系统资源管理器短暂运行",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者5.json",
+      "event_id": "p005_1_1",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者5",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_3bd88d6d8829dc4f",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑Excel工资表",
+    "source_history": [
+      "[USER_001]配置[HANDLE_001]项目[SECRET_007]",
+      "开发者配置AI工具密钥",
+      "[USER_001]编辑[HANDLE_008]表格"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者5.json",
+      "event_id": "p005_1_429",
+      "event_index": 378,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者5",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_b3e4a1b12d498308",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用[HANDLE_004]翻译PDF内容",
+    "source_history": [
+      "[USER_001]浏览实验文档与图表",
+      "[USER_001]编辑[HANDLE_004]文档并参考网页",
+      "[USER_001]编辑文档与查看实验材料"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者5.json",
+      "event_id": "p005_1_841",
+      "event_index": 757,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者5",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_ef584660d1c5f9eb",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用[HANDLE_012]截图标注数学公式",
+    "source_history": [
+      "[USER_001]编辑[HANDLE_004]文档",
+      "[USER_001]使用截图工具标注数学公式",
+      "[USER_001]在[HANDLE_004]中编辑数学文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者5.json",
+      "event_id": "p005_1_1278",
+      "event_index": 1135,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者5",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_b24d0e6d4c74b813",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[USER_005]实验文档",
+    "source_history": [
+      "[USER_001]查看材料相图数据",
+      "[USER_001]编辑学术文档图表",
+      "[USER_001]处理[USER_005]实验文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者5.json",
+      "event_id": "p005_1_1783",
+      "event_index": 1514,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者5",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_657d6d68c740b348",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]调整系统快速设置",
+    "source_history": [
+      "[USER_001]浏览[HANDLE_007]文档文件夹",
+      "[USER_001]编辑学术文档",
+      "[USER_001]编辑学术文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者5.json",
+      "event_id": "p005_1_2223",
+      "event_index": 1892,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者5",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_f338b4d34bc97795",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑薪资数据表",
+    "source_history": [
+      "[USER_001]浏览在线表格编辑页面",
+      "[USER_001]编辑[HANDLE_006]多维表格",
+      "[USER_001]编辑薪资汇总Excel表"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者5.json",
+      "event_id": "p005_1_2670",
+      "event_index": 2271,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者5",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_8f0de8b5ad77566f",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[HANDLE_008]",
+    "source_history": [
+      "[USER_001]浏览[HANDLE_008]",
+      "[USER_001]编辑[HANDLE_004]演示文稿",
+      "[USER_001]浏览[HANDLE_008]"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者5.json",
+      "event_id": "p005_1_3085",
+      "event_index": 2649,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者5",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_bd4501b205a009bd",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览桌面文件",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者6.json",
+      "event_id": "p006_1_1",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者6",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_bcee88d5b513aafd",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[HANDLE_001]文档",
+    "source_history": [
+      "[USER_001]编辑[HANDLE_001]文档",
+      "[USER_001]桌面活动，无LLM交互",
+      "[USER_001]编辑[HANDLE_001]文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者6.json",
+      "event_id": "p006_1_105",
+      "event_index": 66,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者6",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_2df2dfa52b13dd18",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑雅思作文文档",
+    "source_history": [
+      "[USER_001]在[HANDLE_001]中编辑英文文档",
+      "[USER_001]编辑雅思作文文档",
+      "[USER_001]在[HANDLE_001]中编辑英文文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者6.json",
+      "event_id": "p006_1_257",
+      "event_index": 132,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者6",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_e4b363b9cb1c4fef",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]使用[HANDLE_001]压缩PDF文件",
+    "source_history": [
+      "[USER_001]在[HANDLE_001]中压缩PDF文档",
+      "[USER_001]浏览本地词典文件",
+      "[USER_001]浏览本地词典PDF文件"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者6.json",
+      "event_id": "p006_1_371",
+      "event_index": 198,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者6",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_08729d3c22b12126",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[HANDLE_001]文档",
+    "source_history": [
+      "[USER_001]阅读PDF文档内容",
+      "[USER_001]在[HANDLE_001]中编辑文档",
+      "[USER_001]编辑[HANDLE_001]文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者6.json",
+      "event_id": "p006_1_479",
+      "event_index": 264,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者6",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_5ef45e5801cda9cc",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑词条表Excel文件",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001]访问[HANDLE_002]对话入口页面",
+      "[USER_001]浏览桌面图标"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者6.json",
+      "event_id": "p006_1_606",
+      "event_index": 330,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者6",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_d3d5a77d9c0ecf87",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑[HANDLE_001]文档",
+    "source_history": [
+      "[USER_001]在桌面操作[HANDLE_018]",
+      "[USER_001]在[HANDLE_001]中编辑文档并查看[HANDLE_012]",
+      "[USER_001]编辑[HANDLE_001]文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者6.json",
+      "event_id": "p006_1_709",
+      "event_index": 396,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者6",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_1f5b1ecc2eaa39f5",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览网页",
+    "source_history": [
+      "[USER_001]编辑[HANDLE_001]文档",
+      "[USER_001]查看只读文档模板",
+      "[USER_001]编辑应用文练习文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者6.json",
+      "event_id": "p006_1_787",
+      "event_index": 462,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者6",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_9f37618de19e5907",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[HANDLE_014]文档",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者7.json",
+      "event_id": "p007_1_1",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者7",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_5742379c70ad5087",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[HANDLE_008]学术页面",
+    "source_history": [
+      "[USER_001]浏览[HANDLE_008]首页",
+      "[USER_001]浏览网页",
+      "[USER_001]检索学术文献"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者7.json",
+      "event_id": "p007_1_28",
+      "event_index": 27,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者7",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_9483757fb1a72638",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：WPS加载论文文档",
+    "source_history": [
+      "[USER_001]编辑WPS文档",
+      "[USER_001]浏览WPS云盘文件",
+      "[USER_001]在[HANDLE_003]中浏览文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者7.json",
+      "event_id": "p007_1_55",
+      "event_index": 54,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者7",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_a6cff506f23e1fc4",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[ADDR_004]课程列表",
+    "source_history": [
+      "[USER_001]浏览[ADDR_004]课程列表",
+      "[USER_001]浏览网页",
+      "[USER_001]浏览[ADDR_004]课程页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者7.json",
+      "event_id": "p007_1_82",
+      "event_index": 81,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者7",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_de59a3bbb79279e6",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]截取课程题目用于作业",
+    "source_history": [
+      "[USER_001]使用贴靠助手整理窗口",
+      "[USER_001]编辑学术文档",
+      "[USER_001]浏览机器学习课程网页"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者7.json",
+      "event_id": "p007_1_129",
+      "event_index": 109,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者7",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_aa4ad96c15d8b20e",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览课程作业页面",
+    "source_history": [
+      "[USER_001]在课程页面使用[HANDLE_004]对话",
+      "[USER_001]浏览课程作业页面",
+      "[USER_001]浏览[ADDR_004]课程列表"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者7.json",
+      "event_id": "p007_1_187",
+      "event_index": 136,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者7",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_e4dd4380d5f4b09b",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在[HANDLE_003]中操作文件",
+    "source_history": [
+      "[USER_001]浏览[HANDLE_003]",
+      "[USER_001]在[HANDLE_003]中浏览文件",
+      "[USER_001]参与在线协作编辑文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者7.json",
+      "event_id": "p007_1_214",
+      "event_index": 163,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者7",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_0feb932139180227",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[ADDR_004]课程列表",
+    "source_history": [
+      "[USER_001]浏览[ADDR_004]课程列表",
+      "[USER_001]浏览网页",
+      "[USER_001]浏览[ADDR_007]页面"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者7.json",
+      "event_id": "p007_1_241",
+      "event_index": 190,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者7",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_99ca938fe761f5ed",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]调整系统录屏权限[HANDLE_012]",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者8.json",
+      "event_id": "p008_1_1",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者8",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_9d14dbd5e5b61211",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[ADDR_003]门户",
+    "source_history": [
+      "[USER_001]查看PDF文档",
+      "[USER_001]保存PDF文件",
+      "[USER_001]查看PDF文档"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者8.json",
+      "event_id": "p008_1_38",
+      "event_index": 23,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者8",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_9d18e414d45b799a",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]启动[HANDLE_004]客户端",
+    "source_history": [
+      "[USER_001]播放视频文件",
+      "[USER_001]操作教务系统课时统计",
+      "[USER_001]操作直播课程管理平台"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者8.json",
+      "event_id": "p008_1_70",
+      "event_index": 45,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者8",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_1e0de36eb7bd9756",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在云直播中展示PPT内容",
+    "source_history": [
+      "[USER_001]查看品牌营销PDF文档",
+      "[USER_001]使用云直播软件准备课件",
+      "直播中弹出结束确认对话框"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者8.json",
+      "event_id": "p008_1_101",
+      "event_index": 68,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者8",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_bc30119be86e61fc",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑座位表Excel文件",
+    "source_history": [
+      "[USER_001]切换应用窗口",
+      "[USER_001]浏览网盘文件",
+      "[USER_001]在夸克网盘选中文件"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者8.json",
+      "event_id": "p008_1_135",
+      "event_index": 90,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者8",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_78c9f72bbc961eaf",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查看夸克网盘VIP状态",
+    "source_history": [
+      "[USER_001]浏览网页",
+      "[USER_001]播放《老友记》视频",
+      "[USER_001]播放影视视频"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者8.json",
+      "event_id": "p008_1_162",
+      "event_index": 113,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者8",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_5e02968f249c3042",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在[HANDLE_003]群聊中查看消息",
+    "source_history": [
+      "[USER_001]编辑座位表Excel文件",
+      "[USER_001]查看分组名单表格",
+      "[USER_001]编辑座位表Excel文件"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者8.json",
+      "event_id": "p008_1_200",
+      "event_index": 135,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者8",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_90d036d25f525e80",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]浏览[HANDLE_011]文档",
+    "source_history": [
+      "[USER_001]浏览[HANDLE_003]群消息",
+      "[USER_001]切换应用窗口",
+      "[USER_001]浏览文件夹内容"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者8.json",
+      "event_id": "p008_1_234",
+      "event_index": 158,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者8",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_29c52531eccaea12",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：无文本活动，无法判断",
+    "source_history": [],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者9.json",
+      "event_id": "p009_1_24",
+      "event_index": 0,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者9",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_4445a5cdc9663e8a",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在浏览器搜索框输入关键词",
+    "source_history": [
+      "无文本活动，无法判断",
+      "[USER_001]打开腾讯文档应用",
+      "[USER_001]在[HANDLE_002]浏览器搜索框输入"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者9.json",
+      "event_id": "p009_1_37",
+      "event_index": 3,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者9",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_3398d8cd43a26cc7",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]搜索[HANDLE_005]相关技术文档",
+    "source_history": [
+      "[USER_001]在[HANDLE_002]浏览器搜索框输入",
+      "[USER_001]在浏览器搜索框输入关键词",
+      "[USER_001]在[HANDLE_002]浏览器搜索词义"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者9.json",
+      "event_id": "p009_1_39",
+      "event_index": 5,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者9",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_cdd4441cebf89575",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]操作WPS云盘",
+    "source_history": [
+      "[USER_001]搜索[HANDLE_005]相关技术文档",
+      "[USER_001]搜索[HANDLE_005]发音及技术文档",
+      "资源管理器窗口短暂打开"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者9.json",
+      "event_id": "p009_1_46",
+      "event_index": 8,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者9",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_514cedb2a38b65f0",
+    "domain": "work",
+    "scenario": "工作事件：work_response_detail",
+    "values": [
+      "先给结论，简短回应",
+      "给出详细解释和步骤"
+    ],
+    "descriptions": {
+      "先给结论，简短回应": "先给结论，简短回应",
+      "给出详细解释和步骤": "给出详细解释和步骤"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]编辑云文档",
+    "source_history": [
+      "[USER_001]操作WPS云盘",
+      "[USER_001]打开文件资源管理器",
+      "[USER_001]查看桌面与文件资源管理器"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者9.json",
+      "event_id": "p009_1_49",
+      "event_index": 11,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者9",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_d01502267fc87a95",
+    "domain": "work",
+    "scenario": "工作事件：work_intervention",
+    "values": [
+      "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议"
+    ],
+    "descriptions": {
+      "等我主动询问再提供帮助": "等我主动询问再提供帮助",
+      "在我卡住时主动提供建议": "在我卡住时主动提供建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查看通知与日历",
+    "source_history": [
+      "[USER_001]编辑云文档",
+      "[USER_001]在腾讯文档中专注模式",
+      "[USER_001]查看企业微信群消息"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者9.json",
+      "event_id": "p009_1_58",
+      "event_index": 14,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者9",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_637a2fa7a19ebd5c",
+    "domain": "work",
+    "scenario": "工作事件：work_solution_scope",
+    "values": [
+      "只完成当前明确请求",
+      "同时补充相关的下一步建议"
+    ],
+    "descriptions": {
+      "只完成当前明确请求": "只完成当前明确请求",
+      "同时补充相关的下一步建议": "同时补充相关的下一步建议"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]在腾讯文档中专注编辑",
+    "source_history": [
+      "[USER_001]查看企业微信群消息",
+      "[USER_001]查看通知与日历",
+      "[USER_001]查看企业微信群消息"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者9.json",
+      "event_id": "p009_1_62",
+      "event_index": 16,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者9",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  },
+  {
+    "template_id": "pro_668b5d757559bc0f",
+    "domain": "work",
+    "scenario": "工作事件：work_action_control",
+    "values": [
+      "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动"
+    ],
+    "descriptions": {
+      "先展示计划并请我确认": "先展示计划并请我确认",
+      "选定方案后直接执行模拟行动": "选定方案后直接执行模拟行动"
+    },
+    "task": "针对当前工作上下文，选择本次助手的交互方式；不实际执行外部操作。",
+    "context_text": "当前事件摘要（发布方模型注释，非真值）：[USER_001]查询单词“[HANDLE_004]”释义",
+    "source_history": [
+      "[USER_001]在腾讯文档中专注编辑",
+      "[USER_001]浏览浏览器新标签页",
+      "[USER_001]使用有道词典查词"
+    ],
+    "source": {
+      "repo": "ProAgentBench public dataset",
+      "participant_file": "志愿者9.json",
+      "event_id": "p009_1_66",
+      "event_index": 19,
+      "annotation_is_ground_truth": false,
+      "preferences": "synthetic_overlay"
+    },
+    "split": "development",
+    "cluster_id": "志愿者9",
+    "review_status": "source_context_synthetic_preferences_not_human_validated"
+  }
+]

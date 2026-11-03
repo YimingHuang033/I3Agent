@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-26",
+  "repos": {
+    "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+    "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+    "PAST-Bench": "f8223517ae7491e776b69793d9f11e9d074ab42e"
+  },
+  "lifesim_data": {
+    "long_horizon": {
+      "records": 1309,
+      "events": 1309,
+      "themes": {
+        "sport_health": 110,
+        "dining": 264,
+        "entertainment": 308,
+        "education": 330,
+        "travel": 297
+      }
+    },
+    "single_session": {
+      "records": 120,
+      "events": 1200,
+      "themes": {
+        "childcare": 15,
+        "dining": 15,
+        "education": 15,
+        "elderlycare": 15,
+        "entertainment": 15,
+        "mental_health": 15,
+        "sport_health": 15,
+        "travel": 15
+      }
+    }
+  },
+  "pi_tasks": 100,
+  "pdf_pages": 1,
+  "pdf_links": 8,
+  "benchmark_executed": false,
+  "pdf_visually_reviewed": true
+}

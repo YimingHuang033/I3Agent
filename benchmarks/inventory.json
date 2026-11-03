@@ -1,0 +1,44 @@
+[
+  {
+    "name": "lifesim",
+    "path": "benchmarks/sources/lifesim",
+    "revision": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+    "origin": "https://github.com/sii-research/lifesim.git",
+    "tracked_changes": ""
+  },
+  {
+    "name": "Pi-Bench",
+    "path": "benchmarks/sources/Pi-Bench",
+    "revision": "4f545be5d289b28ff022d2904d455007358ed3b7",
+    "origin": "https://github.com/Simplified-Reasoning/Pi-Bench.git",
+    "tracked_changes": ""
+  },
+  {
+    "name": "ProAgentBench",
+    "path": "benchmarks/sources/ProAgentBench",
+    "revision": "b5388f02dd99777af1d5ea473ccb3436276e7c05",
+    "origin": "https://huggingface.co/datasets/qv9n2xk7m1z8pt4/ProAgentBench",
+    "tracked_changes": ""
+  },
+  {
+    "name": "PAST-Bench",
+    "path": "benchmarks/sources/PAST-Bench",
+    "revision": "f8223517ae7491e776b69793d9f11e9d074ab42e",
+    "origin": "https://github.com/Gen-Verse/PAST-Bench.git",
+    "tracked_changes": ""
+  },
+  {
+    "name": "MemPABench",
+    "path": "benchmarks/sources/MemPABench",
+    "revision": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+    "origin": "https://github.com/mempabench/mempabench.git",
+    "tracked_changes": ""
+  },
+  {
+    "name": "MemPABench-personas",
+    "path": "benchmarks/data/MemPABench-personas",
+    "revision": "6d5fb9b2785bc9fb00c3e2c09920742043cd5a4f",
+    "origin": "https://huggingface.co/datasets/mempabench/mempabench-personas",
+    "tracked_changes": ""
+  }
+]

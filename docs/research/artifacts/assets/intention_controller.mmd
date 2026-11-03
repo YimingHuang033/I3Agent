@@ -1,0 +1,6 @@
+flowchart LR
+ H["Request + history"] --> E["Evidence state<br/>Source · scope · revision"]
+ E --> Q{"Would an answer<br/>change the action?"}
+ Q -->|Yes| A["ASK<br/>Confirm the relevant constraint"]
+ Q -->|No| B["ACT<br/>Take a revisable step"]
+ A -.->|Update evidence| E

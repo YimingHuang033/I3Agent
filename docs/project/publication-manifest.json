@@ -1,0 +1,458 @@
+[
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/env.example.sh",
+    "published": "ours/projects/pi_bench_ours1/env.example.sh",
+    "sha256": "9891797179da86bfd8c55806628809b6e6f0c639d1db89bed000985ad6af78b5",
+    "published_sha256": "9891797179da86bfd8c55806628809b6e6f0c639d1db89bed000985ad6af78b5"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/SOURCE_SNAPSHOT.json",
+    "published": "ours/projects/pi_bench_ours1/SOURCE_SNAPSHOT.json",
+    "sha256": "5f57aa95294d2ffcb5ff5da9fa5dc8665f3d31404f9ac5174e577c6777c0a7b2",
+    "published_sha256": "5f57aa95294d2ffcb5ff5da9fa5dc8665f3d31404f9ac5174e577c6777c0a7b2"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/upstream-deployment-notes.md",
+    "published": "ours/projects/pi_bench_ours1/upstream-deployment-notes.md",
+    "sha256": "15eeab2445cf87936e8aee7af93c41c9e5e39a529025b9934f24df41378a3cba",
+    "published_sha256": "15eeab2445cf87936e8aee7af93c41c9e5e39a529025b9934f24df41378a3cba"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/modify.md",
+    "published": "ours/projects/pi_bench_ours1/modify.md",
+    "sha256": "9f6f5bb9d524817a0881ace862b4fc358188b26388d5adf1cd7f56f0c437db6b",
+    "published_sha256": "0e1aa36ea62018f5ea794c523be11dd1e54727b92aca86d5e1e323136ced0d9c"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/constraints.bbqcard2.txt",
+    "published": "ours/projects/pi_bench_ours1/constraints.bbqcard2.txt",
+    "sha256": "a7c69feddc5bd8b6276364ff32fb503cb661111a1f5cc4bf72fe28688f3e4d36",
+    "published_sha256": "a7c69feddc5bd8b6276364ff32fb503cb661111a1f5cc4bf72fe28688f3e4d36"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/preparation-report.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/preparation-report.json",
+    "sha256": "40b0428595cb32f2302252993bd3dc1b96abba13ee72b47df53341a0073eb27f",
+    "published_sha256": "40b0428595cb32f2302252993bd3dc1b96abba13ee72b47df53341a0073eb27f"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/timestamp-unit-checks.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/timestamp-unit-checks.json",
+    "sha256": "4b14bcf88874a585205cbfc41985685c5dff1c80bab31c64db54cd577bd2fe22",
+    "published_sha256": "4b14bcf88874a585205cbfc41985685c5dff1c80bab31c64db54cd577bd2fe22"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/protocol-unit-checks.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/protocol-unit-checks.json",
+    "sha256": "1a6ff14223f1366f31b702d7b5659cfc569f830ccd64426959b079ee884e5f6f",
+    "published_sha256": "1a6ff14223f1366f31b702d7b5659cfc569f830ccd64426959b079ee884e5f6f"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/README.md",
+    "published": "ours/projects/pi_bench_ours1/ours1/README.md",
+    "sha256": "393f91fba8447fab9ed9a2608289cc08bf83f81d85dc36b7d9b1012f80ea033c",
+    "published_sha256": "8cf706ca3806ab66f730d9a1b696842309a33aee6a3ac207f56228852498f00d"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/EXPERIMENT.md",
+    "published": "ours/projects/pi_bench_ours1/ours1/EXPERIMENT.md",
+    "sha256": "609875c54ec6ecf2bdb33ad381d21547da60f69d405dd7d37b7f1e8a37cef264",
+    "published_sha256": "609875c54ec6ecf2bdb33ad381d21547da60f69d405dd7d37b7f1e8a37cef264"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/data/private/subsets.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/data/private/subsets.json",
+    "sha256": "71389bacf439c6d12f8d101240841d741e58c00742b86727caa13f643d55fcee",
+    "published_sha256": "71389bacf439c6d12f8d101240841d741e58c00742b86727caa13f643d55fcee"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/data/private/pairs.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/data/private/pairs.json",
+    "sha256": "e812f97da692aed85b1373df093ef093caa618e433f5bcc08dda313a2f965246",
+    "published_sha256": "e812f97da692aed85b1373df093ef093caa618e433f5bcc08dda313a2f965246"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/data/private/oracle.jsonl",
+    "published": "ours/projects/pi_bench_ours1/ours1/data/private/oracle.jsonl",
+    "sha256": "86d85eaa42cc4f8539ce085cb2c3cc4aa6eb682826e19376748ecb74443bbbed",
+    "published_sha256": "86d85eaa42cc4f8539ce085cb2c3cc4aa6eb682826e19376748ecb74443bbbed"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/data/private/templates.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/data/private/templates.json",
+    "sha256": "361d48202316df77483b93ecdfbc6593fb9da8cd32be6a9ad1a95ba87615f351",
+    "published_sha256": "361d48202316df77483b93ecdfbc6593fb9da8cd32be6a9ad1a95ba87615f351"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/data/public/episodes.jsonl",
+    "published": "ours/projects/pi_bench_ours1/ours1/data/public/episodes.jsonl",
+    "sha256": "7fd57df567c4ca8d9189995bf29ac1b8a4c6375414e0adc67e08f8d12c7971c9",
+    "published_sha256": "7fd57df567c4ca8d9189995bf29ac1b8a4c6375414e0adc67e08f8d12c7971c9"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/results/full-20261102-v1/summary.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/results/full-20261102-v1/summary.json",
+    "sha256": "a91801151928dc3800dc623e6defc0a1f971b5e0b6869781196a9bc71ed62f9d",
+    "published_sha256": "a91801151928dc3800dc623e6defc0a1f971b5e0b6869781196a9bc71ed62f9d"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/scripts/protocol.py",
+    "published": "ours/projects/pi_bench_ours1/ours1/scripts/protocol.py",
+    "sha256": "b595535443725a887ec0924a3536ef513adacc35e3ea833eba4acc9a3111d242",
+    "published_sha256": "b595535443725a887ec0924a3536ef513adacc35e3ea833eba4acc9a3111d242"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/scripts/prepare.py",
+    "published": "ours/projects/pi_bench_ours1/ours1/scripts/prepare.py",
+    "sha256": "94dfcc128758fb446c791935dc31a2d502a01e6374b70dd5f7d9f3b0c283e7c4",
+    "published_sha256": "94dfcc128758fb446c791935dc31a2d502a01e6374b70dd5f7d9f3b0c283e7c4"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/scripts/run_local.py",
+    "published": "ours/projects/pi_bench_ours1/ours1/scripts/run_local.py",
+    "sha256": "9dd7ea32eab8b59093bee3b45bff71b5c968bbdab88d9c42df7d7cc573a6683a",
+    "published_sha256": "9dd7ea32eab8b59093bee3b45bff71b5c968bbdab88d9c42df7d7cc573a6683a"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/configs/response.schema.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/configs/response.schema.json",
+    "sha256": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa",
+    "published_sha256": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/configs/experiment.json",
+    "published": "ours/projects/pi_bench_ours1/ours1/configs/experiment.json",
+    "sha256": "ba3214c5e475a409af31d60ac90b0813761bf37f8d8f5212bcb8109109d700e5",
+    "published_sha256": "ba3214c5e475a409af31d60ac90b0813761bf37f8d8f5212bcb8109109d700e5"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/generation/templates.py",
+    "published": "ours/projects/pi_bench_ours1/ours1/generation/templates.py",
+    "sha256": "e08b1ebceb762bc21530eeab4531b2005244937bafcccba6e83a0894a02c6e2e",
+    "published_sha256": "e08b1ebceb762bc21530eeab4531b2005244937bafcccba6e83a0894a02c6e2e"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/generation/generate.py",
+    "published": "ours/projects/pi_bench_ours1/ours1/generation/generate.py",
+    "sha256": "1c75531bb228882631487b8411897cb0921eb81edfb6abe5ba56faa46cc7985c",
+    "published_sha256": "1c75531bb228882631487b8411897cb0921eb81edfb6abe5ba56faa46cc7985c"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/SOURCE_SNAPSHOT.json",
+    "published": "ours/projects/lifesim_ours1/SOURCE_SNAPSHOT.json",
+    "sha256": "ec00ad8c45053f656ba606abc11b70ac95d86eea0808092f170cdff19354791c",
+    "published_sha256": "ec00ad8c45053f656ba606abc11b70ac95d86eea0808092f170cdff19354791c"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/upstream-deployment-notes.md",
+    "published": "ours/projects/lifesim_ours1/upstream-deployment-notes.md",
+    "sha256": "b501819ffcfe5f210f0e9aa4d2bfd0a62c66c0932403ef2a335996624510b2ba",
+    "published_sha256": "b501819ffcfe5f210f0e9aa4d2bfd0a62c66c0932403ef2a335996624510b2ba"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/modify.md",
+    "published": "ours/projects/lifesim_ours1/modify.md",
+    "sha256": "ad5d9058b2aac7916f0c7454419432535c6e52fa476c33049a7a3bb0839a5a6f",
+    "published_sha256": "9c918cd296c72c259e9aceeb75f982b2db192b394a1bb609d1a3d9b0e4a81d34"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/preparation-report.json",
+    "published": "ours/projects/lifesim_ours1/ours1/preparation-report.json",
+    "sha256": "8cde17033a26c42fa67014a08b3e7b4062a963c10db854724f12d7463c8fc9ef",
+    "published_sha256": "8cde17033a26c42fa67014a08b3e7b4062a963c10db854724f12d7463c8fc9ef"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/timestamp-unit-checks.json",
+    "published": "ours/projects/lifesim_ours1/ours1/timestamp-unit-checks.json",
+    "sha256": "4b14bcf88874a585205cbfc41985685c5dff1c80bab31c64db54cd577bd2fe22",
+    "published_sha256": "4b14bcf88874a585205cbfc41985685c5dff1c80bab31c64db54cd577bd2fe22"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/protocol-unit-checks.json",
+    "published": "ours/projects/lifesim_ours1/ours1/protocol-unit-checks.json",
+    "sha256": "1a6ff14223f1366f31b702d7b5659cfc569f830ccd64426959b079ee884e5f6f",
+    "published_sha256": "1a6ff14223f1366f31b702d7b5659cfc569f830ccd64426959b079ee884e5f6f"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/README.md",
+    "published": "ours/projects/lifesim_ours1/ours1/README.md",
+    "sha256": "0a366f5827b2a3a80501e5c7d86f3b70ceeb8ab37ff76699d3c1c4f72b3dd214",
+    "published_sha256": "dbf2cf0051409b0d0ec46eea7f42b896877b1f8c4bde1051bdd1c82210a21f21"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/EXPERIMENT.md",
+    "published": "ours/projects/lifesim_ours1/ours1/EXPERIMENT.md",
+    "sha256": "f3a06c3a233b7f71b2fea22569523aa9944ca3dc9ee3d5dff47d6008af103c44",
+    "published_sha256": "f3a06c3a233b7f71b2fea22569523aa9944ca3dc9ee3d5dff47d6008af103c44"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/data/private/subsets.json",
+    "published": "ours/projects/lifesim_ours1/ours1/data/private/subsets.json",
+    "sha256": "2c2c87136cd41fa3713d136bec6fbdceacfe53de93c000dc8b4f907b095fffad",
+    "published_sha256": "2c2c87136cd41fa3713d136bec6fbdceacfe53de93c000dc8b4f907b095fffad"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/data/private/pairs.json",
+    "published": "ours/projects/lifesim_ours1/ours1/data/private/pairs.json",
+    "sha256": "a0d4775714a74822e09ecd9f0ac09ae134144f7f8dae96b40aceb41f5f2464a3",
+    "published_sha256": "a0d4775714a74822e09ecd9f0ac09ae134144f7f8dae96b40aceb41f5f2464a3"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/data/private/oracle.jsonl",
+    "published": "ours/projects/lifesim_ours1/ours1/data/private/oracle.jsonl",
+    "sha256": "6f78303a222d120dfd760682c06d49bebf0deeaf229d449dd57730d76d648112",
+    "published_sha256": "6f78303a222d120dfd760682c06d49bebf0deeaf229d449dd57730d76d648112"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/data/private/templates.json",
+    "published": "ours/projects/lifesim_ours1/ours1/data/private/templates.json",
+    "sha256": "3a87f4b83d561a9159f42445ca9c072602be9e6c651642bbcfb922a442f6b760",
+    "published_sha256": "3a87f4b83d561a9159f42445ca9c072602be9e6c651642bbcfb922a442f6b760"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/data/public/episodes.jsonl",
+    "published": "ours/projects/lifesim_ours1/ours1/data/public/episodes.jsonl",
+    "sha256": "42e20f0b5d5438b6142f40ea38d34f00be98dd2afa84f3d2c4a0fc2efbc34abd",
+    "published_sha256": "42e20f0b5d5438b6142f40ea38d34f00be98dd2afa84f3d2c4a0fc2efbc34abd"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/results/full-20261102-v1/summary.json",
+    "published": "ours/projects/lifesim_ours1/ours1/results/full-20261102-v1/summary.json",
+    "sha256": "f054a8d9add768b97fa325ee2721573e0cdad3ac9b0de7628cc1489842ea53f7",
+    "published_sha256": "f054a8d9add768b97fa325ee2721573e0cdad3ac9b0de7628cc1489842ea53f7"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/scripts/protocol.py",
+    "published": "ours/projects/lifesim_ours1/ours1/scripts/protocol.py",
+    "sha256": "b595535443725a887ec0924a3536ef513adacc35e3ea833eba4acc9a3111d242",
+    "published_sha256": "b595535443725a887ec0924a3536ef513adacc35e3ea833eba4acc9a3111d242"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/scripts/prepare.py",
+    "published": "ours/projects/lifesim_ours1/ours1/scripts/prepare.py",
+    "sha256": "94dfcc128758fb446c791935dc31a2d502a01e6374b70dd5f7d9f3b0c283e7c4",
+    "published_sha256": "94dfcc128758fb446c791935dc31a2d502a01e6374b70dd5f7d9f3b0c283e7c4"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/scripts/run_local.py",
+    "published": "ours/projects/lifesim_ours1/ours1/scripts/run_local.py",
+    "sha256": "9dd7ea32eab8b59093bee3b45bff71b5c968bbdab88d9c42df7d7cc573a6683a",
+    "published_sha256": "9dd7ea32eab8b59093bee3b45bff71b5c968bbdab88d9c42df7d7cc573a6683a"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/configs/response.schema.json",
+    "published": "ours/projects/lifesim_ours1/ours1/configs/response.schema.json",
+    "sha256": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa",
+    "published_sha256": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/configs/experiment.json",
+    "published": "ours/projects/lifesim_ours1/ours1/configs/experiment.json",
+    "sha256": "6f7bcc51d064b36dfcef2ac36a3e95e5e7f1e1b34463fb9cfbbeb8fa038e63d4",
+    "published_sha256": "6f7bcc51d064b36dfcef2ac36a3e95e5e7f1e1b34463fb9cfbbeb8fa038e63d4"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/generation/templates.py",
+    "published": "ours/projects/lifesim_ours1/ours1/generation/templates.py",
+    "sha256": "e08b1ebceb762bc21530eeab4531b2005244937bafcccba6e83a0894a02c6e2e",
+    "published_sha256": "e08b1ebceb762bc21530eeab4531b2005244937bafcccba6e83a0894a02c6e2e"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/generation/generate.py",
+    "published": "ours/projects/lifesim_ours1/ours1/generation/generate.py",
+    "sha256": "1c75531bb228882631487b8411897cb0921eb81edfb6abe5ba56faa46cc7985c",
+    "published_sha256": "1c75531bb228882631487b8411897cb0921eb81edfb6abe5ba56faa46cc7985c"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/SOURCE_SNAPSHOT.json",
+    "published": "ours/projects/mempabench_ours1/SOURCE_SNAPSHOT.json",
+    "sha256": "00ac56d73832bf677c4e26337fbbe6cd580eb19dac57e387435a85fdf474bb27",
+    "published_sha256": "00ac56d73832bf677c4e26337fbbe6cd580eb19dac57e387435a85fdf474bb27"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/modify.md",
+    "published": "ours/projects/mempabench_ours1/modify.md",
+    "sha256": "5041948823e9b3662d3e7bf4b71a760555c5f91f037ab315aca6d315eebf9081",
+    "published_sha256": "5041948823e9b3662d3e7bf4b71a760555c5f91f037ab315aca6d315eebf9081"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/README.md",
+    "published": "ours/projects/mempabench_ours1/ours1/README.md",
+    "sha256": "072eb430b4d4cf304a1b1f275dbfe9435757bf190c2665f7edd38a65841dc2ab",
+    "published_sha256": "072eb430b4d4cf304a1b1f275dbfe9435757bf190c2665f7edd38a65841dc2ab"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/EXPERIMENT.md",
+    "published": "ours/projects/mempabench_ours1/ours1/EXPERIMENT.md",
+    "sha256": "c6a33a14e2def8eb3611a6c41c20e349208d759dbcc196cd8897338a6fae4d07",
+    "published_sha256": "c6a33a14e2def8eb3611a6c41c20e349208d759dbcc196cd8897338a6fae4d07"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/data/private/subsets.json",
+    "published": "ours/projects/mempabench_ours1/ours1/data/private/subsets.json",
+    "sha256": "117e4dbd232a93d0ca67dca7471f15693964330660c11988651b518f47c4e84c",
+    "published_sha256": "117e4dbd232a93d0ca67dca7471f15693964330660c11988651b518f47c4e84c"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/data/private/pairs.json",
+    "published": "ours/projects/mempabench_ours1/ours1/data/private/pairs.json",
+    "sha256": "dc5aad6695400df572379ca3c656dfdb52c4f9cae22d546b7452611700683b29",
+    "published_sha256": "dc5aad6695400df572379ca3c656dfdb52c4f9cae22d546b7452611700683b29"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/data/private/oracle.jsonl",
+    "published": "ours/projects/mempabench_ours1/ours1/data/private/oracle.jsonl",
+    "sha256": "14b84ed0e53a3ec4f657633112b956ae6cf14e40777caddea05cf437ef936f16",
+    "published_sha256": "14b84ed0e53a3ec4f657633112b956ae6cf14e40777caddea05cf437ef936f16"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/data/private/templates.json",
+    "published": "ours/projects/mempabench_ours1/ours1/data/private/templates.json",
+    "sha256": "e4050dcd1bfe717528efa44491a990ac708ca55cdbfc379ef055b60d322287c2",
+    "published_sha256": "e4050dcd1bfe717528efa44491a990ac708ca55cdbfc379ef055b60d322287c2"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/data/public/episodes.jsonl",
+    "published": "ours/projects/mempabench_ours1/ours1/data/public/episodes.jsonl",
+    "sha256": "8f9fa1136e386d93bb501b20652b65a0b41ab697e6fce6df23b575403e3c7c22",
+    "published_sha256": "8f9fa1136e386d93bb501b20652b65a0b41ab697e6fce6df23b575403e3c7c22"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/results/source-adapted-20261102-v1/summary.json",
+    "published": "ours/projects/mempabench_ours1/ours1/results/source-adapted-20261102-v1/summary.json",
+    "sha256": "7721cf190f709aca4c72f663ed9ff3498db32f4ba4410e6b7f6518f2a884439c",
+    "published_sha256": "7721cf190f709aca4c72f663ed9ff3498db32f4ba4410e6b7f6518f2a884439c"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/results/source-adapted-20261102-v1/EXPERIMENT.md",
+    "published": "ours/projects/mempabench_ours1/ours1/results/source-adapted-20261102-v1/EXPERIMENT.md",
+    "sha256": "c6a33a14e2def8eb3611a6c41c20e349208d759dbcc196cd8897338a6fae4d07",
+    "published_sha256": "c6a33a14e2def8eb3611a6c41c20e349208d759dbcc196cd8897338a6fae4d07"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/results/smoke-20261102-v1/summary.json",
+    "published": "ours/projects/mempabench_ours1/ours1/results/smoke-20261102-v1/summary.json",
+    "sha256": "b57ffa4d5e5e3c297b0881ab4e75c8854ab082d5fe71d7db3c9cbe54478d9c28",
+    "published_sha256": "b57ffa4d5e5e3c297b0881ab4e75c8854ab082d5fe71d7db3c9cbe54478d9c28"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/results/smoke-20261102-v1/EXPERIMENT.md",
+    "published": "ours/projects/mempabench_ours1/ours1/results/smoke-20261102-v1/EXPERIMENT.md",
+    "sha256": "0de44b59068f9fc1fab5342392ee21f17c5fae6b2cfe0635f313928edfe019e2",
+    "published_sha256": "0de44b59068f9fc1fab5342392ee21f17c5fae6b2cfe0635f313928edfe019e2"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/configs/response.schema.json",
+    "published": "ours/projects/mempabench_ours1/ours1/configs/response.schema.json",
+    "sha256": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa",
+    "published_sha256": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/mempabench_ours1/ours1/configs/experiment.json",
+    "published": "ours/projects/mempabench_ours1/ours1/configs/experiment.json",
+    "sha256": "67c15ece3a2934e384d437c0351671664c432ac283d2f519371421d1a34b4462",
+    "published_sha256": "67c15ece3a2934e384d437c0351671664c432ac283d2f519371421d1a34b4462"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/SOURCE_SNAPSHOT.json",
+    "published": "ours/projects/proagentbench_ours1/SOURCE_SNAPSHOT.json",
+    "sha256": "99a5103edeb8750b65bf436126ab0284031308aa2c1afd61f9e734a710163d9e",
+    "published_sha256": "99a5103edeb8750b65bf436126ab0284031308aa2c1afd61f9e734a710163d9e"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/modify.md",
+    "published": "ours/projects/proagentbench_ours1/modify.md",
+    "sha256": "85c8bb315e9c848461fb4ea6da90c841cc35c2edcbc88a8cff85a2eb481a124a",
+    "published_sha256": "85c8bb315e9c848461fb4ea6da90c841cc35c2edcbc88a8cff85a2eb481a124a"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/README.md",
+    "published": "ours/projects/proagentbench_ours1/ours1/README.md",
+    "sha256": "a1672838e54bcb294bd5c295ef76867c2a94a21c04999e58aaa8111ef4b461bb",
+    "published_sha256": "a1672838e54bcb294bd5c295ef76867c2a94a21c04999e58aaa8111ef4b461bb"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/EXPERIMENT.md",
+    "published": "ours/projects/proagentbench_ours1/ours1/EXPERIMENT.md",
+    "sha256": "cfb72af880f0e451d63488c86f43f971f752eb597373d448b950151538c6e6fd",
+    "published_sha256": "cfb72af880f0e451d63488c86f43f971f752eb597373d448b950151538c6e6fd"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/data/private/subsets.json",
+    "published": "ours/projects/proagentbench_ours1/ours1/data/private/subsets.json",
+    "sha256": "6a84f75a243411e4f3eaed78574b439d89bb9bd163935c4f8566c0594d784d16",
+    "published_sha256": "6a84f75a243411e4f3eaed78574b439d89bb9bd163935c4f8566c0594d784d16"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/data/private/pairs.json",
+    "published": "ours/projects/proagentbench_ours1/ours1/data/private/pairs.json",
+    "sha256": "57615db629a913a9a5bfc35d8ef69ac808825aaf448d3141395f50173423f050",
+    "published_sha256": "57615db629a913a9a5bfc35d8ef69ac808825aaf448d3141395f50173423f050"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/data/private/oracle.jsonl",
+    "published": "ours/projects/proagentbench_ours1/ours1/data/private/oracle.jsonl",
+    "sha256": "196bc0b141cecd5f3243fc03673ccbc6bb2aba9a607de50e5f22056331b98faf",
+    "published_sha256": "196bc0b141cecd5f3243fc03673ccbc6bb2aba9a607de50e5f22056331b98faf"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/data/private/templates.json",
+    "published": "ours/projects/proagentbench_ours1/ours1/data/private/templates.json",
+    "sha256": "32ccf250998f385f63de6745181717167e07f9272e6e6936df3c37dece4e5c79",
+    "published_sha256": "32ccf250998f385f63de6745181717167e07f9272e6e6936df3c37dece4e5c79"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/data/public/episodes.jsonl",
+    "published": "ours/projects/proagentbench_ours1/ours1/data/public/episodes.jsonl",
+    "sha256": "7010d3bb18826438aadf628f80ea61512c0862d3cdca88e0eb40c3ee29a93879",
+    "published_sha256": "7010d3bb18826438aadf628f80ea61512c0862d3cdca88e0eb40c3ee29a93879"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/results/source-adapted-20261102-v1/summary.json",
+    "published": "ours/projects/proagentbench_ours1/ours1/results/source-adapted-20261102-v1/summary.json",
+    "sha256": "29e1560a199912dba3e0ad291754ab0b401871d05e406fe095503cc123bc4a70",
+    "published_sha256": "29e1560a199912dba3e0ad291754ab0b401871d05e406fe095503cc123bc4a70"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/results/source-adapted-20261102-v1/EXPERIMENT.md",
+    "published": "ours/projects/proagentbench_ours1/ours1/results/source-adapted-20261102-v1/EXPERIMENT.md",
+    "sha256": "cfb72af880f0e451d63488c86f43f971f752eb597373d448b950151538c6e6fd",
+    "published_sha256": "cfb72af880f0e451d63488c86f43f971f752eb597373d448b950151538c6e6fd"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/results/smoke-20261102-v1/summary.json",
+    "published": "ours/projects/proagentbench_ours1/ours1/results/smoke-20261102-v1/summary.json",
+    "sha256": "520434e65a5751380b9a056d4a4ce5da6b5d58f301c6a1545e9b89a37a7b72e2",
+    "published_sha256": "520434e65a5751380b9a056d4a4ce5da6b5d58f301c6a1545e9b89a37a7b72e2"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/results/smoke-20261102-v1/EXPERIMENT.md",
+    "published": "ours/projects/proagentbench_ours1/ours1/results/smoke-20261102-v1/EXPERIMENT.md",
+    "sha256": "210e5407857fdb81733b2db222791ddd22e17cd6dea62020805805dbae4c0e8d",
+    "published_sha256": "210e5407857fdb81733b2db222791ddd22e17cd6dea62020805805dbae4c0e8d"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/configs/response.schema.json",
+    "published": "ours/projects/proagentbench_ours1/ours1/configs/response.schema.json",
+    "sha256": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa",
+    "published_sha256": "1c5fa252140a8bf55799a991b1925b864485b1ac8704386324d9f66b48be95fa"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/proagentbench_ours1/ours1/configs/experiment.json",
+    "published": "ours/projects/proagentbench_ours1/ours1/configs/experiment.json",
+    "sha256": "67c15ece3a2934e384d437c0351671664c432ac283d2f519371421d1a34b4462",
+    "published_sha256": "67c15ece3a2934e384d437c0351671664c432ac283d2f519371421d1a34b4462"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/pi_bench_ours1/ours1/archive/20261102-before-cleanup/modify.md",
+    "published": "ours/projects/pi_bench_ours1/docs/history/modify-20261102.md",
+    "sha256": "1d5053652a644f1d3ce34d41c72abf0d73df5f4d71393b8f0af06dd0a645d0cf",
+    "published_sha256": "1d5053652a644f1d3ce34d41c72abf0d73df5f4d71393b8f0af06dd0a645d0cf"
+  },
+  {
+    "source": "/home/tim/Proj/I3Agent/ours/lifesim_ours1/ours1/archive/20261102-before-cleanup/modify.md",
+    "published": "ours/projects/lifesim_ours1/docs/history/modify-20261102.md",
+    "sha256": "09cfcc8e5f8be6e8ba526aa4bbe42bf901b3e5caba75b5a5b1338750b7f95c8c",
+    "published_sha256": "09cfcc8e5f8be6e8ba526aa4bbe42bf901b3e5caba75b5a5b1338750b7f95c8c"
+  }
+]

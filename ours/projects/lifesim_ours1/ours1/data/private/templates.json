@@ -1,0 +1,418 @@
+[
+  {
+    "template_id": "dining_ambience",
+    "domain": "dining",
+    "scenario": "用餐：环境",
+    "values": [
+      "安静",
+      "热闹"
+    ],
+    "synthetic_asset_description": "两家价格距离一致的虚构餐厅",
+    "goal": "为今晚选择一家餐厅",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "dining_seating",
+    "domain": "dining",
+    "scenario": "用餐：座位",
+    "values": [
+      "室内",
+      "露台"
+    ],
+    "synthetic_asset_description": "天气适宜且都可用的两个座位方案",
+    "goal": "选择用餐座位",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "dining_service",
+    "domain": "dining",
+    "scenario": "用餐：服务形式",
+    "values": [
+      "自助",
+      "桌边服务"
+    ],
+    "synthetic_asset_description": "两个均满足需求的合成餐厅方案",
+    "goal": "选择服务形式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "dining_booking_time",
+    "domain": "dining",
+    "scenario": "用餐：时间",
+    "values": [
+      "18点",
+      "19点"
+    ],
+    "synthetic_asset_description": "两个均有空位的模拟预约时段",
+    "goal": "选择晚餐计划时段，不实际预约",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "sport_location",
+    "domain": "sport_health",
+    "scenario": "运动：场所",
+    "values": [
+      "室内",
+      "室外"
+    ],
+    "synthetic_asset_description": "天气适宜的两项低强度活动",
+    "goal": "选择今晚的活动场所",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "sport_company",
+    "domain": "sport_health",
+    "scenario": "运动：同行",
+    "values": [
+      "独自",
+      "与朋友"
+    ],
+    "synthetic_asset_description": "两种均已具备条件的散步安排",
+    "goal": "选择散步安排",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "sport_time",
+    "domain": "sport_health",
+    "scenario": "运动：时段",
+    "values": [
+      "早晨",
+      "傍晚"
+    ],
+    "synthetic_asset_description": "两个都可行的轻活动时段",
+    "goal": "选择活动时段",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "sport_recording",
+    "domain": "sport_health",
+    "scenario": "运动：记录形式",
+    "values": [
+      "文字日记",
+      "打卡清单"
+    ],
+    "synthetic_asset_description": "两种模拟活动记录工具",
+    "goal": "选择记录方案",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "travel_transport",
+    "domain": "travel",
+    "scenario": "出行：交通",
+    "values": [
+      "铁路",
+      "巴士"
+    ],
+    "synthetic_asset_description": "时间价格相同的两条模拟线路",
+    "goal": "选择周末出行方案",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "travel_pace",
+    "domain": "travel",
+    "scenario": "出行：节奏",
+    "values": [
+      "单点慢游",
+      "多点短停"
+    ],
+    "synthetic_asset_description": "两份时长相同的合成行程",
+    "goal": "选择行程节奏",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "travel_lodging",
+    "domain": "travel",
+    "scenario": "出行：住宿位置",
+    "values": [
+      "市中心",
+      "郊区"
+    ],
+    "synthetic_asset_description": "价格安全可达性均满足的两个虚构住宿方案",
+    "goal": "选择住宿计划，不实际预订",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "travel_info_format",
+    "domain": "travel",
+    "scenario": "出行：导航说明",
+    "values": [
+      "步骤清单",
+      "简图"
+    ],
+    "synthetic_asset_description": "同一路线的两份离线说明",
+    "goal": "选择导航说明形式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "entertainment_activity",
+    "domain": "entertainment",
+    "scenario": "休闲：活动",
+    "values": [
+      "博物馆",
+      "公园"
+    ],
+    "synthetic_asset_description": "均开放且可达的两个虚构活动",
+    "goal": "选择周末休闲活动",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "entertainment_movie_time",
+    "domain": "entertainment",
+    "scenario": "休闲：观影时间",
+    "values": [
+      "下午",
+      "晚上"
+    ],
+    "synthetic_asset_description": "价格相同的两个模拟场次",
+    "goal": "选择观影计划场次",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "entertainment_music",
+    "domain": "entertainment",
+    "scenario": "休闲：音乐",
+    "values": [
+      "纯音乐",
+      "有人声"
+    ],
+    "synthetic_asset_description": "两个离线播放清单的介绍",
+    "goal": "选择背景音乐类型",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "entertainment_group",
+    "domain": "entertainment",
+    "scenario": "休闲：聚会规模",
+    "values": [
+      "两三人",
+      "六到八人"
+    ],
+    "synthetic_asset_description": "两个均可安排的模拟聚会",
+    "goal": "选择聚会规模",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "education_material",
+    "domain": "education",
+    "scenario": "学习：材料",
+    "values": [
+      "文字",
+      "视频"
+    ],
+    "synthetic_asset_description": "内容等价的两份离线教材简介",
+    "goal": "选择复习材料",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "education_order",
+    "domain": "education",
+    "scenario": "学习：顺序",
+    "values": [
+      "例题先行",
+      "概念先行"
+    ],
+    "synthetic_asset_description": "同一知识点的两种课程结构",
+    "goal": "选择学习顺序",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "education_schedule",
+    "domain": "education",
+    "scenario": "学习：安排",
+    "values": [
+      "每日短时",
+      "周末集中"
+    ],
+    "synthetic_asset_description": "总时长一致的两个计划",
+    "goal": "选择学习计划",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "education_feedback",
+    "domain": "education",
+    "scenario": "学习：反馈",
+    "values": [
+      "即时反馈",
+      "结束后汇总"
+    ],
+    "synthetic_asset_description": "两种练习反馈模式",
+    "goal": "选择反馈模式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "childcare_story_format",
+    "domain": "childcare",
+    "scenario": "亲子：故事形式",
+    "values": [
+      "纸质绘本",
+      "音频故事"
+    ],
+    "synthetic_asset_description": "适龄且内容等价的两份合成材料",
+    "goal": "选择亲子故事材料",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "childcare_outing",
+    "domain": "childcare",
+    "scenario": "亲子：活动场所",
+    "values": [
+      "室内活动室",
+      "户外公园"
+    ],
+    "synthetic_asset_description": "天气适宜且均适龄的两个虚构活动",
+    "goal": "选择亲子休闲计划",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "childcare_activity_style",
+    "domain": "childcare",
+    "scenario": "亲子：活动形式",
+    "values": [
+      "手工",
+      "绘画"
+    ],
+    "synthetic_asset_description": "均适龄且已有材料的两项活动",
+    "goal": "选择亲子活动",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "childcare_schedule_format",
+    "domain": "childcare",
+    "scenario": "亲子：日程形式",
+    "values": [
+      "图标日历",
+      "文字清单"
+    ],
+    "synthetic_asset_description": "内容一致的两份日程模板",
+    "goal": "选择日程展示形式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "elderlycare_contact",
+    "domain": "elderlycare",
+    "scenario": "家庭陪伴：联系形式",
+    "values": [
+      "语音通话",
+      "文字消息"
+    ],
+    "synthetic_asset_description": "双方均能使用的两种联系计划",
+    "goal": "选择日常问候方式，不实际联系",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "elderlycare_visit_time",
+    "domain": "elderlycare",
+    "scenario": "家庭陪伴：探访时间",
+    "values": [
+      "上午",
+      "下午"
+    ],
+    "synthetic_asset_description": "双方均有空的两个时段",
+    "goal": "选择探访计划时段",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "elderlycare_leisure",
+    "domain": "elderlycare",
+    "scenario": "家庭陪伴：休闲内容",
+    "values": [
+      "听音乐",
+      "看照片"
+    ],
+    "synthetic_asset_description": "两项均可行的陪伴活动",
+    "goal": "选择休闲陪伴活动",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "elderlycare_reminder",
+    "domain": "elderlycare",
+    "scenario": "家庭陪伴：提醒形式",
+    "values": [
+      "纸质便签",
+      "电子日历"
+    ],
+    "synthetic_asset_description": "两种非医疗日程提醒方案",
+    "goal": "选择提醒方案，不设置真实提醒",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "mental_reflection",
+    "domain": "mental_health",
+    "scenario": "放松：记录方式",
+    "values": [
+      "自由书写",
+      "提示问答"
+    ],
+    "synthetic_asset_description": "两个日常自我记录模板",
+    "goal": "选择晚间放松记录形式，不作诊疗",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "mental_break_setting",
+    "domain": "mental_health",
+    "scenario": "放松：休息环境",
+    "values": [
+      "安静独处",
+      "轻松陪伴"
+    ],
+    "synthetic_asset_description": "两个本人可自由选择的休息安排",
+    "goal": "选择短暂休息方式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "mental_unwind_activity",
+    "domain": "mental_health",
+    "scenario": "放松：休闲内容",
+    "values": [
+      "阅读",
+      "听音乐"
+    ],
+    "synthetic_asset_description": "两项低负担的休闲活动",
+    "goal": "选择晚间放松活动",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "mental_support_tone",
+    "domain": "mental_health",
+    "scenario": "放松：回应语气",
+    "values": [
+      "简洁务实",
+      "温和鼓励"
+    ],
+    "synthetic_asset_description": "同一日常烦恼的两种回应风格",
+    "goal": "选择回应风格，不作心理诊断",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  }
+]

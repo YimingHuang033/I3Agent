@@ -1,0 +1,18 @@
+[submodule "lifesim"]
+	path = benchmarks/sources/lifesim
+	url = https://github.com/sii-research/lifesim.git
+[submodule "Pi-Bench"]
+	path = benchmarks/sources/Pi-Bench
+	url = https://github.com/Simplified-Reasoning/Pi-Bench.git
+[submodule "ProAgentBench"]
+	path = benchmarks/sources/ProAgentBench
+	url = https://huggingface.co/datasets/qv9n2xk7m1z8pt4/ProAgentBench
+[submodule "PAST-Bench"]
+	path = benchmarks/sources/PAST-Bench
+	url = https://github.com/Gen-Verse/PAST-Bench.git
+[submodule "MemPABench"]
+	path = benchmarks/sources/MemPABench
+	url = https://github.com/mempabench/mempabench.git
+[submodule "MemPABench-personas"]
+	path = benchmarks/data/MemPABench-personas
+	url = https://huggingface.co/datasets/mempabench/mempabench-personas

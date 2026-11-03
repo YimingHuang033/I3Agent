@@ -1,0 +1,3 @@
+# NanoBot requires websockets>=16; newer lark-oapi requires websockets<16.
+# 1.5.3 is within upstream lark-oapi>=1.5.0,<2.0.0 and has no conflicting upper bound.
+lark-oapi==1.5.3

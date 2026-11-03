@@ -1,0 +1,104 @@
+{
+  "schema_version": "ours1.v1",
+  "status": "source_adaptation_authorized",
+  "execution_enabled": true,
+  "training_enabled": false,
+  "benchmark": "pi_bench_ours1",
+  "seed": 42,
+  "repetitions_planned": 1,
+  "model": {
+    "backend": "vllm_openai",
+    "choices": [
+      {
+        "name": "Qwen3-8B",
+        "path": "/mnt/data/Qwen3-8B",
+        "base_url": "http://127.0.0.1:8020/v1",
+        "thinking": false
+      },
+      {
+        "name": "gpt-oss-20b",
+        "path": "/mnt/data/gpt-oss-20b",
+        "base_url": "http://127.0.0.1:8021/v1",
+        "reasoning_effort": "low"
+      }
+    ],
+    "temperature": 0
+  },
+  "credential_file_external": "/home/tim/Proj/I3Agent/deepseek.env.sh",
+  "baselines": {
+    "current_session": {
+      "history": "none",
+      "retain_current_session": true
+    },
+    "history_retrieval": {
+      "history": "dense_top_k",
+      "top_k": 2,
+      "sort_selected": "timestamp_ascending",
+      "embedding_path": "/home/tim/Proj/I3Agent/models/Qwen3-Embedding-0.6B",
+      "device": "cpu",
+      "normalized_cosine": true,
+      "retain_current_session": true
+    }
+  },
+  "limits": {
+    "checkpoints": 3,
+    "max_clarifications_per_checkpoint": 1,
+    "max_assistant_responses_per_checkpoint": 2,
+    "max_new_tokens_per_response": 768,
+    "max_projected_responses_full_one_baseline": 13824
+  },
+  "execution_contract": {
+    "public_only_actor_mount": true,
+    "private_oracle_controller_only": true,
+    "isolate_episode_baseline_repeat": true,
+    "clear_session_at_checkpoint_2": true,
+    "retrieve_only_past_user_records": true,
+    "actual_external_actions": false
+  },
+  "original_cli_compatible": false,
+  "adapter_status": "protocol_prepared_model_and_native_harness_wiring_pending_design_review",
+  "generation": {
+    "base_templates": 32,
+    "directions": [
+      0,
+      1
+    ],
+    "distractors": [
+      0,
+      8,
+      24
+    ],
+    "wordings": [
+      0,
+      1,
+      2
+    ],
+    "conditions": [
+      "S",
+      "R",
+      "U0",
+      "U1"
+    ],
+    "expected_episodes": 2304,
+    "expected_pairs": 1152,
+    "human_reviewed": false
+  },
+  "subsets": {
+    "discussion": 16,
+    "pilot": 128,
+    "full": 2304
+  },
+  "default_subset": "discussion",
+  "calibration_authorized": true,
+  "full_execution_enabled": true,
+  "judge": {
+    "name": "deepseek-flash",
+    "base_url_env": "JUDGER_BASE_URL",
+    "api_key_env": "JUDGER_API_KEY",
+    "role": "supplementary_semantic_audit",
+    "authoritative_score": "known-target deterministic checks",
+    "thinking": "disabled",
+    "max_tokens": 1024
+  },
+  "authorization": "User 2026-11-02: continuous Ours experiments and 20m monitoring"
+}

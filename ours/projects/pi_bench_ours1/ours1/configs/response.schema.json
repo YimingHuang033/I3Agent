@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ours1 structured response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "option_id",
+    "question_slot",
+    "claims"
+  ],
+  "properties": {
+    "kind": {
+      "enum": [
+        "commit",
+        "ask",
+        "abstain"
+      ]
+    },
+    "option_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "question_slot": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "slot",
+          "value",
+          "evidence_ids"
+        ],
+        "properties": {
+          "slot": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

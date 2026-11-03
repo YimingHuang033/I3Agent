@@ -1,0 +1,478 @@
+{
+  "scope": "synthetic Ours1 controlled JSON harness; not native benchmark runtime",
+  "runs": {
+    "serial": {
+      "path": "/home/tim/Proj/I3Agent/ours1_runtime/runs/20261102-013619-serial",
+      "models": {
+        "qwen": {
+          "started_at": "2026-11-02T01:36:27.063197+08:00",
+          "model": "Qwen3-8B",
+          "base_url": "http://127.0.0.1:8020/v1",
+          "model_kind": "qwen",
+          "workers": 1,
+          "cases_per_project": 8,
+          "projects": [
+            "/home/tim/Proj/I3Agent/pi_bench_ours1",
+            "/home/tim/Proj/I3Agent/lifesim_ours1"
+          ],
+          "max_tokens": 768,
+          "temperature": 0,
+          "seed": 42,
+          "warmup_seconds": 7.383708702051081,
+          "native_benchmark_harness": false,
+          "driver": "ours1 controlled JSON decision harness",
+          "max_retries": 0,
+          "episodes": 32,
+          "successful_episodes": 32,
+          "error_episodes": 0,
+          "requests": 144,
+          "wall_seconds": 160.88792297395412,
+          "episodes_per_minute": 11.933773303238091,
+          "successful_episodes_per_minute": 11.933773303238091,
+          "request_latency_p50": 1.2392189180245623,
+          "request_latency_p95": 1.3128342119744048,
+          "mean_episode_seconds": 5.026590929170197,
+          "completion_tokens": 8623,
+          "prompt_tokens": 79107,
+          "completion_tokens_per_wall_second": 53.59631624678232,
+          "length_finishes": 0,
+          "groups": {
+            "current_session": {
+              "episodes": 16,
+              "mean_episode_seconds": 4.701140948258399,
+              "error_episodes": 0,
+              "correct_actions": {
+                "0": 16,
+                "1": 16,
+                "2": 16
+              },
+              "questions": 32,
+              "unsupported_claims": 0,
+              "claims": 48
+            },
+            "history_retrieval": {
+              "episodes": 16,
+              "mean_episode_seconds": 5.352040910081996,
+              "error_episodes": 0,
+              "correct_actions": {
+                "0": 16,
+                "1": 16,
+                "2": 16
+              },
+              "questions": 16,
+              "unsupported_claims": 16,
+              "claims": 60
+            }
+          },
+          "embedding": {
+            "encode_batches": 23,
+            "unique_texts_encoded": 54,
+            "encode_seconds": 10.72796372207813
+          },
+          "completed_at": "2026-11-02T01:39:07.952279+08:00"
+        },
+        "gptoss": {
+          "started_at": "2026-11-02T01:36:24.517242+08:00",
+          "model": "gpt-oss-20b",
+          "base_url": "http://127.0.0.1:8021/v1",
+          "model_kind": "gptoss",
+          "workers": 1,
+          "cases_per_project": 8,
+          "projects": [
+            "/home/tim/Proj/I3Agent/pi_bench_ours1",
+            "/home/tim/Proj/I3Agent/lifesim_ours1"
+          ],
+          "max_tokens": 768,
+          "temperature": 0,
+          "seed": 42,
+          "warmup_seconds": 4.842758555081673,
+          "native_benchmark_harness": false,
+          "driver": "ours1 controlled JSON decision harness",
+          "max_retries": 0,
+          "episodes": 32,
+          "successful_episodes": 24,
+          "error_episodes": 8,
+          "requests": 136,
+          "wall_seconds": 90.83890230802353,
+          "episodes_per_minute": 21.13631881514284,
+          "successful_episodes_per_minute": 15.852239111357129,
+          "request_latency_p50": 0.44315282709430903,
+          "request_latency_p95": 1.400861719972454,
+          "mean_episode_seconds": 2.837748900943552,
+          "completion_tokens": 15037,
+          "prompt_tokens": 85437,
+          "completion_tokens_per_wall_second": 165.53480522047025,
+          "length_finishes": 0,
+          "groups": {
+            "current_session": {
+              "episodes": 16,
+              "mean_episode_seconds": 2.5479917840784765,
+              "error_episodes": 4,
+              "correct_actions": {
+                "0": 16,
+                "1": 9,
+                "2": 16
+              },
+              "questions": 32,
+              "unsupported_claims": 0,
+              "claims": 20
+            },
+            "history_retrieval": {
+              "episodes": 16,
+              "mean_episode_seconds": 3.127506017808628,
+              "error_episodes": 4,
+              "correct_actions": {
+                "0": 16,
+                "1": 11,
+                "2": 12
+              },
+              "questions": 8,
+              "unsupported_claims": 1,
+              "claims": 21
+            }
+          },
+          "embedding": {
+            "encode_batches": 23,
+            "unique_texts_encoded": 54,
+            "encode_seconds": 10.79925510182511
+          },
+          "completed_at": "2026-11-02T01:37:55.357260+08:00"
+        }
+      }
+    },
+    "parallel4": {
+      "path": "/home/tim/Proj/I3Agent/ours1_runtime/runs/20261102-013910-parallel4",
+      "models": {
+        "qwen": {
+          "started_at": "2026-11-02T01:39:18.803932+08:00",
+          "model": "Qwen3-8B",
+          "base_url": "http://127.0.0.1:8020/v1",
+          "model_kind": "qwen",
+          "workers": 4,
+          "cases_per_project": 8,
+          "projects": [
+            "/home/tim/Proj/I3Agent/pi_bench_ours1",
+            "/home/tim/Proj/I3Agent/lifesim_ours1"
+          ],
+          "max_tokens": 768,
+          "temperature": 0,
+          "seed": 42,
+          "warmup_seconds": 7.402073036064394,
+          "native_benchmark_harness": false,
+          "driver": "ours1 controlled JSON decision harness",
+          "max_retries": 0,
+          "episodes": 32,
+          "successful_episodes": 32,
+          "error_episodes": 0,
+          "requests": 144,
+          "wall_seconds": 45.87715605809353,
+          "episodes_per_minute": 41.85089410443694,
+          "successful_episodes_per_minute": 41.85089410443694,
+          "request_latency_p50": 1.3220802430296317,
+          "request_latency_p95": 1.4028972269734368,
+          "mean_episode_seconds": 5.546949074188888,
+          "completion_tokens": 8627,
+          "prompt_tokens": 78899,
+          "completion_tokens_per_wall_second": 188.0456580411341,
+          "length_finishes": 0,
+          "groups": {
+            "current_session": {
+              "episodes": 16,
+              "mean_episode_seconds": 5.091920757884509,
+              "error_episodes": 0,
+              "correct_actions": {
+                "0": 16,
+                "1": 16,
+                "2": 16
+              },
+              "questions": 32,
+              "unsupported_claims": 0,
+              "claims": 48
+            },
+            "history_retrieval": {
+              "episodes": 16,
+              "mean_episode_seconds": 6.001977390493266,
+              "error_episodes": 0,
+              "correct_actions": {
+                "0": 16,
+                "1": 16,
+                "2": 16
+              },
+              "questions": 16,
+              "unsupported_claims": 9,
+              "claims": 55
+            }
+          },
+          "embedding": {
+            "encode_batches": 23,
+            "unique_texts_encoded": 54,
+            "encode_seconds": 11.524998610955663
+          },
+          "completed_at": "2026-11-02T01:40:04.682718+08:00"
+        },
+        "gptoss": {
+          "started_at": "2026-11-02T01:39:16.328543+08:00",
+          "model": "gpt-oss-20b",
+          "base_url": "http://127.0.0.1:8021/v1",
+          "model_kind": "gptoss",
+          "workers": 4,
+          "cases_per_project": 8,
+          "projects": [
+            "/home/tim/Proj/I3Agent/pi_bench_ours1",
+            "/home/tim/Proj/I3Agent/lifesim_ours1"
+          ],
+          "max_tokens": 768,
+          "temperature": 0,
+          "seed": 42,
+          "warmup_seconds": 4.931717065977864,
+          "native_benchmark_harness": false,
+          "driver": "ours1 controlled JSON decision harness",
+          "max_retries": 0,
+          "episodes": 32,
+          "successful_episodes": 27,
+          "error_episodes": 5,
+          "requests": 136,
+          "wall_seconds": 33.53116394393146,
+          "episodes_per_minute": 57.26016559432574,
+          "successful_episodes_per_minute": 48.313264720212345,
+          "request_latency_p50": 0.6691948589868844,
+          "request_latency_p95": 1.6393476510420442,
+          "mean_episode_seconds": 3.986298754945892,
+          "completion_tokens": 12989,
+          "prompt_tokens": 85393,
+          "completion_tokens_per_wall_second": 387.3709848461964,
+          "length_finishes": 0,
+          "groups": {
+            "current_session": {
+              "episodes": 16,
+              "mean_episode_seconds": 3.261899001263373,
+              "error_episodes": 2,
+              "correct_actions": {
+                "0": 16,
+                "1": 10,
+                "2": 16
+              },
+              "questions": 32,
+              "unsupported_claims": 0,
+              "claims": 19
+            },
+            "history_retrieval": {
+              "episodes": 16,
+              "mean_episode_seconds": 4.710698508628411,
+              "error_episodes": 3,
+              "correct_actions": {
+                "0": 16,
+                "1": 13,
+                "2": 12
+              },
+              "questions": 8,
+              "unsupported_claims": 3,
+              "claims": 22
+            }
+          },
+          "embedding": {
+            "encode_batches": 23,
+            "unique_texts_encoded": 54,
+            "encode_seconds": 11.213141637854278
+          },
+          "completed_at": "2026-11-02T01:39:49.860268+08:00"
+        }
+      }
+    },
+    "parallel8": {
+      "path": "/home/tim/Proj/I3Agent/ours1_runtime/runs/20261102-014005-parallel8",
+      "models": {
+        "qwen": {
+          "started_at": "2026-11-02T01:40:13.669586+08:00",
+          "model": "Qwen3-8B",
+          "base_url": "http://127.0.0.1:8020/v1",
+          "model_kind": "qwen",
+          "workers": 8,
+          "cases_per_project": 8,
+          "projects": [
+            "/home/tim/Proj/I3Agent/pi_bench_ours1",
+            "/home/tim/Proj/I3Agent/lifesim_ours1"
+          ],
+          "max_tokens": 768,
+          "temperature": 0,
+          "seed": 42,
+          "warmup_seconds": 7.3496214839397,
+          "native_benchmark_harness": false,
+          "driver": "ours1 controlled JSON decision harness",
+          "max_retries": 0,
+          "episodes": 32,
+          "successful_episodes": 32,
+          "error_episodes": 0,
+          "requests": 144,
+          "wall_seconds": 27.804673025966622,
+          "episodes_per_minute": 69.05314075108609,
+          "successful_episodes_per_minute": 69.05314075108609,
+          "request_latency_p50": 1.3408951979363337,
+          "request_latency_p95": 1.4282824390102178,
+          "mean_episode_seconds": 6.4356930339672545,
+          "completion_tokens": 8626,
+          "prompt_tokens": 78919,
+          "completion_tokens_per_wall_second": 310.2356208952441,
+          "length_finishes": 0,
+          "groups": {
+            "current_session": {
+              "episodes": 16,
+              "mean_episode_seconds": 5.125968875370745,
+              "error_episodes": 0,
+              "correct_actions": {
+                "0": 16,
+                "1": 16,
+                "2": 16
+              },
+              "questions": 32,
+              "unsupported_claims": 0,
+              "claims": 48
+            },
+            "history_retrieval": {
+              "episodes": 16,
+              "mean_episode_seconds": 7.745417192563764,
+              "error_episodes": 0,
+              "correct_actions": {
+                "0": 16,
+                "1": 16,
+                "2": 16
+              },
+              "questions": 16,
+              "unsupported_claims": 10,
+              "claims": 56
+            }
+          },
+          "embedding": {
+            "encode_batches": 23,
+            "unique_texts_encoded": 54,
+            "encode_seconds": 12.018972854013555
+          },
+          "completed_at": "2026-11-02T01:40:41.475594+08:00"
+        },
+        "gptoss": {
+          "started_at": "2026-11-02T01:40:11.198968+08:00",
+          "model": "gpt-oss-20b",
+          "base_url": "http://127.0.0.1:8021/v1",
+          "model_kind": "gptoss",
+          "workers": 8,
+          "cases_per_project": 8,
+          "projects": [
+            "/home/tim/Proj/I3Agent/pi_bench_ours1",
+            "/home/tim/Proj/I3Agent/lifesim_ours1"
+          ],
+          "max_tokens": 768,
+          "temperature": 0,
+          "seed": 42,
+          "warmup_seconds": 4.887365358998068,
+          "native_benchmark_harness": false,
+          "driver": "ours1 controlled JSON decision harness",
+          "max_retries": 0,
+          "episodes": 32,
+          "successful_episodes": 25,
+          "error_episodes": 7,
+          "requests": 136,
+          "wall_seconds": 25.071798840072006,
+          "episodes_per_minute": 76.58006560467784,
+          "successful_episodes_per_minute": 59.82817625365456,
+          "request_latency_p50": 0.7664403769886121,
+          "request_latency_p95": 2.030006406013854,
+          "mean_episode_seconds": 5.779042530444713,
+          "completion_tokens": 13968,
+          "prompt_tokens": 85391,
+          "completion_tokens_per_wall_second": 557.1199772740313,
+          "length_finishes": 0,
+          "groups": {
+            "current_session": {
+              "episodes": 16,
+              "mean_episode_seconds": 4.004979560384527,
+              "error_episodes": 4,
+              "correct_actions": {
+                "0": 16,
+                "1": 10,
+                "2": 16
+              },
+              "questions": 32,
+              "unsupported_claims": 0,
+              "claims": 14
+            },
+            "history_retrieval": {
+              "episodes": 16,
+              "mean_episode_seconds": 7.553105500504898,
+              "error_episodes": 3,
+              "correct_actions": {
+                "0": 16,
+                "1": 13,
+                "2": 12
+              },
+              "questions": 8,
+              "unsupported_claims": 4,
+              "claims": 27
+            }
+          },
+          "embedding": {
+            "encode_batches": 23,
+            "unique_texts_encoded": 54,
+            "encode_seconds": 12.42753017297946
+          },
+          "completed_at": "2026-11-02T01:40:36.271325+08:00"
+        }
+      }
+    }
+  },
+  "tim_environment": {
+    "package_versions_unchanged": true,
+    "conda_history_unchanged": true,
+    "packages": 323
+  },
+  "judge": {
+    "judge": "deepseek-flash",
+    "thinking": "disabled",
+    "max_tokens": 1024,
+    "episodes": 8,
+    "successful": 8,
+    "workers": 4,
+    "wall_seconds": 2.862503304029815,
+    "sum_request_seconds": 9.880413227016106,
+    "prompt_tokens": 14974,
+    "completion_tokens": 765,
+    "purpose": "supplementary visible-evidence semantic audit; not replacement for hidden-target scores"
+  },
+  "script_sha256": {
+    "judge_audit.py": "4f894546226cd76b5b6bf3d6bd74a81f608ea2016f209932d161ea4f16ed5de8",
+    "collect_results.py": "e2ca3b69a036bf2b6fc524c904a57055988ae548b6fcac15ccddce6973b1ca14",
+    "finish_calibration.py": "a9956dfc8096be5a1d99f13c3227b9180ed7fd0cc4670b55f441746df2bf79d3",
+    "manage_services.py": "a115b0ec1ea5818bafa1723f243c861d442883a0eddd8d702c0f8f8829b11518",
+    "run_local.py": "ba99d6f64ac9495146b5b2f287091e38691b75e04c164dae505048208ff57d9a",
+    "update_docs.py": "f519358d90d5827d06a67f748ce558ce623e60d6ffe516f901b1bf5292c60855",
+    "launch_batch.py": "4b4b239e1adbb8c38edf1669edd41511549562a49810c2a7bcc0a14ae7828956"
+  },
+  "source_verification": {
+    "pi_bench_ours1": {
+      "files": 15584,
+      "source_and_snapshot_unchanged": true,
+      "mismatches": []
+    },
+    "lifesim_ours1": {
+      "files": 64,
+      "source_and_snapshot_unchanged": true,
+      "mismatches": []
+    }
+  },
+  "full_workload": {
+    "unique_episodes": 4608,
+    "baselines": 2,
+    "models": 2,
+    "model_episodes": 18432,
+    "episodes_per_model": 9216
+  },
+  "full_two_gpu_linear_minutes": {
+    "serial": 772.2620302749798,
+    "parallel4": 220.21034907884896,
+    "parallel8": 133.46243052463979
+  },
+  "planning_actor_hours": [
+    3.3365607631159944,
+    6.673121526231989
+  ],
+  "judge_full_linear_hours": 1.8320021145790815
+}

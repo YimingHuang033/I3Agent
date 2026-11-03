@@ -1,0 +1,328 @@
+{
+  "source": "/home/tim/Proj/I3Agent/lifesim",
+  "git_head": null,
+  "method": "copy deployed source archive tree; no source .git metadata available",
+  "created_at": "2026-11-02T01:01:55.451347+08:00",
+  "files": [
+    {
+      "source_relative_path": ".gitignore",
+      "snapshot_relative_path": ".gitignore",
+      "sha256": "073c7efc8697e35cb478a7ecff021f64028202c84644a4a291de33758493351e"
+    },
+    {
+      "source_relative_path": "README.md",
+      "snapshot_relative_path": "README.md",
+      "sha256": "31badfac6fc3a98c37a58b563580b54607c4a45fa48546c047441e5366a92bec"
+    },
+    {
+      "source_relative_path": "data/language_templates.json",
+      "snapshot_relative_path": "data/language_templates.json",
+      "sha256": "b7473113597f5034669e29d61e3628693095b4d46bd3cc1bab59e71065e63028"
+    },
+    {
+      "source_relative_path": "data/long_horizon/events.jsonl",
+      "snapshot_relative_path": "data/long_horizon/events.jsonl",
+      "sha256": "789f1f32c156d671d66695454507a09f2e3c44afe6d2e0d291fea229f7a98d44"
+    },
+    {
+      "source_relative_path": "data/long_horizon/users.jsonl",
+      "snapshot_relative_path": "data/long_horizon/users.jsonl",
+      "sha256": "6f36d6ed07206d8b853fde37cb45f5ca97020c97ac77bdccc98189031b7d79cd"
+    },
+    {
+      "source_relative_path": "data/single_session/events.jsonl",
+      "snapshot_relative_path": "data/single_session/events.jsonl",
+      "sha256": "634f9b732e114ebdd69e058940eabdb6943829df1b58020b070439ffc492716a"
+    },
+    {
+      "source_relative_path": "data/single_session/users.jsonl",
+      "snapshot_relative_path": "data/single_session/users.jsonl",
+      "sha256": "f0f9bb4e451ccb51ef0f489663f32c13c69038e673893383db75e8fd7e2f0cd9"
+    },
+    {
+      "source_relative_path": "demo/app.py",
+      "snapshot_relative_path": "demo/app.py",
+      "sha256": "f814857e319f0c05010336837ce0cc0e51f0bfaa1ef5e23610eacc3d495cb608"
+    },
+    {
+      "source_relative_path": "demo/config_template.yaml",
+      "snapshot_relative_path": "demo/config_template.yaml",
+      "sha256": "b7c9d545975840be97ecc0ad6207841ecbfea1187a48c562358c0de815dfe048"
+    },
+    {
+      "source_relative_path": "demo/data/user_names.json",
+      "snapshot_relative_path": "demo/data/user_names.json",
+      "sha256": "879ae98817af4bd9819daf94089c3e98278f78056bb57c3bce62e4fff0afdf92"
+    },
+    {
+      "source_relative_path": "demo/scripts.md",
+      "snapshot_relative_path": "demo/scripts.md",
+      "sha256": "d8c8cc0c4eeaed66242e808c6bfdb6970a16b27221628d707b5f985eb38cb454"
+    },
+    {
+      "source_relative_path": "demo/static/css/style.css",
+      "snapshot_relative_path": "demo/static/css/style.css",
+      "sha256": "4e69167bda14c0c3c6e60b85d5d7df87c7d196f7ca5bde8ab202bc670acb3133"
+    },
+    {
+      "source_relative_path": "demo/static/js/i18n.js",
+      "snapshot_relative_path": "demo/static/js/i18n.js",
+      "sha256": "bcc766c42f6ec384db7f68901f94b7ad4694d72803a78b8c0c3b17bb571c1be2"
+    },
+    {
+      "source_relative_path": "demo/static/js/live.js",
+      "snapshot_relative_path": "demo/static/js/live.js",
+      "sha256": "ca7da25084aaa19024f8a4395a9a5e9c99a120b20ae9f36610cc8d03b3e0faa0"
+    },
+    {
+      "source_relative_path": "demo/static/js/main.js",
+      "snapshot_relative_path": "demo/static/js/main.js",
+      "sha256": "f49dd0560efb9f023e57409856988bd0118d55a10d48b8aec3a945aaba5213d8"
+    },
+    {
+      "source_relative_path": "demo/static/js/trajectory.js",
+      "snapshot_relative_path": "demo/static/js/trajectory.js",
+      "sha256": "b634c43b99e5072daf9dec6c3f6ac3723b6c2aa9c9d692a25c047d60a6681162"
+    },
+    {
+      "source_relative_path": "demo/templates/base.html",
+      "snapshot_relative_path": "demo/templates/base.html",
+      "sha256": "623f186e088158a9e1d4928815658e130f1aa7fbd02ad752fb6e23d1a4ee0a70"
+    },
+    {
+      "source_relative_path": "demo/templates/index.html",
+      "snapshot_relative_path": "demo/templates/index.html",
+      "sha256": "3a29a382d090e0674bab588f49a678a783bf5bc570fac7cc86d5604faa81c3df"
+    },
+    {
+      "source_relative_path": "demo/templates/live_demo.html",
+      "snapshot_relative_path": "demo/templates/live_demo.html",
+      "sha256": "8d3b79636c9f7351c024621be6bdd5d3e655c2e038b341f1cb41c0d24ca4f749"
+    },
+    {
+      "source_relative_path": "demo/templates/trajectory_demo.html",
+      "snapshot_relative_path": "demo/templates/trajectory_demo.html",
+      "sha256": "2f45326744d63c7a0c0dadce971707fd1871aa149158b548f92fc3e060d103e5"
+    },
+    {
+      "source_relative_path": "modify.md",
+      "snapshot_relative_path": "upstream-deployment-notes.md",
+      "sha256": "b501819ffcfe5f210f0e9aa4d2bfd0a62c66c0932403ef2a335996624510b2ba"
+    },
+    {
+      "source_relative_path": "requirements.txt",
+      "snapshot_relative_path": "requirements.txt",
+      "sha256": "94fca43901048cbea39610ffade37af1c995e15056c134d732090aa13f810e4c"
+    },
+    {
+      "source_relative_path": "scripts/long_horizon_selection.json",
+      "snapshot_relative_path": "scripts/long_horizon_selection.json",
+      "sha256": "bc62332baeea4861927c8e2334183fd0e41d8c830f09e2ca3ed900a45b9ec8cd"
+    },
+    {
+      "source_relative_path": "scripts/run_long_horizon_bbqcard2.sh",
+      "snapshot_relative_path": "scripts/run_long_horizon_bbqcard2.sh",
+      "sha256": "c8ad5988cd045062738f4c3bdf9c8a4d83e43978a194c376e9f5bf926e19bc0e"
+    },
+    {
+      "source_relative_path": "scripts/run_minimal_bbqcard2.sh",
+      "snapshot_relative_path": "scripts/run_minimal_bbqcard2.sh",
+      "sha256": "3987964fb9e90026a3659de336c5030b8adc249907faafe5c3570e760e012098"
+    },
+    {
+      "source_relative_path": "scripts/verify_long_horizon.py",
+      "snapshot_relative_path": "scripts/verify_long_horizon.py",
+      "sha256": "afbc7ce6dda61593b4426d7b44c464d0000251d99f152649696d8df886b6a05b"
+    },
+    {
+      "source_relative_path": "scripts/verify_minimal.py",
+      "snapshot_relative_path": "scripts/verify_minimal.py",
+      "sha256": "17b028a513c6396531bb43067d08ce5cdbe61a68cac49dbaac7a9ea40f222f25"
+    },
+    {
+      "source_relative_path": "src/agents/__init__.py",
+      "snapshot_relative_path": "src/agents/__init__.py",
+      "sha256": "7b093ac0c6b27fe0eccd1bd67b7cdd8abc4b55132ebc7c8645c6d8d48e7a3cfe"
+    },
+    {
+      "source_relative_path": "src/agents/analysis_agent.py",
+      "snapshot_relative_path": "src/agents/analysis_agent.py",
+      "sha256": "31d2b99a3cc1873d3bef1415c9ebe2c7e48ed2afeca3b8fc8ae737732718edb1"
+    },
+    {
+      "source_relative_path": "src/agents/assistant_agent.py",
+      "snapshot_relative_path": "src/agents/assistant_agent.py",
+      "sha256": "da33c46560140c7ff0fc55db1d47cee9f3a63e0abc9d4118f5c17c864e4d46b0"
+    },
+    {
+      "source_relative_path": "src/agents/memory.py",
+      "snapshot_relative_path": "src/agents/memory.py",
+      "sha256": "995a2fe53e7d31f85bc6f6e705aa170c4c6d7c8b95852fb34c67cc9b9cd79a97"
+    },
+    {
+      "source_relative_path": "src/agents/prompts/__init__.py",
+      "snapshot_relative_path": "src/agents/prompts/__init__.py",
+      "sha256": "0d9c1494d632bb2f6fec4ccc9e62d0fa46ed71c5543a9ec8dfa3d4ce1cf65a4c"
+    },
+    {
+      "source_relative_path": "src/agents/prompts/analysis_prompts.py",
+      "snapshot_relative_path": "src/agents/prompts/analysis_prompts.py",
+      "sha256": "881b91bef1a8d2bc0acf344fb168304edee7470b7c4528611280b7b7613a3791"
+    },
+    {
+      "source_relative_path": "src/agents/prompts/assistant_prompts.py",
+      "snapshot_relative_path": "src/agents/prompts/assistant_prompts.py",
+      "sha256": "25770bb547f5e8e6f8d6af4b5eacbc2dffe4e47eb25624904fced87699cce295"
+    },
+    {
+      "source_relative_path": "src/agents/prompts/user_prompts.py",
+      "snapshot_relative_path": "src/agents/prompts/user_prompts.py",
+      "sha256": "220ec72e10ec23333b1c5318b61ef23926cfcbb49f1d1239dfd18681307db7a2"
+    },
+    {
+      "source_relative_path": "src/agents/user_agent.py",
+      "snapshot_relative_path": "src/agents/user_agent.py",
+      "sha256": "f418f78d546df89a60355d24f71f31db5d70b4f3178ebf1e99d4a407f3f459a6"
+    },
+    {
+      "source_relative_path": "src/engine/__init__.py",
+      "snapshot_relative_path": "src/engine/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_relative_path": "src/engine/event_engine.py",
+      "snapshot_relative_path": "src/engine/event_engine.py",
+      "sha256": "11e0a9fd4ae77b2c231615d351b40e13cf05f29b31820b216d15c091f54906ba"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/__init__.py",
+      "snapshot_relative_path": "src/engine/prompts/__init__.py",
+      "sha256": "ddae826c2e8c3e3e247dfc87860dd75201a92b129501aded189e41b3d0f56d5d"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/base.py",
+      "snapshot_relative_path": "src/engine/prompts/base.py",
+      "sha256": "1549218a58340dc12e4072f074c36f2469c11788d4476ce01335e2a8415cf913"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/childcare.py",
+      "snapshot_relative_path": "src/engine/prompts/childcare.py",
+      "sha256": "49c7c67c67d9d44ae9b5cbabd2c6ba5866aa7321b5c3c42969ed5ebcfee2148e"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/dining.py",
+      "snapshot_relative_path": "src/engine/prompts/dining.py",
+      "sha256": "0a8218288e293d223e550671cb249852d1b1c5916b0c69573584e7f487549519"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/education.py",
+      "snapshot_relative_path": "src/engine/prompts/education.py",
+      "sha256": "819c7c00a107693579cc4a8e739b7b20bac2029866622cd20eb07ccdd0756fa2"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/elderlycare.py",
+      "snapshot_relative_path": "src/engine/prompts/elderlycare.py",
+      "sha256": "4abeb4a5ae4460f308ae959a97b79ff989f6189ae26701a8f03ac4edef9096e6"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/entertainment.py",
+      "snapshot_relative_path": "src/engine/prompts/entertainment.py",
+      "sha256": "88e2b7ec59a2c845229d3a182b9efcb2e9dde69143e52e51f065e3dd41b539ed"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/mental_health.py",
+      "snapshot_relative_path": "src/engine/prompts/mental_health.py",
+      "sha256": "74d39d2dc63abc91e2d212c5052173b5f2b0f985756136f06ed504c526254fd3"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/sport_health.py",
+      "snapshot_relative_path": "src/engine/prompts/sport_health.py",
+      "sha256": "dd1f61d31429620f96dc89f8363faa79a78feb1bcf3941a9b8fee99abb989c2b"
+    },
+    {
+      "source_relative_path": "src/engine/prompts/travel.py",
+      "snapshot_relative_path": "src/engine/prompts/travel.py",
+      "sha256": "d5f644603cd8aa49142205551326e76eb28da3ba0704a8a1019ad4f154f96d4e"
+    },
+    {
+      "source_relative_path": "src/evaluation/eval.py",
+      "snapshot_relative_path": "src/evaluation/eval.py",
+      "sha256": "3c2a6dc8855e3130cc316b0abcdb74bdc4f7836c3a8959a9dd287891d0daf1e9"
+    },
+    {
+      "source_relative_path": "src/evaluation/metric.py",
+      "snapshot_relative_path": "src/evaluation/metric.py",
+      "sha256": "b61dea6adfcabb0dd6e09fb30022392c224cfdbfb98f36c87c115d4bba3d7d8a"
+    },
+    {
+      "source_relative_path": "src/main_mp.py",
+      "snapshot_relative_path": "src/main_mp.py",
+      "sha256": "e8bf1898ecc2eb2d62a3f97db319fb6d95af240cda0069a5dacf6de1674e9cb7"
+    },
+    {
+      "source_relative_path": "src/models/__init__.py",
+      "snapshot_relative_path": "src/models/__init__.py",
+      "sha256": "0dfabf3418e71413bc4ea4ccf417e33780d373aac6ca5a685b5e6d316f73abbc"
+    },
+    {
+      "source_relative_path": "src/models/base.py",
+      "snapshot_relative_path": "src/models/base.py",
+      "sha256": "eeac0b5b6fc26c0e8e6593dc806f2fc2bd5504042069efb9614784da78931773"
+    },
+    {
+      "source_relative_path": "src/models/cloud.py",
+      "snapshot_relative_path": "src/models/cloud.py",
+      "sha256": "cdfc89a0120f13308a52616adf79878b280e4ed1816f16eef7b1123995e1851e"
+    },
+    {
+      "source_relative_path": "src/models/vllm.py",
+      "snapshot_relative_path": "src/models/vllm.py",
+      "sha256": "e0c46f1b881e63a5823060fa4134c115a6ca86135181672ced553f42c1d9c83f"
+    },
+    {
+      "source_relative_path": "src/profiles/__init__.py",
+      "snapshot_relative_path": "src/profiles/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_relative_path": "src/profiles/profile_generator.py",
+      "snapshot_relative_path": "src/profiles/profile_generator.py",
+      "sha256": "eeb4deeb50195a862a057690dc74ebd17bf60eeb10901d4371337d9454cef326"
+    },
+    {
+      "source_relative_path": "src/simulation/__init__.py",
+      "snapshot_relative_path": "src/simulation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_relative_path": "src/simulation/conversation_simulator.py",
+      "snapshot_relative_path": "src/simulation/conversation_simulator.py",
+      "sha256": "ef17f325c4fc1aa458ad5c431c7c7598850ddb85bb1180aaa2b5c6e7a92bd2c3"
+    },
+    {
+      "source_relative_path": "src/tools/__init__.py",
+      "snapshot_relative_path": "src/tools/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_relative_path": "src/tools/dense_retriever.py",
+      "snapshot_relative_path": "src/tools/dense_retriever.py",
+      "sha256": "0370eaa8be248c2c5002120b4d213c03ed12be576ddca0c8beba0f803b6cf344"
+    },
+    {
+      "source_relative_path": "src/tools/embedding_func.py",
+      "snapshot_relative_path": "src/tools/embedding_func.py",
+      "sha256": "7a07b61d76a61648c98ca6d6b8b5057c02691bcbe095b6d56c614f540fd1e4e2"
+    },
+    {
+      "source_relative_path": "src/utils/__init__.py",
+      "snapshot_relative_path": "src/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_relative_path": "src/utils/utils.py",
+      "snapshot_relative_path": "src/utils/utils.py",
+      "sha256": "f508209b7497505a43fc06bd2984c9a82167fc6fb19ccd7f658ab744f12ed6e7"
+    }
+  ]
+}

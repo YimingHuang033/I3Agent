@@ -1,0 +1,418 @@
+[
+  {
+    "template_id": "research_report_format",
+    "domain": "researcher",
+    "scenario": "研究员：报告格式",
+    "values": [
+      "Markdown",
+      "LaTeX"
+    ],
+    "synthetic_asset_description": "实验摘要",
+    "goal": "选择汇报产物的格式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "research_summary_order",
+    "domain": "researcher",
+    "scenario": "研究员：摘要顺序",
+    "values": [
+      "结论优先",
+      "方法优先"
+    ],
+    "synthetic_asset_description": "论文摘要",
+    "goal": "选择本次摘要的组织顺序",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "research_comparison_layout",
+    "domain": "researcher",
+    "scenario": "研究员：对比布局",
+    "values": [
+      "表格",
+      "分段文字"
+    ],
+    "synthetic_asset_description": "三项实验记录",
+    "goal": "选择实验对比的呈现方式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "research_citation_style",
+    "domain": "researcher",
+    "scenario": "研究员：引用标记",
+    "values": [
+      "数字编号",
+      "作者年份"
+    ],
+    "synthetic_asset_description": "离线参考文献清单",
+    "goal": "选择文献引用标记方式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "research_feedback_group",
+    "domain": "researcher",
+    "scenario": "研究员：反馈分组",
+    "values": [
+      "按审稿人",
+      "按问题主题"
+    ],
+    "synthetic_asset_description": "合成审稿意见",
+    "goal": "选择反馈归类方式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "research_slide_language",
+    "domain": "researcher",
+    "scenario": "研究员：幻灯片语言",
+    "values": [
+      "中文",
+      "英文"
+    ],
+    "synthetic_asset_description": "组会要点",
+    "goal": "选择幻灯片使用的语言",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "research_chart_palette",
+    "domain": "researcher",
+    "scenario": "研究员：图表配色",
+    "values": [
+      "灰度",
+      "彩色"
+    ],
+    "synthetic_asset_description": "已给定的实验数据",
+    "goal": "选择图表配色方案",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "research_reading_order",
+    "domain": "researcher",
+    "scenario": "研究员：阅读顺序",
+    "values": [
+      "综述先行",
+      "原始研究先行"
+    ],
+    "synthetic_asset_description": "两篇离线材料的介绍",
+    "goal": "选择阅读顺序",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "marketing_region",
+    "domain": "marketer",
+    "scenario": "营销：目标地区",
+    "values": [
+      "北美",
+      "欧洲"
+    ],
+    "synthetic_asset_description": "虚构课程简介",
+    "goal": "选择本次文案的目标地区",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "marketing_copy_tone",
+    "domain": "marketer",
+    "scenario": "营销：文案语气",
+    "values": [
+      "正式",
+      "轻松"
+    ],
+    "synthetic_asset_description": "虚构产品资料",
+    "goal": "选择文案语气",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "marketing_campaign_channel",
+    "domain": "marketer",
+    "scenario": "营销：投放渠道",
+    "values": [
+      "邮件",
+      "社区帖子"
+    ],
+    "synthetic_asset_description": "模拟推广计划",
+    "goal": "选择计划中的投放渠道，不实际发布",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "marketing_headline_focus",
+    "domain": "marketer",
+    "scenario": "营销：标题重点",
+    "values": [
+      "功能价值",
+      "使用场景"
+    ],
+    "synthetic_asset_description": "虚构产品亮点",
+    "goal": "选择标题的侧重点",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "marketing_cta_placement",
+    "domain": "marketer",
+    "scenario": "营销：行动提示位置",
+    "values": [
+      "开头",
+      "结尾"
+    ],
+    "synthetic_asset_description": "短文草稿",
+    "goal": "选择行动提示放置位置",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "marketing_brand_case_order",
+    "domain": "marketer",
+    "scenario": "营销：案例顺序",
+    "values": [
+      "本地案例先行",
+      "国际案例先行"
+    ],
+    "synthetic_asset_description": "两份离线品牌案例",
+    "goal": "选择案例顺序",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "marketing_review_format",
+    "domain": "marketer",
+    "scenario": "营销：复盘形式",
+    "values": [
+      "要点清单",
+      "叙事段落"
+    ],
+    "synthetic_asset_description": "模拟活动记录",
+    "goal": "选择复盘形式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "marketing_audience_focus",
+    "domain": "marketer",
+    "scenario": "营销：读者定位",
+    "values": [
+      "初学者",
+      "熟练用户"
+    ],
+    "synthetic_asset_description": "虚构工具介绍",
+    "goal": "选择文案读者定位",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "law_memo_structure",
+    "domain": "law_trainee",
+    "scenario": "法律：内部材料结构",
+    "values": [
+      "完整备忘录",
+      "要点清单"
+    ],
+    "synthetic_asset_description": "虚构案件摘要",
+    "goal": "选择内部讨论材料的组织形式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "law_review_order",
+    "domain": "law_trainee",
+    "scenario": "法律：审阅顺序",
+    "values": [
+      "事实先行",
+      "问题先行"
+    ],
+    "synthetic_asset_description": "已给定的内部审阅笔记",
+    "goal": "选择呈现顺序，不作法律判断",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "law_names_display",
+    "domain": "law_trainee",
+    "scenario": "法律：合成姓名显示",
+    "values": [
+      "代号",
+      "虚构全名"
+    ],
+    "synthetic_asset_description": "纯合成角色名单",
+    "goal": "选择内部材料的姓名展示方式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "law_version_format",
+    "domain": "law_trainee",
+    "scenario": "法律：版本对比",
+    "values": [
+      "逐项列表",
+      "双栏对照"
+    ],
+    "synthetic_asset_description": "两版合成文本",
+    "goal": "选择版本对比形式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "law_handover_channel",
+    "domain": "law_trainee",
+    "scenario": "法律：交接计划渠道",
+    "values": [
+      "内部邮件",
+      "内部笔记"
+    ],
+    "synthetic_asset_description": "模拟交接说明",
+    "goal": "选择交接计划渠道，不实际发送",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "law_meeting_notes",
+    "domain": "law_trainee",
+    "scenario": "法律：会议纪要",
+    "values": [
+      "按议程",
+      "按负责人"
+    ],
+    "synthetic_asset_description": "合成会议记录",
+    "goal": "选择纪要分组方式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "finance_chart_frequency",
+    "domain": "Financier",
+    "scenario": "金融：展示粒度",
+    "values": [
+      "周度",
+      "月度"
+    ],
+    "synthetic_asset_description": "模拟收益数据",
+    "goal": "选择展示图的聚合粒度，不作投资建议",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "finance_decimal_display",
+    "domain": "Financier",
+    "scenario": "金融：小数显示",
+    "values": [
+      "两位小数",
+      "四位小数"
+    ],
+    "synthetic_asset_description": "合成指标",
+    "goal": "选择显示精度，不改变原始数值",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "finance_report_order",
+    "domain": "Financier",
+    "scenario": "金融：报告顺序",
+    "values": [
+      "风险先行",
+      "表现先行"
+    ],
+    "synthetic_asset_description": "已给定的模拟报告",
+    "goal": "选择摘要顺序",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "finance_comparison_chart",
+    "domain": "Financier",
+    "scenario": "金融：比较图形",
+    "values": [
+      "柱状图",
+      "折线图"
+    ],
+    "synthetic_asset_description": "两个均适用的合成数据视图",
+    "goal": "选择展示方案",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "finance_units_display",
+    "domain": "Financier",
+    "scenario": "金融：单位标记",
+    "values": [
+      "元",
+      "千元"
+    ],
+    "synthetic_asset_description": "合成金额清单",
+    "goal": "选择单位显示方式，数值须等值换算",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "finance_note_detail",
+    "domain": "Financier",
+    "scenario": "金融：脚注细节",
+    "values": [
+      "简短脚注",
+      "独立附录"
+    ],
+    "synthetic_asset_description": "模拟方法说明",
+    "goal": "选择说明放置形式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  },
+  {
+    "template_id": "pharma_literature_layout",
+    "domain": "pharmacist",
+    "scenario": "药学：文献整理",
+    "values": [
+      "证据表",
+      "主题段落"
+    ],
+    "synthetic_asset_description": "离线论文简介",
+    "goal": "选择文献整理形式，不作医疗建议",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "pharma_inventory_sort",
+    "domain": "pharmacist",
+    "scenario": "药学：物料整理",
+    "values": [
+      "按实验步骤",
+      "按物料类别"
+    ],
+    "synthetic_asset_description": "合成非危险物料清单",
+    "goal": "选择清单分组方式",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "pharma_plot_layout",
+    "domain": "pharmacist",
+    "scenario": "药学：实验图布局",
+    "values": [
+      "单图逐页",
+      "多图拼版"
+    ],
+    "synthetic_asset_description": "已生成的示意图",
+    "goal": "选择组会展示布局",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "development"
+  },
+  {
+    "template_id": "pharma_booking_window",
+    "domain": "pharmacist",
+    "scenario": "药学：预约计划",
+    "values": [
+      "上午",
+      "下午"
+    ],
+    "synthetic_asset_description": "两个均可用的模拟仪器时段",
+    "goal": "选择预约计划时段，不实际预约",
+    "review_status": "generated_draft_not_human_validated",
+    "split": "heldout"
+  }
+]

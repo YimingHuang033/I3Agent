@@ -1,0 +1,2152 @@
+{
+  "metadata": {
+    "participant_id": "p012",
+    "participant_name": "志愿者12",
+    "total_events": 49,
+    "llm_events": 0,
+    "non_llm_events": 49,
+    "total_screenshots": 156,
+    "generation_time": "2026-03-06 18:26:40"
+  },
+  "events": [
+    {
+      "front_event_id": null,
+      "back_event_id": "p012_1_2",
+      "event_id": "p012_1_1",
+      "index": 1,
+      "start_time": "2025-11-28 22:23:03.638",
+      "end_time": "2025-11-28 22:23:05.917",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "终端执行退出命令",
+      "detailed_description": "[USER_001]在Terminal应用中执行了退出命令（exit），从终端历史记录可见其刚进入[USER_002]目录并立即退出。此操作属于常规系统命令行操作，无任何LLM交互迹象。[USER_001]可能是在测试路径、确认环境或结束当前会话。整个过程仅持续2.3秒，符合快速命令执行特征，未涉及文本对话、代码生成或图像交互等LLM典型使用场景。",
+      "content": [
+        {
+          "application": "Terminal",
+          "window": "th1nkmore — LifeTrace — LifeTrace ◂ LifeTrace — 80×24",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222303_638.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:23:03.810"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_1",
+      "back_event_id": "p012_1_3",
+      "event_id": "p012_1_2",
+      "index": 2,
+      "start_time": "2025-11-28 22:23:05.917",
+      "end_time": "2025-11-28 22:24:24.656",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览下载文件夹",
+      "detailed_description": "[USER_001]正在使用macOS Finder应用浏览“Downloads”文件夹，查看已下载的文件列表，包括[USER_002]相关程序、磁盘镜像、压缩包等。从截图可见[USER_001]选中了名为“[USER_002]”的可执行文件，可能准备运行或进一步操作该程序。整个过程持续约78秒，期间[USER_001]未进行文本输入或与LLM交互，仅在文件管理器内进行浏览和选择操作，属于典型的本地文件管理行为，无任何LLM平台或对话痕迹。",
+      "content": [
+        {
+          "application": "Finder",
+          "window": "Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222305_917.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:23:06.046"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_2",
+      "back_event_id": "p012_1_4",
+      "event_id": "p012_1_3",
+      "index": 3,
+      "start_time": "2025-11-28 22:24:24.656",
+      "end_time": "2025-11-28 22:24:26.976",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]查看聊天群组消息",
+      "detailed_description": "[USER_001]正在使用[USER_002]应用浏览一个名为“[ADDR_001]”的聊天群组，界面显示多条图文消息，包括商品图片和文字讨论。[USER_001]可能在查看群内分享的收纳袋图片及相关对话，未进行输入或交互操作。整个事件持续约2.3秒，属于被动信息浏览行为，无任何LLM平台交互特征（如对话框、生成按钮、AI助手界面等）。该场景更符合日常社交沟通或购物信息收集，与大语言模型使用无关。",
+      "content": [
+        {
+          "application": "LifeTrace",
+          "window": "",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222424_656.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:24.779"
+        },
+        {
+          "application": "LifeTrace",
+          "window": "",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222425_823.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:25.925"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_3",
+      "back_event_id": "p012_1_5",
+      "event_id": "p012_1_4",
+      "index": 4,
+      "start_time": "2025-11-28 22:24:26.976",
+      "end_time": "2025-11-28 22:24:28.180",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "终端执行脚本失败",
+      "detailed_description": "[USER_001]在Terminal中尝试运行一个名为[USER_002]的本地脚本或程序，但因缺少名为'openai'的Python模块而报错。这表明[USER_001]可能正在开发或调试一个依赖OpenAI API的项目，但环境未正确配置。事件持续仅1.2秒，说明[USER_001]快速触发了错误并可能立即意识到问题所在。此场景属于本地开发调试，不涉及与任何LLM平台的交互，也无文本对话或生成行为。[USER_001]操作目的可能是测试脚本功能，但因依赖缺失导致中断。",
+      "content": [
+        {
+          "application": "Terminal",
+          "window": "th1nkmore — LifeTrace — LifeTrace ◂ LifeTrace — 80×24",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222426_976.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:27.116"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_4",
+      "back_event_id": "p012_1_6",
+      "event_id": "p012_1_5",
+      "index": 5,
+      "start_time": "2025-11-28 22:24:28.180",
+      "end_time": "2025-11-28 22:24:31.636",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]在[HANDLE_010]中查看群聊图片",
+      "detailed_description": "[USER_001]正在使用WeChat（[HANDLE_010]）桌面客户端，浏览名为“[ADDR_001]”的聊天窗口。截图显示[USER_001]正在查看一张展示收纳袋商品的图片（标注尺寸30cm/50cm），并可见群成员“[USER_005]”发送了该图片及文字“收纳筐长这样”。此行为属于典型的社交沟通场景，[USER_001]可能在讨论购物、分享商品或确认物品样式。整个活动持续约3.5秒，无文本输入或与LLM交互迹象，也未出现任何AI对话界面或生成内容。应用环境为日常社交软件，非LLM平台或工具。",
+      "content": [
+        {
+          "application": "WeChat",
+          "window": "Weixin",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222428_180.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:28.354"
+        },
+        {
+          "application": "WeChat",
+          "window": "Weixin",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222429_425.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:29.518"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_5",
+      "back_event_id": "p012_1_7",
+      "event_id": "p012_1_6",
+      "index": 6,
+      "start_time": "2025-11-28 22:24:31.636",
+      "end_time": "2025-11-28 22:24:43.519",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览下载文件夹",
+      "detailed_description": "[USER_001]正在使用macOS Finder应用浏览“Downloads”文件夹，查看其中的文件和子文件夹，包括多个截图文件、压缩包和可执行文件。从界面可见[USER_001]可能在整理或查找特定文件，如屏幕截图或安装包。窗口中显示了文件名、大小、类型和添加时间等元数据，表明操作偏向文件管理而非内容创作或对话交互。整个过程持续约12秒，未涉及任何文本输入或AI对话界面，无LLM使用痕迹。",
+      "content": [
+        {
+          "application": "Finder",
+          "window": "Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222431_636.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:31.751"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_6",
+      "back_event_id": "p012_1_8",
+      "event_id": "p012_1_7",
+      "index": 7,
+      "start_time": "2025-11-28 22:24:43.519",
+      "end_time": "2025-11-28 22:24:51.283",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]在飞书查看会议记录",
+      "detailed_description": "[USER_001]正在使用飞书（[HANDLE_004]）应用，浏览“科研”群组的聊天记录，重点查看了多次视频会议的结束通知及[SECRET_001]。界面显示[USER_001]处于消息列表和群聊详情页，未进行文本输入或与AI助手交互。此场景为典型的团队协作工具使用，用于回顾会议信息、确认会议时长与ID，可能为后续会议安排或文档归档做准备。整个活动持续7.8秒，属于快速查阅行为，无LLM对话或内容生成痕迹。",
+      "content": [
+        {
+          "application": "Feishu",
+          "window": "Feishu",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222443_519.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:43.626"
+        },
+        {
+          "application": "Feishu",
+          "window": "Feishu",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222444_691.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:44.787"
+        },
+        {
+          "application": "Feishu",
+          "window": "Feishu",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222450_120.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:50.215"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_7",
+      "back_event_id": "p012_1_9",
+      "event_id": "p012_1_8",
+      "index": 8,
+      "start_time": "2025-11-28 22:24:51.283",
+      "end_time": "2025-11-28 22:24:54.741",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "桌面活动监控",
+      "detailed_description": "[USER_001]当前处于桌面环境，未主动操作任何应用程序。从截图可见，[HANDLE_004]应用虽被记录为活动窗口，但窗口标题为'[USER_003]'，且无文本内容显示，表明可能仅是后台进程或最小化状态。桌面上有多个悬浮小工具（如天气、日历）和[USER_002]监控程序运行，同时存在屏幕录制文件图标，暗示[USER_001]可能在进行系统监控或录制回放。整个事件持续3.5秒，属于极短时长的系统级活动记录，不符合LLM交互所需的输入输出对话特征。",
+      "content": [
+        {
+          "application": "Feishu",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222451_283.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:51.444"
+        },
+        {
+          "application": "Feishu",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222452_506.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:52.653"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_8",
+      "back_event_id": "p012_1_10",
+      "event_id": "p012_1_9",
+      "index": 9,
+      "start_time": "2025-11-28 22:24:54.741",
+      "end_time": "2025-11-28 22:25:04.728",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]桌面活动监控",
+      "detailed_description": "[USER_001]正在使用[USER_002]应用进行屏幕录制或活动追踪，界面显示多个悬浮窗口，包括天气、日历和终端等。从截图可见，[USER_001]未与任何LLM平台交互，而是处于系统桌面环境，可能在整理工作区、监控系统状态或准备开始某项任务。[USER_002]的录制控件显示当前会话已持续14秒，表明这是自动化记录的一部分，而非主动与AI对话场景。整个过程无文本输入或对话发生，不符合LLM使用特征。",
+      "content": [
+        {
+          "application": "LifeTrace",
+          "window": "",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222454_741.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:54.891"
+        },
+        {
+          "application": "LifeTrace",
+          "window": "",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222456_999.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:24:57.174"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_9",
+      "back_event_id": "p012_1_11",
+      "event_id": "p012_1_10",
+      "index": 10,
+      "start_time": "2025-11-28 22:25:04.728",
+      "end_time": "2025-11-28 22:25:41.888",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]阅读飞书文档",
+      "detailed_description": "[USER_001]在Google Chrome浏览器中打开并阅读飞书文档，标题为“【Mac】数据采集流程说明2.0”。文档内容涉及隐私过滤程序执行步骤、[SECRET_002]使用、数据采集保护机制等技术操作指南。从截图可见，[USER_001]正在浏览“二、执行隐私过滤程序”章节，包含终端命令示例（如xattr、chmod）和流程说明。整个过程持续约37秒，推测[USER_001]可能在学习或参考该文档以执行数据采集相关操作，属于典型的技术文档查阅场景，无LLM交互迹象。",
+      "content": [
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222504_728.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:04.797"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222505_863.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:05.909"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222506_966.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:07.009"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222509_124.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:09.172"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222510_241.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:10.291"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222516_696.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:16.749"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222517_810.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:17.850"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222519_997.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:20.046"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222521_102.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:21.153"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222522_215.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:22.263"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222523_326.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:23.377"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222524_444.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:24.491"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222525_551.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:25.598"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222526_670.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:26.719"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222535_189.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:35.245"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222536_302.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:36.358"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222537_422.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:37.476"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222538_540.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:38.592"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222539_663.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:39.710"
+        },
+        {
+          "application": "Google Chrome",
+          "window": "【Mac】数据采集流程说明2.0 - Feishu Docs",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222540_775.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:40.823"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_10",
+      "back_event_id": "p012_1_12",
+      "event_id": "p012_1_11",
+      "index": 11,
+      "start_time": "2025-11-28 22:25:41.888",
+      "end_time": "2025-11-28 22:25:58.217",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]打开[HANDLE_010]聊天列表",
+      "detailed_description": "[USER_001]在桌面环境中打开了[HANDLE_010]（WeChat）应用，界面显示的是聊天会话列表，包含多个联系人和群组，如“[HANDLE_012]”、“[HANDLE_013]”、“[HANDLE_011]”等。窗口标题为“[HANDLE_009]”，表明是[HANDLE_010]主界面。从截图可见，[USER_001]未进入具体聊天窗口或输入框，也无文本对话内容，仅浏览或准备选择某个会话。整个事件持续16.3秒，可能是[USER_001]在寻找特定联系人、查看未读消息或切换聊天对象。此场景属于日常社交沟通行为，与LLM交互无关。",
+      "content": [
+        {
+          "application": "WeChat",
+          "window": "Weixin",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222541_888.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:42.024"
+        },
+        {
+          "application": "WeChat",
+          "window": "Weixin",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222543_122.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:43.238"
+        },
+        {
+          "application": "WeChat",
+          "window": "Weixin",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222555_980.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:56.076"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_11",
+      "back_event_id": "p012_1_13",
+      "event_id": "p012_1_12",
+      "index": 12,
+      "start_time": "2025-11-28 22:25:58.217",
+      "end_time": "2025-11-28 22:26:18.542",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览下载文件夹",
+      "detailed_description": "[USER_001]正在使用macOS Finder应用浏览“Downloads”文件夹，查看近期下载的文件和文件夹列表。从截图可见，[USER_001]选中了名为“[USER_002]”的文件夹，该文件夹包含多个子文件和配置文件，可能与某个开发项目或工具相关。[USER_001]操作可能包括查找特定文件、准备解压或运行程序、或整理下载内容。整个过程持续约20秒，未涉及任何文本输入或对话交互，无LLM平台界面或交互特征，属于典型的本地文件管理行为。",
+      "content": [
+        {
+          "application": "Finder",
+          "window": "Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222558_217.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:25:58.331"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_12",
+      "back_event_id": "p012_1_14",
+      "event_id": "p012_1_13",
+      "index": 13,
+      "start_time": "2025-11-28 22:26:18.542",
+      "end_time": "2025-11-28 22:26:24.094",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]查看下载文件夹内容",
+      "detailed_description": "[USER_001]正在使用macOS的Preview应用预览一个名为'screen_1_20251128_222558_217.png'的截图文件，该截图显示了系统桌面和打开的Finder窗口，其中Downloads文件夹处于选中状态。此操作属于本地文件浏览行为，并未涉及任何LLM平台或人机对话交互。[USER_001]可能在整理下载内容、检查文件或准备上传/分享截图。整个事件持续约5.6秒，属于短暂的文件查看操作，无文本输入或AI生成内容参与。",
+      "content": [
+        {
+          "application": "Preview",
+          "window": "screen_1_20251128_222558_217.png",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222618_542.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:18.685"
+        },
+        {
+          "application": "Preview",
+          "window": "screen_1_20251128_222558_217.png",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222619_737.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:19.836"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_13",
+      "back_event_id": "p012_1_15",
+      "event_id": "p012_1_14",
+      "index": 14,
+      "start_time": "2025-11-28 22:26:24.094",
+      "end_time": "2025-11-28 22:26:26.373",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]查看桌面预览",
+      "detailed_description": "[USER_001]在macOS系统中打开了Preview应用，但窗口标题显示为[USER_003]，且无任何文本内容，仅展示图像。结合截图可见[USER_001]处于桌面环境，桌面上有多个文件和应用图标，如Cursor Installer、[USER_002]、Movies等，同时左侧有多个窗口缩略图悬浮。该事件持续仅2.3秒，极可能是[USER_001]快速切换或预览窗口内容，并未进行实际交互或输入操作。无证据表明涉及LLM平台的对话、代码生成或图像生成等行为，属于典型的桌面浏览或窗口管理活动。",
+      "content": [
+        {
+          "application": "Preview",
+          "window": "",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222624_094.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:24.255"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_14",
+      "back_event_id": "p012_1_16",
+      "event_id": "p012_1_15",
+      "index": 15,
+      "start_time": "2025-11-28 22:26:26.373",
+      "end_time": "2025-11-28 22:26:39.504",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览下载文件夹",
+      "detailed_description": "[USER_001]在macOS系统中使用Finder应用浏览“Downloads”文件夹，持续约13秒。从截图可见，[USER_001]打开了多个窗口，包括日历、终端、应用列表和系统设置等，但核心活动聚焦于Finder中的下载目录，可能在查找或管理近期下载的文件。此行为属于典型的本地文件系统操作，无任何LLM交互界面或对话框出现，也未涉及文本输入、代码生成或图像处理等LLM常见任务。[USER_001]目的可能是整理下载内容、定位特定文件或准备后续操作，如打开、移动或删除文件。整个过程无网络AI服务参与，纯属本地系统操作。",
+      "content": [
+        {
+          "application": "Finder",
+          "window": "Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222626_373.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:26.486"
+        },
+        {
+          "application": "Finder",
+          "window": "Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222636_107.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:36.207"
+        },
+        {
+          "application": "Finder",
+          "window": "Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222638_341.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:38.444"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_15",
+      "back_event_id": "p012_1_17",
+      "event_id": "p012_1_16",
+      "index": 16,
+      "start_time": "2025-11-28 22:26:39.504",
+      "end_time": "2025-11-28 22:26:41.651",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览GitHub项目页面",
+      "detailed_description": "[USER_001]正在通过Safari浏览器访问GitHub上的开源项目“[HANDLE_006]”，该项目旨在利用AI自动管理个人任务上下文。从截图可见，[USER_001]停留在代码仓库主页，查看项目结构、提交历史、分支信息及README文档等。整个过程持续约2.1秒，属于典型的代码仓库浏览行为，未涉及与LLM的交互或输入输出对话。[USER_001]可能在评估该项目的技术实现、寻找使用文档或考虑参与贡献。此活动属于开发人员日常的开源项目调研场景，不涉及任何大语言模型的调用或生成式交互。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "FreeU-group/LifeTrace: Auto-Manage Your Personal Task Context with AI.",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222639_504.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:39.550"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_16",
+      "back_event_id": "p012_1_18",
+      "event_id": "p012_1_17",
+      "index": 17,
+      "start_time": "2025-11-28 22:26:41.651",
+      "end_time": "2025-11-28 22:26:56.733",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览Safari起始页",
+      "detailed_description": "[USER_001]正在使用Safari浏览器查看其起始页面，该页面显示了常用网站快捷方式（Favorites）、隐私报告和扩展推荐模块。从界面可见，[USER_001]未打开任何LLM平台网页或进行对话交互，仅处于浏览器默认首页浏览状态。可能目的为快速访问收藏站点、检查隐私设置或探索浏览器扩展功能。整个活动持续约15秒，无输入或点击行为记录，属于典型的轻量级浏览场景。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Start Page",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222641_651.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:41.713"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_17",
+      "back_event_id": "p012_1_19",
+      "event_id": "p012_1_18",
+      "index": 18,
+      "start_time": "2025-11-28 22:26:56.733",
+      "end_time": "2025-11-28 22:27:09.822",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]搜索[HANDLE_001]在Mac上的使用方法",
+      "detailed_description": "[USER_001]通过Safari浏览器在Google上搜索“[HANDLE_002]如何在mac上用”，查看搜索结果页面，内容包括Apple App Store官方链接、Reddit社区讨论、BlueStacks模拟器方案及百度经验教程等。该行为属于典型的信息检索活动，[USER_001]意图是寻找在Mac系统上运行或替代[HANDLE_001]的方法，而非与LLM进行交互。整个过程持续13.1秒，可能涉及快速浏览标题和摘要，未进入具体网页或进行复杂操作。无任何LLM平台界面或对话痕迹，纯属网页搜索场景。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "snapseed如何在mac上用 - Google Search",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222656_733.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:56.778"
+        },
+        {
+          "application": "Safari",
+          "window": "snapseed如何在mac上用 - Google Search",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222657_833.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:26:57.882"
+        },
+        {
+          "application": "Safari",
+          "window": "snapseed如何在mac上用 - Google Search",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222703_194.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:03.264"
+        },
+        {
+          "application": "Safari",
+          "window": "snapseed如何在mac上用 - Google Search",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222705_393.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:05.444"
+        },
+        {
+          "application": "Safari",
+          "window": "snapseed如何在mac上用 - Google Search",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222706_561.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:06.610"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_18",
+      "back_event_id": "p012_1_20",
+      "event_id": "p012_1_19",
+      "index": 19,
+      "start_time": "2025-11-28 22:27:09.822",
+      "end_time": "2025-11-28 22:27:39.075",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览Reddit社区讨论",
+      "detailed_description": "[USER_001]在Safari浏览器中访问Reddit的[HANDLE_003]社区，阅读关于[HANDLE_001]替代应用的讨论帖。页面显示了其他[USER_001]推荐的图像编辑工具如Pixlr、Photopea、Polar等，并附有相关链接和简要说明。[USER_001]可能正在寻找MacOS平台上的照片编辑软件，以替代[HANDLE_001]。整个活动持续约29秒，期间[USER_001]可能滚动页面、阅读评论或点击链接，属于典型的网页信息检索行为，未涉及任何LLM交互。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222709_822.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:09.874"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222710_936.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:10.995"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222712_065.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:12.127"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222715_313.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:15.364"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222716_415.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:16.466"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222717_542.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:17.596"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222718_664.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:18.715"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222729_434.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:29.497"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222730_604.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:30.730"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222733_992.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:34.109"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222736_319.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:36.495"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_19",
+      "back_event_id": "p012_1_21",
+      "event_id": "p012_1_20",
+      "index": 20,
+      "start_time": "2025-11-28 22:27:39.075",
+      "end_time": "2025-11-28 22:27:41.373",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]访问在线图片编辑器",
+      "detailed_description": "[USER_001]通过Safari浏览器访问了Photopea在线图片编辑器的官网页面，该网站提供无需下载、基于浏览器的图像处理功能。从截图可见，页面展示了产品核心卖点：完全本地运行、成本效益高、跨平台兼容等，并配有笔记本电脑界面预览图。[USER_001]在该页面停留约2.3秒，可能正在快速浏览介绍或准备点击‘Start using Photopea’按钮进入编辑器。此行为属于典型的工具型网站访问，无任何LLM对话或生成式AI交互特征，纯属图形编辑软件的前端浏览活动。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222739_075.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:40.212"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_20",
+      "back_event_id": "p012_1_22",
+      "event_id": "p012_1_21",
+      "index": 21,
+      "start_time": "2025-11-28 22:27:41.373",
+      "end_time": "2025-11-28 22:27:43.162",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览网页",
+      "detailed_description": "[USER_001]正在使用Safari浏览器浏览一个关于照片编辑应用的讨论页面，窗口标题显示其在Reddit社区[HANDLE_003]中询问是否有类似[HANDLE_001]的MacOS应用。从截图可见，[USER_001]打开了多个标签页，包括文档、技术类页面和在线图片编辑器Photpea，表明其可能在调研图像处理工具或寻找替代方案。整个活动持续约1.8秒，属于快速浏览或页面切换行为，未涉及任何LLM对话或生成式交互。[USER_001]目的可能是收集信息、比较工具功能或寻求社区推荐。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222741_373.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:42.011"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_21",
+      "back_event_id": "p012_1_23",
+      "event_id": "p012_1_22",
+      "index": 22,
+      "start_time": "2025-11-28 22:27:43.162",
+      "end_time": "2025-11-28 22:28:00.473",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]访问在线图像编辑器",
+      "detailed_description": "[USER_001]通过Safari浏览器访问了Photopea在线图像编辑平台，界面显示为该工具的首页，提供新建项目、从电脑打开文件和使用AI生成等功能。[USER_001]在17秒内未进行任何文件上传或操作，可能正在浏览功能选项或准备开始编辑工作。Photopea是一个功能类似Photoshop的网页版图像处理工具，常用于编辑PSD、AI等格式文件，其‘Generate with AI’按钮虽涉及AI，但当前事件中未触发任何AI交互行为，仅处于初始页面浏览状态。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222743_162.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:43.386"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222753_378.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:53.522"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222754_618.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:54.806"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222755_948.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:56.073"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222757_800.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:58.096"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222759_209.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:27:59.370"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_22",
+      "back_event_id": "p012_1_24",
+      "event_id": "p012_1_23",
+      "index": 23,
+      "start_time": "2025-11-28 22:28:00.473",
+      "end_time": "2025-11-28 22:28:01.629",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览网页",
+      "detailed_description": "[USER_001]正在使用Safari浏览器进行网页浏览活动，从截图可见其处于多桌面工作环境，当前聚焦于一个无文本内容的窗口（标题为[USER_003]），可能是在加载页面、查看图片或等待响应。整个事件持续仅1.2秒，表明[USER_001]操作非常短暂，可能是快速切换标签、误触或刷新页面。结合无OCR文本及无对话痕迹，可排除LLM交互场景。[USER_001]目的可能是查阅资料、跳转链接或测试页面加载，但未产生实质交互内容。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222800_473.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:00.574"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_23",
+      "back_event_id": "p012_1_25",
+      "event_id": "p012_1_24",
+      "index": 24,
+      "start_time": "2025-11-28 22:28:01.629",
+      "end_time": "2025-11-28 22:28:02.736",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]打开Photopea图像编辑器",
+      "detailed_description": "[USER_001]通过Safari浏览器访问了在线图像编辑工具Photopea，界面显示为初始欢迎页，包含'New Project'、'Open From Computer'和'Generate with AI'等选项。该事件持续仅1.1秒，表明[USER_001]可能刚打开页面尚未进行实际操作，或正在浏览功能入口。Photopea虽提供AI生成功能，但当前截图未显示任何文本对话或生成交互，也无OCR可提取的对话内容。因此判断此为普通网页访问行为，不属于LLM使用场景。[USER_001]可能意图进行图像处理、文件导入或探索AI生图功能，但当前阶段未触发实际LLM交互。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222801_629.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:01.668"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_24",
+      "back_event_id": "p012_1_26",
+      "event_id": "p012_1_25",
+      "index": 25,
+      "start_time": "2025-11-28 22:28:04.962",
+      "end_time": "2025-11-28 22:28:06.326",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览文件夹内容",
+      "detailed_description": "[USER_001]正在使用macOS的Finder应用浏览Downloads文件夹，查看其中的文件和子目录结构，包括[USER_002]相关文件、日志、配置文件及安装包等。该操作属于常规的文件管理行为，未涉及任何LLM平台或对话交互。从窗口布局和文件名判断，[USER_001]可能在整理或查找特定项目文件，如与[USER_002]工具相关的数据或可执行程序。整个活动持续约1.4秒，可能是快速预览或定位某个文件，无文本输入或AI交互痕迹。",
+      "content": [
+        {
+          "application": "Photos",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222804_962.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:05.076"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_25",
+      "back_event_id": "p012_1_27",
+      "event_id": "p012_1_26",
+      "index": 26,
+      "start_time": "2025-11-28 22:28:06.326",
+      "end_time": "2025-11-28 22:28:19.086",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览照片库",
+      "detailed_description": "[USER_001]正在使用macOS系统自带的Photos应用浏览照片库，界面显示为‘Library’视图，包含多张RAW格式的照片缩略图，内容涵盖自然风景、城市建筑和静物等。左侧导航栏显示[USER_001]可访问收藏夹、最近保存、视频、截图等分类，当前选中的是‘Library’主库。[USER_001]可能在整理、回顾或选择照片，操作包括滚动浏览、点击选中某张照片（如中间高亮的一张倒影照片）。整个过程持续约12.8秒，属于典型的个人媒体管理行为，无文本输入或AI对话交互迹象，与LLM使用场景无关。",
+      "content": [
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222806_326.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:06.439"
+        },
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222807_497.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:07.601"
+        },
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222808_678.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:08.789"
+        },
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222811_065.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:11.205"
+        },
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222812_268.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:12.399"
+        },
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222815_622.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:15.745"
+        },
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222817_871.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:18.010"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_26",
+      "back_event_id": "p012_1_28",
+      "event_id": "p012_1_27",
+      "index": 27,
+      "start_time": "2025-11-28 22:28:19.086",
+      "end_time": "2025-11-28 22:28:24.814",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览照片库",
+      "detailed_description": "[USER_001]正在使用macOS系统自带的Photos应用浏览照片库，界面显示多个RAW格式的照片缩略图，包括自然风景、城市建筑等主题。[USER_001]可能在整理或查找特定照片，左侧菜单栏显示了Library、Favorites、Recently Saved等分类选项，表明其正在进行照片管理操作。整个过程持续约5.7秒，期间未涉及任何文本输入或对话交互，也无LLM平台特征（如聊天窗口、生成按钮、多模态输入等）。该活动属于典型的本地媒体浏览行为，与大语言模型使用无关。",
+      "content": [
+        {
+          "application": "Photos",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222821_349.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:21.461"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_27",
+      "back_event_id": "p012_1_29",
+      "event_id": "p012_1_28",
+      "index": 28,
+      "start_time": "2025-11-28 22:28:24.814",
+      "end_time": "2025-11-28 22:28:25.930",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览文档与在线编辑器",
+      "detailed_description": "[USER_001]同时打开了两个窗口：左侧为在线图片编辑工具 Photopea，右侧为 [HANDLE_004] 文档，内容涉及数据采集流程说明。从截图可见，[USER_001]可能正在查阅项目文档（如志愿者工作流程、数据收集规范），并准备使用 Photopea 进行图像处理或模板编辑。该活动持续仅1.1秒，推测为快速切换窗口或查看信息，无文本输入或对话交互，不属于LLM使用场景。[USER_001]目的可能是为项目协作或内容创作做前期准备，属于常规办公与设计工具协同使用。",
+      "content": [
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222824_814.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:24.867"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_28",
+      "back_event_id": "p012_1_30",
+      "event_id": "p012_1_29",
+      "index": 29,
+      "start_time": "2025-11-28 22:28:29.176",
+      "end_time": "2025-11-28 22:28:45.668",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]使用在线图片编辑器",
+      "detailed_description": "[USER_001]正在使用Photopea在线图像编辑工具，界面显示其处于文件导入或新建项目阶段，可见‘Open From Computer’和‘Generate with AI’等选项。该应用功能类似Photoshop，支持多种格式导入与编辑，[USER_001]可能正准备打开本地图片进行编辑，或尝试使用AI生成功能。整个过程持续约16.5秒，期间未出现文本对话或LLM交互特征，属于典型的图形设计类工具使用场景，非大语言模型对话或代码生成活动。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Open",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222829_176.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:29.247"
+        },
+        {
+          "application": "Safari",
+          "window": "Open",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222832_503.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:32.551"
+        },
+        {
+          "application": "Safari",
+          "window": "Open",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222834_691.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:34.741"
+        },
+        {
+          "application": "Safari",
+          "window": "Open",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222842_297.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:42.345"
+        },
+        {
+          "application": "Safari",
+          "window": "Open",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222843_424.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:43.480"
+        },
+        {
+          "application": "Safari",
+          "window": "Open",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222844_542.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:44.588"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_29",
+      "back_event_id": "p012_1_31",
+      "event_id": "p012_1_30",
+      "index": 30,
+      "start_time": "2025-11-28 22:28:46.786",
+      "end_time": "2025-11-28 22:28:51.181",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览网页",
+      "detailed_description": "[USER_001]正在使用Safari浏览器浏览网页，从截图可见其处于多桌面工作环境，同时打开了包括Photoshop、Cursor、Finder等应用。该事件持续4.4秒，窗口标题为[USER_003]，表明可能是在加载页面或切换标签页的瞬间。无文本内容或对话交互痕迹，也未出现任何LLM平台界面（如ChatGPT、Claude等）。结合上下文，[USER_001]可能在进行信息检索、阅读文章或准备下一步操作，属于常规网页浏览行为，不涉及LLM交互。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222846_786.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:46.891"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_30",
+      "back_event_id": "p012_1_32",
+      "event_id": "p012_1_31",
+      "index": 31,
+      "start_time": "2025-11-28 22:28:51.181",
+      "end_time": "2025-11-28 22:28:52.411",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]打开Photopea图像编辑器",
+      "detailed_description": "[USER_001]通过Safari浏览器打开了在线图像编辑工具Photopea，界面显示为深色主题，包含新建项目、从电脑打开、模板和AI生成等选项。该工具功能类似Photoshop，支持PSD、AI、PDF等多种格式编辑。从窗口标题和界面布局判断，[USER_001]可能准备进行图像处理或设计工作，但事件持续仅1.2秒，尚未进行实质性操作。此场景属于图形编辑软件使用，无任何LLM对话或文本交互痕迹，也未触发AI生成功能。[USER_001]可能只是快速查看或准备后续编辑任务。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222851_181.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:51.348"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_31",
+      "back_event_id": "p012_1_33",
+      "event_id": "p012_1_32",
+      "index": 32,
+      "start_time": "2025-11-28 22:28:54.923",
+      "end_time": "2025-11-28 22:28:58.425",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]使用在线图像编辑器",
+      "detailed_description": "[USER_001]正在通过Safari浏览器访问Photopea在线图像编辑工具，界面显示其正在浏览本地图片库或模板，准备进行图像编辑操作。从窗口标题和界面布局可见，[USER_001]可能在选择素材、打开文件或配置编辑环境。整个过程持续约3.5秒，属于快速启动或预览阶段，未涉及文本对话或AI生成内容交互。该场景为典型的图形设计或照片处理工作流，与LLM无关。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222854_923.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:55.045"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222856_113.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:56.186"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222857_257.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:57.346"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_32",
+      "back_event_id": "p012_1_34",
+      "event_id": "p012_1_33",
+      "index": 33,
+      "start_time": "2025-11-28 22:28:58.425",
+      "end_time": "2025-11-28 22:29:00.755",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览照片库",
+      "detailed_description": "[USER_001]正在使用macOS内置的Photos应用浏览个人照片库，界面显示为Library视图，包含多张RAW格式的照片缩略图，内容涵盖自然景观与城市建筑。该操作持续约2.3秒，属于典型的本地媒体管理行为，无任何文本输入、对话交互或AI生成痕迹。[USER_001]可能在整理相册、挑选照片或准备导出，但未涉及任何LLM平台或AI辅助功能。整个过程纯粹是图像浏览与管理，与大语言模型无关。",
+      "content": [
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222858_425.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:58.523"
+        },
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222859_596.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:28:59.692"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_33",
+      "back_event_id": "p012_1_35",
+      "event_id": "p012_1_34",
+      "index": 34,
+      "start_time": "2025-11-28 22:29:00.755",
+      "end_time": "2025-11-28 22:29:01.913",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览照片库",
+      "detailed_description": "[USER_001]正在使用macOS系统自带的Photos应用浏览本地照片库，界面显示多个RAW格式图片缩略图，表明[USER_001]可能在整理、筛选或查看拍摄的照片。同时背景中打开Photopea网页版，暗示[USER_001]可能准备进行图像编辑，但当前事件仅涉及照片浏览，未触发任何LLM交互行为。整个过程持续约1.2秒，属于快速预览或切换操作，无文本输入或AI生成动作。",
+      "content": [
+        {
+          "application": "Photos",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222900_755.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:00.828"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_34",
+      "back_event_id": "p012_1_36",
+      "event_id": "p012_1_35",
+      "index": 35,
+      "start_time": "2025-11-28 22:29:01.913",
+      "end_time": "2025-11-28 22:29:05.315",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览照片库",
+      "detailed_description": "[USER_001]正在使用macOS系统自带的Photos应用，浏览本地照片库。从窗口标题“Library”和底部缩略图可见，[USER_001]在查看2025年11月28日拍摄的多张RAW格式照片，内容涉及自然景观与城市建筑。该活动持续3.4秒，属于典型的图片管理行为，无文本输入、无对话交互、无AI生成操作。背景中虽有Photopea网页打开，但未处于活跃状态，且无证据表明[USER_001]在此期间调用或交互任何LLM服务。整体为日常数字资产管理场景，非大语言模型使用行为。",
+      "content": [
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222901_913.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:01.992"
+        },
+        {
+          "application": "Photos",
+          "window": "Library",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222904_122.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:04.255"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_35",
+      "back_event_id": "p012_1_37",
+      "event_id": "p012_1_36",
+      "index": 36,
+      "start_time": "2025-11-28 22:29:05.315",
+      "end_time": "2025-11-28 22:29:08.676",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]使用Photos编辑图片",
+      "detailed_description": "[USER_001]正在使用macOS自带的Photos应用浏览和管理照片，并同时打开了在线图像编辑器Photopea进行图片编辑。从截图可见，[USER_001]在Photos中选中了一张名为DSC02527.jpg的照片，并在Photopea中打开该图像进行处理，界面显示了图层、历史记录等专业编辑功能。整个过程持续约3.4秒，[USER_001]可能正在进行图像裁剪、调色或添加图层等操作，目的是对照片进行后期美化或修改。此活动属于典型的图像处理工作流，未涉及任何LLM交互行为。",
+      "content": [
+        {
+          "application": "Photos",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222905_315.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:05.382"
+        },
+        {
+          "application": "Photos",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222906_467.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:06.548"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_36",
+      "back_event_id": "p012_1_38",
+      "event_id": "p012_1_37",
+      "index": 37,
+      "start_time": "2025-11-28 22:29:08.676",
+      "end_time": "2025-11-28 22:29:38.135",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]使用Photopea编辑图片",
+      "detailed_description": "[USER_001]正在使用在线图像编辑工具Photopea调整一张照片的亮度与对比度。从截图可见，[USER_001]打开了“Brightness/Contrast”调整对话框，正在微调参数，界面中显示当前图像为一张带有黑色立方体倒影的水面照片。[USER_001]可能在进行照片后期处理，目的是优化图像视觉效果，如增强明暗层次或修复曝光不足。整个过程持续约29.5秒，属于典型的图像编辑操作，无任何LLM交互痕迹，也未出现文本对话或生成行为。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222908_676.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:08.795"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222909_873.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:09.961"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222911_027.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:11.098"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222913_231.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:13.311"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222919_675.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:19.735"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222920_799.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:20.858"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222921_921.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:21.977"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222925_149.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:25.210"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222926_282.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:26.336"
+        },
+        {
+          "application": "Safari",
+          "window": "Photopea | Online Photo Editor",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222928_460.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:28.510"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_37",
+      "back_event_id": "p012_1_39",
+      "event_id": "p012_1_38",
+      "index": 38,
+      "start_time": "2025-11-28 22:29:38.135",
+      "end_time": "2025-11-28 22:30:48.605",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览Reddit社区讨论",
+      "detailed_description": "[USER_001]在Safari浏览器中访问Reddit的[HANDLE_003]社区，阅读关于[HANDLE_001]替代应用的讨论帖。页面显示了多个推荐的图像编辑工具如PHOTOPA、POLARR、GIMP等，并包含[USER_001]评论和链接。整个活动持续约70秒，[USER_001]可能在滚动页面、阅读他人建议或寻找MacOS平台的类似工具。该行为属于信息检索与社区内容浏览，未涉及任何LLM交互或生成式AI工具的使用。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222938_135.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:38.195"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222939_250.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:39.297"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222940_370.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:40.438"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222943_684.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:43.735"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_222944_820.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:29:44.868"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223003_153.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:03.279"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223004_515.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:04.673"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223005_799.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:05.958"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223009_226.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:09.371"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223010_478.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:10.578"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223011_692.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:11.857"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223017_318.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:17.443"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223018_550.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:18.721"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223019_835.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:20.004"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223029_800.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:29.954"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223031_041.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:31.181"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223032_308.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:32.435"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223033_558.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:33.680"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223034_796.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:34.968"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223038_393.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:38.516"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223045_124.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:45.258"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_38",
+      "back_event_id": "p012_1_40",
+      "event_id": "p012_1_39",
+      "index": 39,
+      "start_time": "2025-11-28 22:30:48.605",
+      "end_time": "2025-11-28 22:30:50.965",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览网页",
+      "detailed_description": "[USER_001]正在使用Safari浏览器浏览网页，窗口标题为“Untitled”，可能是在新建标签页或页面尚未加载完成。从标签页内容看，[USER_001]同时打开了多个技术相关页面，包括[HANDLE_004]文档、数据采集说明、[HANDLE_005]系统和[HANDLE_001]编辑问题等，表明其可能在进行技术调研或多任务处理。整个事件持续仅2.4秒，期间未发生文本输入或明显交互，推测为快速切换标签或页面加载瞬间。无LLM对话痕迹，不属于大模型使用场景。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Untitled",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223048_605.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:48.708"
+        },
+        {
+          "application": "Safari",
+          "window": "Untitled",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223049_798.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:49.887"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_39",
+      "back_event_id": "p012_1_41",
+      "event_id": "p012_1_40",
+      "index": 40,
+      "start_time": "2025-11-28 22:30:50.965",
+      "end_time": "2025-11-28 22:30:52.166",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览GIMP下载页面",
+      "detailed_description": "[USER_001]正在使用Safari浏览器访问GIMP官方网站的下载页面，窗口标题明确显示为'GIMP - Downloads'。从截图可见，[USER_001]打开了多个标签页，包括技术文档、[HANDLE_005]ment工具和Reddit讨论页面，表明其可能在进行软件调研或技术资料收集。当前活动持续仅1.2秒，极可能是快速切换标签或查看页面内容，未涉及任何LLM交互行为。[USER_001]目的可能是寻找图像编辑工具的安装包或对比替代方案（如[HANDLE_001]相关讨论），属于典型的网页浏览与信息检索场景，无文本输入或AI对话痕迹。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "GIMP - Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223050_965.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:51.099"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_40",
+      "back_event_id": "p012_1_42",
+      "event_id": "p012_1_41",
+      "index": 41,
+      "start_time": "2025-11-28 22:30:52.166",
+      "end_time": "2025-11-29 00:30:58.124",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览Reddit社区讨论",
+      "detailed_description": "[USER_001]在Safari浏览器中访问Reddit的[HANDLE_003]子版块，阅读关于[HANDLE_001]替代MacOS应用的讨论帖。页面显示多个[USER_001]推荐Pixlr、Photopea、Polarrr等图像编辑工具，并附有链接和功能说明。[USER_001]可能正在寻找跨平台图片编辑方案，或对比不同工具的优劣。整个活动持续约2小时，期间[USER_001]可能滚动页面、点击链接或阅读评论，属于典型的信息检索与社区互动行为，无LLM交互迹象。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223052_166.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:52.277"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223054_650.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:54.799"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251128_223055_924.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-28 22:30:56.079"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_41",
+      "back_event_id": "p012_1_43",
+      "event_id": "p012_1_42",
+      "index": 42,
+      "start_time": "2025-11-29 00:30:58.124",
+      "end_time": "2025-11-29 00:31:02.376",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]登录系统界面",
+      "detailed_description": "[USER_001]正处于操作系统登录界面，屏幕显示时间为2025年11月29日00:30左右，[USER_001]名为[USER_004]，提示可使用Touch ID或输入密码登录。此场景为系统启动或锁屏后的身份验证阶段，无任何LLM交互行为。[USER_001]可能刚开机、从睡眠唤醒或手动锁屏后准备进入系统，属于基础系统安全认证流程，持续约4.3秒，期间未进行任何应用内操作或文本输入。",
+      "content": [
+        {
+          "application": "loginwindow",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251129_003058_124.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-29 00:30:58.319"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_42",
+      "back_event_id": "p012_1_44",
+      "event_id": "p012_1_43",
+      "index": 43,
+      "start_time": "2025-11-29 00:31:02.376",
+      "end_time": "2025-12-01 10:15:45.812",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览Reddit社区讨论",
+      "detailed_description": "[USER_001]通过Safari浏览器访问Reddit的[HANDLE_003]子版块，阅读关于[HANDLE_001]替代应用的讨论帖。页面显示了多位[USER_001]推荐的图像编辑工具如Pixlr、Photopea、Polarrr等，并附有链接和功能说明。[USER_001]可能在寻找MacOS平台上的移动端照片编辑器替代品，以满足跨设备编辑需求。整个事件持续约58小时，表明[USER_001]可能在不同时间段多次查看或后台保持页面打开，期间未进行文本输入或与LLM交互，仅限网页内容浏览与信息获取。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251129_003105_085.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-29 00:31:05.324"
+        },
+        {
+          "application": "Safari",
+          "window": "Snapseed 最喜欢的编辑，求问：有没有类似 Snapseed 的 MacOS 应用？ : r/snapseed",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251129_003106_403.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-11-29 00:31:06.527"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_43",
+      "back_event_id": "p012_1_45",
+      "event_id": "p012_1_44",
+      "index": 44,
+      "start_time": "2025-12-01 10:15:45.812",
+      "end_time": "2025-12-01 10:16:01.798",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]登录系统界面",
+      "detailed_description": "[USER_001]正处于操作系统登录界面，屏幕显示时间为2025年12月1日10:15，背景为macOS默认壁纸。界面中央显示[USER_001]名“[USER_004]”及密码输入框，提示“Your password is required to enable Touch ID”，表明[USER_001]正准备输入密码解锁设备。该事件属于系统级身份验证场景，无任何LLM交互行为或应用运行痕迹。持续16秒的时间段内，[USER_001]可能在输入密码、等待系统响应或考虑是否使用Touch ID，但未启动任何AI对话或生成工具。此为典型的设备解锁操作，与大语言模型使用无关。",
+      "content": [
+        {
+          "application": "loginwindow",
+          "window": "Unknown",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101545_812.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:15:46.121"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_44",
+      "back_event_id": "p012_1_46",
+      "event_id": "p012_1_45",
+      "index": 45,
+      "start_time": "2025-12-01 10:16:15.008",
+      "end_time": "2025-12-01 10:16:18.847",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览GIMP下载页面",
+      "detailed_description": "[USER_001]正在通过Safari浏览器访问GIMP官方网站的下载页面，查看当前稳定版本3.0.6的下载选项，包括针对macOS不同芯片架构（Intel和Apple Silicon）的安装包。该活动持续约3.8秒，属于典型的软件获取行为，[USER_001]可能正准备下载并安装GIMP图像编辑工具。页面内容清晰显示了版本信息、系统兼容性及下载按钮，无任何与LLM交互的界面或文本对话痕迹，也未涉及代码生成、图像生成或多模态交互场景。整个过程为单纯的网页浏览和信息查阅，不属于LLM使用场景。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "GIMP - Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101615_008.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:15.310"
+        },
+        {
+          "application": "Safari",
+          "window": "GIMP - Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101617_583.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:17.686"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_45",
+      "back_event_id": "p012_1_47",
+      "event_id": "p012_1_46",
+      "index": 46,
+      "start_time": "2025-12-01 10:16:18.847",
+      "end_time": "2025-12-01 10:16:20.161",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览GIMP官网",
+      "detailed_description": "[USER_001]正在通过Safari浏览器访问GIMP官方网站，页面显示当前稳定版本为3.0.6，并提供针对macOS不同芯片架构的下载选项。从窗口标题可见，[USER_001]可能同时打开了一个名为'[HANDLE_006]'的GitHub项目页面，但当前活动聚焦于GIMP官网。整个事件持续约1.3秒，推测[USER_001]可能在快速浏览或切换标签页，尚未进行深度交互如点击下载或阅读文档。此行为属于常规网页浏览，无LLM对话或生成式AI交互特征。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "FreeU-group/LifeTrace: Auto-Manage Your Personal Task Context with AI.",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101618_847.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:19.028"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_46",
+      "back_event_id": "p012_1_48",
+      "event_id": "p012_1_47",
+      "index": 47,
+      "start_time": "2025-12-01 10:16:20.161",
+      "end_time": "2025-12-01 10:16:24.970",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览GIMP下载页面",
+      "detailed_description": "[USER_001]正在通过Safari浏览器访问GIMP官方网站的Downloads页面，查看并可能准备下载最新稳定版本3.0.6。页面显示了针对不同操作系统的下载选项，包括macOS的Intel和Apple Silicon版本。[USER_001]可能在寻找适合其设备的安装包，或比较不同版本的下载方式（如通过BitTorrent或直接下载）。整个活动持续约4.8秒，属于典型的软件获取行为，未涉及任何LLM交互或文本对话场景。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "GIMP - Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101620_161.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:20.295"
+        },
+        {
+          "application": "Safari",
+          "window": "GIMP - Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101621_394.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:21.483"
+        },
+        {
+          "application": "Safari",
+          "window": "GIMP - Downloads",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101622_606.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:22.760"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_47",
+      "back_event_id": "p012_1_49",
+      "event_id": "p012_1_48",
+      "index": 48,
+      "start_time": "2025-12-01 10:16:24.970",
+      "end_time": "2025-12-01 10:16:33.104",
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]浏览GIMP官网",
+      "detailed_description": "[USER_001]通过Safari浏览器访问GIMP官方网站，页面显示GIMP的介绍、跨平台特性及开源信息。窗口标题明确为“GIMP - GNU Image Manipulation Program”，表明[USER_001]正在查阅图像编辑软件相关信息。同时桌面可见Cursor Installer等开发工具图标，暗示[USER_001]可能在调研或准备安装图像处理或AI辅助开发工具。整个活动持续8.1秒，期间无文本输入或对话交互，仅处于网页浏览状态，未涉及任何LLM平台的使用场景。",
+      "content": [
+        {
+          "application": "Safari",
+          "window": "GIMP - GNU Image Manipulation Program",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101624_970.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:25.206"
+        },
+        {
+          "application": "Safari",
+          "window": "GIMP - GNU Image Manipulation Program",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101626_409.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:26.732"
+        },
+        {
+          "application": "Safari",
+          "window": "GIMP - GNU Image Manipulation Program",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101627_832.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:28.030"
+        },
+        {
+          "application": "Safari",
+          "window": "GIMP - GNU Image Manipulation Program",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101629_161.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:29.422"
+        },
+        {
+          "application": "Safari",
+          "window": "GIMP - GNU Image Manipulation Program",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101630_517.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:30.716"
+        },
+        {
+          "application": "Safari",
+          "window": "GIMP - GNU Image Manipulation Program",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101631_794.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:32.037"
+        }
+      ]
+    },
+    {
+      "front_event_id": "p012_1_48",
+      "back_event_id": null,
+      "event_id": "p012_1_49",
+      "index": 49,
+      "start_time": "2025-12-01 10:16:33.104",
+      "end_time": null,
+      "is_llm_event": false,
+      "is_related_to_final_llm_event": false,
+      "user_id": "p012",
+      "event_summary": "[USER_001]使用[HANDLE_014]远程连接",
+      "detailed_description": "[USER_001]正在使用[HANDLE_014]远程桌面软件，界面显示正在连接远程设备，提示“连接中...”。该应用主要用于跨设备远程控制或屏幕共享，当前处于建立连接的初始化阶段。从截图可见，[USER_001]未进行文本输入或对话交互，也无任何LLM平台界面或对话框。同时，屏幕右侧有[USER_002]录屏工具运行，表明[USER_001]可能在记录操作过程。整个事件属于远程协作或设备管理场景，与大语言模型（LLM）无关。",
+      "content": [
+        {
+          "application": "ToDesk",
+          "window": "ToDesk",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101633_104.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:33.244"
+        },
+        {
+          "application": "ToDesk",
+          "window": "ToDesk",
+          "screenshot": "/Users/th1nkmore/Downloads/LifeTrace/data/screenshots/screen_1_20251201_101635_476.png",
+          "summary": "",
+          "is_sensitive": false,
+          "is_llm_event": false,
+          "timestamp": "2025-12-01 10:16:35.610"
+        }
+      ]
+    }
+  ]
+}
