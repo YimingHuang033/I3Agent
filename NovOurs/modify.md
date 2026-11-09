@@ -39,3 +39,12 @@
 - 官方STITCH的 `question_turn_ids` 按原筛选语义列出全部已观察候选turn，而非仅当前请求；不提供未来或隐藏答案turn。原retriever从structured-notes的上两级寻找turns.jsonl，因此将结构化notes放在运行目录的notes子目录，保持原读取逻辑。v5缺少此布局与完整候选集，明确从有效smoke结论中排除。
 - 原STITCH序列化使用 `node_selected_turn_details`，adapter按原输出键读入；不重命名原产物。审计发现DSPy默认全局缓存会复用前次尝试响应，现通过已核实的 `DSPY_CACHEDIR` 将缓存隔离到单次运行的输入快照目录。v7为使用暖缓存的管线通过，不能将其调用量当作冷启动成本；另增DeepSeek actor的隔离缓存官方管线验证。
 - Pi外部harness在disconnect时收到finish并保存agent_state；MCP连接建立后刷新公开工具schemas，避免初始化早于MCP连接时丢失工具。Pi原LLMClient保留原重试实现，smoke显式将尝试上限设为2；所有成功/失败请求计入后续日志。
+
+## 11月10日运维交接计划
+
+- 新增 `auto_notes/README.md` 与 `RUNBOOK.md`，集中说明研究目标、固定配置、分阶段数量、覆盖审查、运行/监控/停止、恢复限制及交付证据；已有smoke和新计划明确区分。
+- 新增 `auto_notes/prepare_plan.py`，固定种子抽取LifeSim两个setting各30条，生成A回归9、B主要pilot600、C工具迁移10个job的冻结计划，使用现有pilot.py执行；统一Qwen服务为8012，保存任务ID、数据散列、配置散列及待审查覆盖模板。生成阶段不调用模型、不启动GPU，不新增评分或修改原任务。
+- 核查原MemPA `scripts/run_orchestrator.py` 的 `_acc_names_from_list` 与CLI参数，确认完整persona是99个非连续acc、001–108间含probe槽。当前adapter未接acc-list，撤回旧README中直接设1–108即全量运行的错误指引；长期8条运行仅列后续目标，暂不生成可执行D计划。
+- 主矩阵使用官方STITCH、固定两轮，轻量适配版和旧单轮/暖缓存联调分开；明确direct当前保留公开历史，不冒称“只看当前消息”基线。
+- 此次只做计划生成、静态检查和仓库提交，不启动新实验，不修改原benchmark子模块或tim环境。
+- 无API试生成暴露LifeSim long_horizon存在119个重复sequence_id（1309行、1190个不同ID）。计划生成器排除这些歧义ID的全部记录，从1071个无歧义ID中抽样，并保存excluded清单；固定events/users文件散列。不修改来源数据，也不声称抽样池等于整个发布集。

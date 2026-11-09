@@ -27,6 +27,7 @@ STITCH v7复用了DSPy默认全局暖缓存中的既有模型响应，因此只�
 3. IN3接口需要原 `hbx/Mistral-Interact` 权重服务，本次未部署。CAPTURE原训练组件仍缺，显式拒绝用普通prompt冒充。
 4. STITCH轻量适配版与 `stitch_official` 分开命名。官方流水线已有独立通过记录；官方STITCH+REVOIR组合入口已接入，但本次实际验证的组合是轻量STITCH+REVOIR，不能混淆两者。
 5. MemPA完整长期probe评分、Pi AppWorld任务、所有方法在所有来源上的完整交叉矩阵尚未运行。评分入口已接入，但未运行不能表述为复现完成。
+   运维核查进一步确认：MemPA完整时间线不是连续1–108；当前adapter仅支持acc-range，尚需接通原acc-list/计划与probe流程。旧README的全量配置指引已更正，完整长期实验列为阻塞项，不能只改score=true即视为可执行。
 6. Python/HTTP/进程接口是协作式公开数据边界，不是操作系统安全沙箱。面对不可信harness，应在独立容器中仅挂载workspace并从网络端提供事件，不能给它主机源码/私有任务路径访问权。
 
 ## 失败尝试与复现

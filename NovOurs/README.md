@@ -2,6 +2,8 @@
 
 实现依据：Notion「11月初受控pilot study设计」，包含11月9日新增方法与原型方案。`docs/notion-spec.md` 保存所依据的原文。这里的任务、用户与评分来自原始来源；旧 `ours/` 实验保持独立。
 
+**运维从 [auto_notes/README.md](auto_notes/README.md) 的最新实验计划和 [RUNBOOK.md](auto_notes/RUNBOOK.md) 开始。** 其中包含批次数量、生成计划、启动/监控/停止、验收和缺资源项；生成器不会启动实验。
+
 ```text
                 ┌──────────────────────────┐
 公开请求/历史 ──→│ Agent adapter             │
@@ -37,6 +39,7 @@ flowchart LR
 - `configs/`：不含密钥的可运行 smoke 配置。
 - `tests/`：私有信息边界、依赖撤销、假想分支不污染真实历史、协议与工具能力测试。
 - `docs/`：方案、方法边界、任务清单和实际验证结果。
+- `auto_notes/`：当前实验计划、运维手册和无模型调用的计划生成器。
 - `.local/`：BBQCard2 的请求轨迹、模型输出、原生运行副本、检查点和上游方法依赖；Git 忽略。
 
 ## 在 BBQCard2 运行
@@ -59,7 +62,7 @@ bash NovOurs/setup_mempa.sh
 NovOurs/.local/venv/bin/python -m novours run --config NovOurs/configs/mempa-native.json --output NovOurs/.local/runs/my-mempa
 ```
 
-需要 STITCH-adapted 时先运行 `python NovOurs/setup_upstream.py` 下载锁定提交。运行 `PYTHONPATH=NovOurs python -m unittest discover -s NovOurs/tests -v` 验证契约。
+需要 STITCH-adapted 时先运行 `python3 NovOurs/setup_upstream.py` 下载锁定提交。运行 `PYTHONPATH=NovOurs NovOurs/.local/venv/bin/python -m unittest discover -s NovOurs/tests -v` 验证契约。
 
 Pi 工具和 MemPA 配置使用端口8012：`NOVOURS_GPU=1 NOVOURS_PORT=8012 bash NovOurs/launch_vllm.sh`。默认 Qwen 服务为32K上下文。MemPA 的 MCP 1.x、json-repair 仅安装到 `.local/venv`。
 
@@ -97,4 +100,4 @@ PYTHONPATH=NovOurs python3 NovOurs/pilot.py plan --plan NovOurs/.local/pilot-pla
 PYTHONPATH=NovOurs python3 NovOurs/pilot.py run --plan NovOurs/.local/pilot-plan.json --output NovOurs/.local/pilot
 ```
 
-调度器按来源选择解释器，校验计划/配置散列，逐项写进度。完整结果可复用，失败或不完整交互保留并要求检查，不盲目重放。全量MemPA需将原配置 `acc_range` 设为 `1-108`、`score` 设为true，并留足超时；Pi应保留原任务依赖顺序，不能把依赖任务任意拆成独立样本。
+调度器按来源选择解释器，校验计划/配置散列，逐项写进度。完整结果可复用，失败或不完整交互保留并要求检查，不盲目重放。**更正：完整MemPA不能直接设置 `acc_range=1-108`。** 原时间线有99个非连续acc和probe槽，原CLI通过 `--acc-list` 选择完整时间线；当前adapter只接入acc-range。需先补接原显式清单/计划和probe流程、验证33-probe覆盖，再启用完整评分。当前支持的acc001 smoke与完整长期实验应分开记录。Pi应保留原任务依赖顺序，不能把依赖任务任意拆成独立样本。
