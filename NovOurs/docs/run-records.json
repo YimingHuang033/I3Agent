@@ -1,0 +1,2323 @@
+[
+  {
+    "run": ".local/runs/lifesim-deepseek-direct",
+    "source": "lifesim",
+    "method": "direct",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 100.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 100.0,
+      "IC_implicit": 0.0,
+      "NAT": 80.0,
+      "COH": 100.0,
+      "PA": 28.6,
+      "EA": 100.0,
+      "RR": 0.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 3,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3464,
+      "actor": 2688,
+      "judge": 7747
+    },
+    "request_seconds": {
+      "user": 3.72,
+      "actor": 5.37,
+      "judge": 16.38
+    },
+    "wall_seconds": 29.91,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 2,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "db463359ef01ff29d9af2fc17b08863f437a8480825a9d63a19c9b45632b68f4",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "deepseek-v4-flash",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "690d73158107d9abc90aee9d314e2b9272a142f5fabba908719d68f4cab3572b",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "356da3894d5d9ecbec5c8f590cf6e3fe467c14bd1ca46dd423b84cee12109a9d",
+      "novours/stitch_official.py": "53e47bbdb2c19ae8a7291d7b730a86790e8527fb3edd12113b32874b1793be32",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "e2e6bc5c70811cf4144a95dd46499385371c3508ea0589b050eb49f1af13cdd8",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/lifesim-direct-smoke",
+    "source": "lifesim",
+    "method": "direct",
+    "status": {
+      "status": "failed",
+      "error_class": "HTTPError",
+      "error": "HTTP Error 401: Authorization Required"
+    },
+    "native_metrics": null,
+    "calls": {},
+    "tokens": {},
+    "request_seconds": {},
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "be8141a8e3b178fb5a74c3058cd21ae81634c1ddb6a6f5a4b77bc03842ab7ca5",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-direct-v2",
+    "source": "lifesim",
+    "method": "direct",
+    "status": {
+      "status": "failed",
+      "error_class": "URLError",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 1
+    },
+    "tokens": {
+      "user": 787
+    },
+    "request_seconds": {
+      "user": 1.18
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8ac574ca9aa2efdefbeb2a91d792cde4ec286e8e3b883b49144903594c1b831e",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-direct-v3",
+    "source": "lifesim",
+    "method": "direct",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 20.0,
+      "PA": 14.3,
+      "EA": 60.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 3,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3173,
+      "actor": 2519,
+      "judge": 7643
+    },
+    "request_seconds": {
+      "user": 3.04,
+      "actor": 9.45,
+      "judge": 18.14
+    },
+    "wall_seconds": 34.16,
+    "actions": {
+      "respond": 1,
+      "ask": 1
+    },
+    "intent_diagnostics": 1,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8ac574ca9aa2efdefbeb2a91d792cde4ec286e8e3b883b49144903594c1b831e",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/lifesim-long-p3",
+    "source": "lifesim",
+    "method": "p3",
+    "status": {
+      "status": "failed",
+      "error_class": "ValueError",
+      "error": "ungrounded state evidence"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 4,
+      "actor": 30
+    },
+    "tokens": {
+      "user": 5761,
+      "actor": 324561
+    },
+    "request_seconds": {
+      "user": 3.5,
+      "actor": 86.99
+    },
+    "wall_seconds": null,
+    "actions": {
+      "respond": 1
+    },
+    "intent_diagnostics": 1,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "bee7fcbecf1134ebec72d529382345bc18a0e2dd374e1bb1408df8f1a1d086e4",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-long-p3-v2",
+    "source": "lifesim",
+    "method": "p3",
+    "status": {
+      "status": "failed",
+      "error_class": "IndexError",
+      "error": "list index out of range"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 4,
+      "actor": 51
+    },
+    "tokens": {
+      "user": 6300,
+      "actor": 571911
+    },
+    "request_seconds": {
+      "user": 3.76,
+      "actor": 188.35
+    },
+    "wall_seconds": null,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 2,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "bee7fcbecf1134ebec72d529382345bc18a0e2dd374e1bb1408df8f1a1d086e4",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "31b0ef9b1049b8528e7b31ca43d6670f85d80b209658db6dcbf548b37145b8eb",
+      "novours/gateway.py": "48bdc89f6952e06e3c8104e7fbd670bab9cd4e1bf949aa45e0ba1b16ba841171",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "3544d5c08762719aead85b607afd5fea3cc81b93d049edb17678710586d8f856",
+      "novours/methods.py": "5cc76a3d98c80b53685c7f78a0a114542519b0930490c982ec618c5ef9637859",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "561211d31c79272378fed13e867226ceeaf35aa548e399eacb680e377ccfe43f",
+      "novours/adapters/mempa.py": "3b8e2d732bc7251ae4aad7d139c687f2f4d9314ee6dbc6fe91dd2e8e05ad1d93",
+      "novours/adapters/pi.py": "bb5c74f39710e7211aeb14c571e453bed7817febce34f626420d73dfef5b8f03",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-long-p3-v3",
+    "source": "lifesim",
+    "method": "p3",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 40.0,
+      "PA": 32.1,
+      "EA": 60.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 41,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 5729,
+      "actor": 437808,
+      "judge": 11274
+    },
+    "request_seconds": {
+      "user": 4.03,
+      "actor": 86.47,
+      "judge": 18.7
+    },
+    "wall_seconds": 113.48,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 2,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "c10b4d798c17f0432925838916c2364ba7e9da5a96880f3693a6e253b59314fd",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "31b0ef9b1049b8528e7b31ca43d6670f85d80b209658db6dcbf548b37145b8eb",
+      "novours/stitch_official.py": "bb888bcdcb2be4b1b16d92069f92c50b9a838d3bcce7a4f2640ea5b8643b8bd2",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "3544d5c08762719aead85b607afd5fea3cc81b93d049edb17678710586d8f856",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "3b8e2d732bc7251ae4aad7d139c687f2f4d9314ee6dbc6fe91dd2e8e05ad1d93",
+      "novours/adapters/pi.py": "bb5c74f39710e7211aeb14c571e453bed7817febce34f626420d73dfef5b8f03",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/lifesim-native",
+    "source": "lifesim",
+    "method": "native",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 40.0,
+      "PA": 14.3,
+      "EA": 40.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 5,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3120,
+      "actor": 3660,
+      "judge": 7991
+    },
+    "request_seconds": {
+      "user": 2.88,
+      "actor": 15.46,
+      "judge": 22.16
+    },
+    "wall_seconds": 44.3,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "37cebfdeaa1af5cf8fe580c5d7f35f3a31931c6683d4c1d1ef34b197dae0859f",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/lifesim-p3",
+    "source": "lifesim",
+    "method": "p3",
+    "status": {
+      "status": "failed",
+      "error_class": "ValueError",
+      "error": "ask in action candidates"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 4,
+      "actor": 25
+    },
+    "tokens": {
+      "user": 3181,
+      "actor": 15130
+    },
+    "request_seconds": {
+      "user": 4.02,
+      "actor": 24.86
+    },
+    "wall_seconds": null,
+    "actions": {
+      "respond": 1
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "a4ce96d213c8abbf08e92a423af322024025f4a98043d6042b822e65e607ac47",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-p3-final",
+    "source": "lifesim",
+    "method": "p3",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 40.0,
+      "PA": 28.6,
+      "EA": 60.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 55,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3255,
+      "actor": 39967,
+      "judge": 7865
+    },
+    "request_seconds": {
+      "user": 3.69,
+      "actor": 55.25,
+      "judge": 18.5
+    },
+    "wall_seconds": 81.42,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 2,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "a4ce96d213c8abbf08e92a423af322024025f4a98043d6042b822e65e607ac47",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "690d73158107d9abc90aee9d314e2b9272a142f5fabba908719d68f4cab3572b",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "2ee048ea1dbbba90d42d3d12ec17a95baccfde50e77caa6e132337d75b3053fe",
+      "novours/stitch_official.py": "cd16a8ab369959fc1324821cf6d7605212f379122a74fba4916cf4312c492788",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/lifesim-p3-v2",
+    "source": "lifesim",
+    "method": "p3",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 60.0,
+      "PA": 14.3,
+      "EA": 60.0,
+      "RR": 0.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 55,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3182,
+      "actor": 39372,
+      "judge": 7573
+    },
+    "request_seconds": {
+      "user": 3.59,
+      "actor": 50.16,
+      "judge": 17.19
+    },
+    "wall_seconds": 74.61,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "a4ce96d213c8abbf08e92a423af322024025f4a98043d6042b822e65e607ac47",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/lifesim-process",
+    "source": "lifesim",
+    "method": "process",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 60.0,
+      "COH": 60.0,
+      "PA": 28.6,
+      "EA": 100.0,
+      "RR": 0.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 1,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3117,
+      "actor": 1852,
+      "judge": 7526
+    },
+    "request_seconds": {
+      "user": 3.36,
+      "actor": 9.99,
+      "judge": 16.5
+    },
+    "wall_seconds": 35.68,
+    "actions": {
+      "ask": 1,
+      "respond": 1
+    },
+    "intent_diagnostics": 2,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "7ad8077a182ba479deb8b67fdf08eb162723d32799612c869af0e91b41c983e8",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "2ee048ea1dbbba90d42d3d12ec17a95baccfde50e77caa6e132337d75b3053fe",
+      "novours/stitch_official.py": "98ca463419e96ba663f5e570d8059b9331360609b4f99ab92b9c075a556f0d89",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/lifesim-stitch-official",
+    "source": "lifesim",
+    "method": "stitch_official",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/NovOurs/.local/stitch-venv/bin/python', 'scripts/generate_proto_universal.py']' returned non-zero exit status 1."
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 1
+    },
+    "tokens": {
+      "user": 784
+    },
+    "request_seconds": {
+      "user": 0.94
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8dc00b4e0297267a91e486f74660b8fc69510a2ca10f9453f0df168ae81ed358",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "31b0ef9b1049b8528e7b31ca43d6670f85d80b209658db6dcbf548b37145b8eb",
+      "novours/stitch_official.py": "bb888bcdcb2be4b1b16d92069f92c50b9a838d3bcce7a4f2640ea5b8643b8bd2",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "3544d5c08762719aead85b607afd5fea3cc81b93d049edb17678710586d8f856",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "561211d31c79272378fed13e867226ceeaf35aa548e399eacb680e377ccfe43f",
+      "novours/adapters/mempa.py": "3b8e2d732bc7251ae4aad7d139c687f2f4d9314ee6dbc6fe91dd2e8e05ad1d93",
+      "novours/adapters/pi.py": "bb5c74f39710e7211aeb14c571e453bed7817febce34f626420d73dfef5b8f03",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-stitch-official-deepseek",
+    "source": "lifesim",
+    "method": "stitch_official",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 60.0,
+      "COH": 60.0,
+      "PA": 28.6,
+      "EA": 100.0,
+      "RR": 0.0
+    },
+    "calls": {
+      "user": 1,
+      "actor_stitch": 17,
+      "actor": 2,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 784,
+      "actor_stitch": 10031,
+      "actor": 2660,
+      "judge": 6934
+    },
+    "request_seconds": {
+      "user": 0.95,
+      "actor_stitch": 17.71,
+      "actor": 3.47,
+      "judge": 14.87
+    },
+    "wall_seconds": 86.27,
+    "actions": {
+      "respond": 1
+    },
+    "intent_diagnostics": 1,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "d550f41b7c7ec75637ad2b0dfbb2ac27782ac02788e3e0221fcf27150c437fec",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "deepseek-v4-flash",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "690d73158107d9abc90aee9d314e2b9272a142f5fabba908719d68f4cab3572b",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "4ee28f9f1052236376f399322348038eb149655d6c07f3479ac3e5b2bc9b0009",
+      "novours/stitch_official.py": "59d1e9fb566e77ad0f18cb9d30c99c723aedebd57936f23fe6c5b32162c05ff4",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "e2e6bc5c70811cf4144a95dd46499385371c3508ea0589b050eb49f1af13cdd8",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/lifesim-stitch-official-v2",
+    "source": "lifesim",
+    "method": "stitch_official",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/NovOurs/.local/stitch-venv/bin/python', '-m', 'method_stitch.turn_scope_generator', '--config', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/lifesim-stitch-official-v2/stitch_official/238f0f8e8cb13ff2/segment_level_note_maintainer.json', '--overwrite']' returned non-zero exit status 1."
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 1,
+      "actor_stitch": 3
+    },
+    "tokens": {
+      "user": 784,
+      "actor_stitch": 809
+    },
+    "request_seconds": {
+      "user": 0.82,
+      "actor_stitch": 1.37
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8dc00b4e0297267a91e486f74660b8fc69510a2ca10f9453f0df168ae81ed358",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "2ee048ea1dbbba90d42d3d12ec17a95baccfde50e77caa6e132337d75b3053fe",
+      "novours/stitch_official.py": "98ca463419e96ba663f5e570d8059b9331360609b4f99ab92b9c075a556f0d89",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-stitch-official-v3",
+    "source": "lifesim",
+    "method": "stitch_official",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/NovOurs/.local/stitch-venv/bin/python', '-c', \"import sys,runpy; import came_bench.utils.io as io; original=io.load_turns; io.load_turns=lambda *args: original(args[-1]); module=sys.argv.pop(1); runpy.run_module(module,run_name='__main__')\", 'method_stitch.label_based_context_retrieval', '--config', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/lifesim-stitch-official-v3/stitch_official/238f0f8e8cb13ff2/label_based_context_retrieval.json', '--overwrite']' returned"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 1,
+      "actor_stitch": 5
+    },
+    "tokens": {
+      "user": 784,
+      "actor_stitch": 3208
+    },
+    "request_seconds": {
+      "user": 0.9,
+      "actor_stitch": 3.37
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8dc00b4e0297267a91e486f74660b8fc69510a2ca10f9453f0df168ae81ed358",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "2ee048ea1dbbba90d42d3d12ec17a95baccfde50e77caa6e132337d75b3053fe",
+      "novours/stitch_official.py": "b39a286c127c69fd1e562b8e3fdef77bbfd38281d616cb285f2d5fcf9ff421be",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-stitch-official-v4",
+    "source": "lifesim",
+    "method": "stitch_official",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/NovOurs/.local/stitch-venv/bin/python', '-c', \"import sys,importlib.util; from pathlib import Path; import came_bench.utils.io as io; original=io.load_turns; io.load_turns=lambda *args: original(args[-1]); module=sys.argv.pop(1); __file__=importlib.util.find_spec(module).origin; source=Path(__file__).read_text().replace('from __future__ import annotations',''); exec(compile(source,__file__,'exec'),globals())\", 'method_stitch.turn_scope_generator', '--config', '/"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 1,
+      "actor_stitch": 2
+    },
+    "tokens": {
+      "user": 783,
+      "actor_stitch": 974
+    },
+    "request_seconds": {
+      "user": 0.9,
+      "actor_stitch": 1.82
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8dc00b4e0297267a91e486f74660b8fc69510a2ca10f9453f0df168ae81ed358",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "690d73158107d9abc90aee9d314e2b9272a142f5fabba908719d68f4cab3572b",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "2ee048ea1dbbba90d42d3d12ec17a95baccfde50e77caa6e132337d75b3053fe",
+      "novours/stitch_official.py": "cd16a8ab369959fc1324821cf6d7605212f379122a74fba4916cf4312c492788",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-stitch-official-v5",
+    "source": "lifesim",
+    "method": "stitch_official",
+    "status": {
+      "status": "failed",
+      "error_class": "KeyError",
+      "error": "'label_selected_turn_details'"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 1,
+      "actor_stitch": 16
+    },
+    "tokens": {
+      "user": 784,
+      "actor_stitch": 9755
+    },
+    "request_seconds": {
+      "user": 0.94,
+      "actor_stitch": 15.07
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8dc00b4e0297267a91e486f74660b8fc69510a2ca10f9453f0df168ae81ed358",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "690d73158107d9abc90aee9d314e2b9272a142f5fabba908719d68f4cab3572b",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "356da3894d5d9ecbec5c8f590cf6e3fe467c14bd1ca46dd423b84cee12109a9d",
+      "novours/stitch_official.py": "53e47bbdb2c19ae8a7291d7b730a86790e8527fb3edd12113b32874b1793be32",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "e2e6bc5c70811cf4144a95dd46499385371c3508ea0589b050eb49f1af13cdd8",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "validation_warning": "Excluded: upstream turns.jsonl lookup missed its expected parent layout and candidate IDs covered only the current turn; fixed in v6",
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-stitch-official-v6",
+    "source": "lifesim",
+    "method": "stitch_official",
+    "status": {
+      "status": "failed",
+      "error_class": "KeyError",
+      "error": "'label_selected_turn_details'"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 1,
+      "actor_stitch": 13
+    },
+    "tokens": {
+      "user": 783,
+      "actor_stitch": 8099
+    },
+    "request_seconds": {
+      "user": 0.82,
+      "actor_stitch": 12.7
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8dc00b4e0297267a91e486f74660b8fc69510a2ca10f9453f0df168ae81ed358",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "690d73158107d9abc90aee9d314e2b9272a142f5fabba908719d68f4cab3572b",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "356da3894d5d9ecbec5c8f590cf6e3fe467c14bd1ca46dd423b84cee12109a9d",
+      "novours/stitch_official.py": "36b5e83262aff6cfa07cf1f12bdaa58372a6e251a7ee33ff7cdbf1d8b1c6efb4",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "e2e6bc5c70811cf4144a95dd46499385371c3508ea0589b050eb49f1af13cdd8",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/lifesim-stitch-official-v7",
+    "source": "lifesim",
+    "method": "stitch_official",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 40.0,
+      "PA": 28.6,
+      "EA": 80.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 1,
+      "actor_stitch": 2,
+      "actor": 2,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 784,
+      "actor_stitch": 655,
+      "actor": 2799,
+      "judge": 7220
+    },
+    "request_seconds": {
+      "user": 0.85,
+      "actor_stitch": 0.56,
+      "actor": 9.5,
+      "judge": 16.69
+    },
+    "wall_seconds": 88.95,
+    "actions": {
+      "respond": 1
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8dc00b4e0297267a91e486f74660b8fc69510a2ca10f9453f0df168ae81ed358",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "690d73158107d9abc90aee9d314e2b9272a142f5fabba908719d68f4cab3572b",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "356da3894d5d9ecbec5c8f590cf6e3fe467c14bd1ca46dd423b84cee12109a9d",
+      "novours/stitch_official.py": "ed9c62ec882509e1020b042755641c31eb318a483177e1159fa17ee5e8f49f9c",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "e2e6bc5c70811cf4144a95dd46499385371c3508ea0589b050eb49f1af13cdd8",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/mempa-direct",
+    "source": "mempa",
+    "method": "direct",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "status": "native_session_completed",
+      "aggregate_scores": null,
+      "reason": "Full original score requires all probes; score flag disabled for bounded smoke"
+    },
+    "calls": {
+      "live_judge": 8,
+      "user": 4,
+      "actor": 5
+    },
+    "tokens": {
+      "live_judge": 10377,
+      "user": 21661,
+      "actor": 92017
+    },
+    "request_seconds": {
+      "live_judge": 10.01,
+      "user": 9.3,
+      "actor": 44.26
+    },
+    "wall_seconds": 66.76,
+    "actions": {
+      "ask": 2,
+      "tool": 2,
+      "respond": 1
+    },
+    "intent_diagnostics": 3,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "fc4bc85e3c3f3b6ae91cc80ebe2360bc73eec9db5d6c1913f83c4ea4881b6a8e",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/mempa-native",
+    "source": "mempa",
+    "method": "native",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/lifesim-venv/bin/python', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native/native/novours_entry.py', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native/effective_config.json', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native/agent_trace.jsonl', 'run', '--run-id', 'novours', '--persona-id', 'user_a', '--acc-range', '1-1', '--memory-condition', 'nanobot_file_memory', '--pa-model', 'qwen/Qwen3-8B', '--consolidation-model', 'qwen/Qwen3-8B', '--"
+    },
+    "native_metrics": null,
+    "calls": {},
+    "tokens": {},
+    "request_seconds": {},
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "590f6ff6ead8f54c706e043584328e8c052bc7f46b47db64cf3a5693230dd013",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/mempa-native-v2",
+    "source": "mempa",
+    "method": "native",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/lifesim-venv/bin/python', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v2/native/novours_entry.py', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v2/effective_config.json', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v2/agent_trace.jsonl', 'run', '--run-id', 'novours', '--persona-id', 'user_a', '--acc-range', '1-1', '--memory-condition', 'nanobot_file_memory', '--pa-model', 'qwen/Qwen3-8B', '--consolidation-model', 'qwen/Qwen3"
+    },
+    "native_metrics": null,
+    "calls": {},
+    "tokens": {},
+    "request_seconds": {},
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "590f6ff6ead8f54c706e043584328e8c052bc7f46b47db64cf3a5693230dd013",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/mempa-native-v3",
+    "source": "mempa",
+    "method": "native",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/lifesim-venv/bin/python', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v3/native/novours_entry.py', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v3/effective_config.json', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v3/agent_trace.jsonl', 'run', '--run-id', 'novours', '--persona-id', 'user_a', '--acc-range', '1-1', '--memory-condition', 'nanobot_file_memory', '--pa-model', 'qwen/Qwen3-8B', '--consolidation-model', 'qwen/Qwen3"
+    },
+    "native_metrics": null,
+    "calls": {
+      "live_judge": 1
+    },
+    "tokens": {
+      "live_judge": 927
+    },
+    "request_seconds": {
+      "live_judge": 0.76
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "590f6ff6ead8f54c706e043584328e8c052bc7f46b47db64cf3a5693230dd013",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/mempa-native-v4",
+    "source": "mempa",
+    "method": "native",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "status": "native_session_completed",
+      "aggregate_scores": null,
+      "reason": "Full original score requires all probes; score flag disabled for bounded smoke"
+    },
+    "calls": {
+      "live_judge": 8,
+      "user": 4,
+      "actor": 3
+    },
+    "tokens": {
+      "live_judge": 12544,
+      "user": 23038,
+      "actor": 5615
+    },
+    "request_seconds": {
+      "live_judge": 9.32,
+      "user": 9.03,
+      "actor": 15.81
+    },
+    "wall_seconds": 104.04,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "590f6ff6ead8f54c706e043584328e8c052bc7f46b47db64cf3a5693230dd013",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "validation_warning": "Excluded: original CLI exited 0 despite MCP initialization failure; use v7",
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/mempa-native-v5",
+    "source": "mempa",
+    "method": "native",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/NovOurs/.local/venv/bin/python', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v5/native/novours_entry.py', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v5/effective_config.json', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v5/agent_trace.jsonl', 'run', '--run-id', 'novours', '--persona-id', 'user_a', '--acc-range', '1-1', '--memory-condition', 'nanobot_file_memory', '--pa-model', 'qwen/Qwen3-8B', '--consolidation-model', 'qwe"
+    },
+    "native_metrics": null,
+    "calls": {},
+    "tokens": {},
+    "request_seconds": {},
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "590f6ff6ead8f54c706e043584328e8c052bc7f46b47db64cf3a5693230dd013",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/mempa-native-v6",
+    "source": "mempa",
+    "method": "native",
+    "status": {
+      "status": "failed",
+      "error_class": "CalledProcessError",
+      "error": "Command '['/home/tim/Proj/I3Agent/NovOurs/.local/venv/bin/python', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v6/native/novours_entry.py', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v6/effective_config.json', '/home/tim/Proj/I3Agent/NovOurs/.local/runs/mempa-native-v6/agent_trace.jsonl', 'run', '--run-id', 'novours', '--persona-id', 'user_a', '--acc-range', '1-1', '--memory-condition', 'nanobot_file_memory', '--pa-model', 'qwen/Qwen3-8B', '--consolidation-model', 'qwe"
+    },
+    "native_metrics": null,
+    "calls": {
+      "live_judge": 4,
+      "user": 2
+    },
+    "tokens": {
+      "live_judge": 4483,
+      "user": 9670
+    },
+    "request_seconds": {
+      "live_judge": 3.97,
+      "user": 3.46
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "590f6ff6ead8f54c706e043584328e8c052bc7f46b47db64cf3a5693230dd013",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/mempa-native-v7",
+    "source": "mempa",
+    "method": "native",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "status": "native_session_completed",
+      "aggregate_scores": null,
+      "reason": "Full original score requires all probes; score flag disabled for bounded smoke"
+    },
+    "calls": {
+      "live_judge": 8,
+      "user": 4,
+      "actor": 5
+    },
+    "tokens": {
+      "live_judge": 12392,
+      "user": 23240,
+      "actor": 90171
+    },
+    "request_seconds": {
+      "live_judge": 9.76,
+      "user": 9.99,
+      "actor": 45.06
+    },
+    "wall_seconds": 67.66,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "3fa5d6b06e99090308081881e9743b59fb277f9133136f026b902c87017c9a9c",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/pi-native",
+    "source": "pi",
+    "method": "native",
+    "status": {
+      "status": "complete",
+      "note": "verified existing result on resume"
+    },
+    "native_metrics": {
+      "tasks_built": 1,
+      "checklist_evaluated_tasks": 0,
+      "proactiveness_evaluated_tasks": 1,
+      "overall_average_score": null,
+      "overall_proactiveness_average_score": null
+    },
+    "calls": {
+      "actor": 7
+    },
+    "tokens": {
+      "actor": 22719
+    },
+    "request_seconds": {
+      "actor": 45.71
+    },
+    "wall_seconds": 54.4,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "8bc1d387c30859c987375d12f365eba4a231276cdf0066247ba95849b57d26bd",
+    "pi_call_accounting": "actor only for early smoke before LoggedClient; consult native logs for user/judge",
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/pi-tools-direct",
+    "source": "pi",
+    "method": "direct",
+    "status": {
+      "status": "failed",
+      "error_class": "ValueError",
+      "error": "invalid trace session directory: expected YYYYMMDD_HHMMSS under trace_logs/{model_id}/{user_id}/{task_id}/ but got researcher/researcher_task_011/session/turn_20261110_000840_novours_researcher.json"
+    },
+    "native_metrics": null,
+    "calls": {
+      "actor": 9
+    },
+    "tokens": {
+      "actor": 14670
+    },
+    "request_seconds": {
+      "actor": 7.42
+    },
+    "wall_seconds": null,
+    "actions": {
+      "ask": 9
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "a32dc7e5ffd98ed90eed827de512288b2f392d921f8cf503c6c9aa0f57b80c0b",
+    "pi_call_accounting": "actor only for early smoke before LoggedClient; consult native logs for user/judge",
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/pi-tools-direct-v2",
+    "source": "pi",
+    "method": "direct",
+    "status": {
+      "status": "failed",
+      "error_class": "RuntimeError",
+      "error": "native Pi task failed"
+    },
+    "native_metrics": null,
+    "calls": {
+      "actor": 15
+    },
+    "tokens": {
+      "actor": 37476
+    },
+    "request_seconds": {
+      "actor": 32.44
+    },
+    "wall_seconds": null,
+    "actions": {
+      "ask": 6,
+      "tool": 8
+    },
+    "intent_diagnostics": 8,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "01215d1d57dd1490a75c4ba0741ce6c81c8287524eb013b1effde6aa892f0c23",
+    "pi_call_accounting": "actor only for early smoke before LoggedClient; consult native logs for user/judge",
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/pi-tools-direct-v3",
+    "source": "pi",
+    "method": "direct",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "tasks_built": 1,
+      "checklist_evaluated_tasks": 1,
+      "proactiveness_evaluated_tasks": 1,
+      "overall_average_score": 0.07142857142857142,
+      "overall_proactiveness_average_score": 0.0
+    },
+    "calls": {
+      "actor": 27
+    },
+    "tokens": {
+      "actor": 170099
+    },
+    "request_seconds": {
+      "actor": 129.68
+    },
+    "wall_seconds": 181.61,
+    "actions": {
+      "tool": 18,
+      "respond": 9
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "01215d1d57dd1490a75c4ba0741ce6c81c8287524eb013b1effde6aa892f0c23",
+    "pi_call_accounting": "actor only for early smoke before LoggedClient; consult native logs for user/judge",
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "31b0ef9b1049b8528e7b31ca43d6670f85d80b209658db6dcbf548b37145b8eb",
+      "novours/gateway.py": "48bdc89f6952e06e3c8104e7fbd670bab9cd4e1bf949aa45e0ba1b16ba841171",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "3544d5c08762719aead85b607afd5fea3cc81b93d049edb17678710586d8f856",
+      "novours/methods.py": "5cc76a3d98c80b53685c7f78a0a114542519b0930490c982ec618c5ef9637859",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "561211d31c79272378fed13e867226ceeaf35aa548e399eacb680e377ccfe43f",
+      "novours/adapters/mempa.py": "3b8e2d732bc7251ae4aad7d139c687f2f4d9314ee6dbc6fe91dd2e8e05ad1d93",
+      "novours/adapters/pi.py": "bb5c74f39710e7211aeb14c571e453bed7817febce34f626420d73dfef5b8f03",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/pi-tools-native",
+    "source": "pi",
+    "method": "native",
+    "status": {
+      "status": "failed",
+      "error_class": "RuntimeError",
+      "error": "native Pi task failed"
+    },
+    "native_metrics": null,
+    "calls": {
+      "actor": 32
+    },
+    "tokens": {
+      "actor": 223232
+    },
+    "request_seconds": {
+      "actor": 88.48
+    },
+    "wall_seconds": null,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "091efe3f699d1649d5f37637ca4a1ebe8ae0d37cde9831fbbf4543cdb9cafac1",
+    "pi_call_accounting": "actor only for early smoke before LoggedClient; consult native logs for user/judge",
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/runs/pi-tools-native-v2",
+    "source": "pi",
+    "method": "native",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "tasks_built": 1,
+      "checklist_evaluated_tasks": 1,
+      "proactiveness_evaluated_tasks": 1,
+      "overall_average_score": 0.42857142857142855,
+      "overall_proactiveness_average_score": 0.5
+    },
+    "calls": {
+      "actor": 36
+    },
+    "tokens": {
+      "actor": 293231
+    },
+    "request_seconds": {
+      "actor": 191.51
+    },
+    "wall_seconds": 223.22,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "820d015650373d6a6ca76114be330f4d27d01ed35c6a8577f3fc12c8e9317f89",
+    "pi_call_accounting": "actor only for early smoke before LoggedClient; consult native logs for user/judge",
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/runs/proagent-inventory",
+    "source": "proagent",
+    "method": "native",
+    "status": {
+      "status": "skipped"
+    },
+    "native_metrics": {
+      "status": "skipped",
+      "included": 0,
+      "skipped": 11629,
+      "reason": "Current source release lacks original evaluator/scoring targets and images. No synthetic goals or substitute scores."
+    },
+    "calls": {},
+    "tokens": {},
+    "request_seconds": {},
+    "wall_seconds": 0.63,
+    "actions": {},
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "fc1856a4738d572084f5461ce6801ff0d65fd0f30aeb997cb934a42edbd4c7e9",
+    "pi_call_accounting": null,
+    "models": {},
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "2ee048ea1dbbba90d42d3d12ec17a95baccfde50e77caa6e132337d75b3053fe",
+      "novours/stitch_official.py": "98ca463419e96ba663f5e570d8059b9331360609b4f99ab92b9c075a556f0d89",
+      "novours/gateway.py": "0dc0b788c53a2356846fa381b3576f4c893c7142704b67ee4e5caee5144fa217",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "e0ef22badd8d636c1fdb13c40945c4191b48ad3abb071d6d43846177e4bc7e70",
+      "novours/methods.py": "a717105638b4b8045092aabe66c08a8dc4f4b93a1b664a37a803f19696fcfb02",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "00b72461f41fe2f45cef79311d8e407b8590e4d2e01c5eea7f44ccf1cddd957a",
+      "novours/adapters/mempa.py": "ab7121786217fe1f074cfe38cd6f544d80f36b7672ecf49cab9808e19da40020",
+      "novours/adapters/pi.py": "752091553d4a8ddf43ff9533e83ced6505ce1683a5f3dd30dd41a64795e8e9b6",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/suites/methods-v1/p1",
+    "source": "lifesim",
+    "method": "p1",
+    "status": {
+      "status": "failed",
+      "error_class": "ValueError",
+      "error": "ask in action candidates"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 4,
+      "actor": 44
+    },
+    "tokens": {
+      "user": 3179,
+      "actor": 28973
+    },
+    "request_seconds": {
+      "user": 3.19,
+      "actor": 33.5
+    },
+    "wall_seconds": null,
+    "actions": {
+      "respond": 1
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "978fe274ae1fd27a7758ab292c61edb84def92d42e4cabf46201bbcc036ccd5c",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/suites/methods-v1/p2",
+    "source": "lifesim",
+    "method": "p2",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 60.0,
+      "COH": 80.0,
+      "PA": 14.3,
+      "EA": 80.0,
+      "RR": 0.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 49,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3143,
+      "actor": 25269,
+      "judge": 7301
+    },
+    "request_seconds": {
+      "user": 2.87,
+      "actor": 35.88,
+      "judge": 15.14
+    },
+    "wall_seconds": 57.36,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "a33cf6212b090074d187be654907e9fe1539fa185c67fe5758f12ce6c339556f",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/suites/methods-v1/revoir",
+    "source": "lifesim",
+    "method": "revoir",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 60.0,
+      "PA": 14.3,
+      "EA": 60.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 49,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3144,
+      "actor": 25945,
+      "judge": 7625
+    },
+    "request_seconds": {
+      "user": 3.65,
+      "actor": 40.27,
+      "judge": 17.19
+    },
+    "wall_seconds": 64.67,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "9370b0891fb5c3c3169ba288f0ed19f077809b3044d2f9b74952c56605826c1f",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/suites/methods-v1/stateforge",
+    "source": "lifesim",
+    "method": "stateforge",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 40.0,
+      "PA": 14.3,
+      "EA": 60.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 9,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3172,
+      "actor": 4770,
+      "judge": 7526
+    },
+    "request_seconds": {
+      "user": 8.18,
+      "actor": 17.28,
+      "judge": 16.79
+    },
+    "wall_seconds": 45.79,
+    "actions": {
+      "respond": 1,
+      "ask": 1
+    },
+    "intent_diagnostics": 1,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "2dc41e6bf19ad7be3dac5b8baae5d424bc5eb8068ef83cc366243526a92b0560",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/suites/methods-v1/stateforge_revoir",
+    "source": "lifesim",
+    "method": "stateforge_revoir",
+    "status": {
+      "status": "failed",
+      "error_class": "ValueError",
+      "error": "unsupported source action: tool"
+    },
+    "native_metrics": null,
+    "calls": {
+      "user": 4,
+      "actor": 54
+    },
+    "tokens": {
+      "user": 3180,
+      "actor": 34572
+    },
+    "request_seconds": {
+      "user": 3.36,
+      "actor": 45.62
+    },
+    "wall_seconds": null,
+    "actions": {
+      "respond": 1
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "e8b0725e9f947e796c745d1ea3897075f44262194367fe23ef0fceece166c5bb",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": false
+  },
+  {
+    "run": ".local/suites/methods-v1/voi",
+    "source": "lifesim",
+    "method": "voi",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 60.0,
+      "PA": 14.3,
+      "EA": 60.0,
+      "RR": 0.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 30,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3143,
+      "actor": 15287,
+      "judge": 7375
+    },
+    "request_seconds": {
+      "user": 3.81,
+      "actor": 25.28,
+      "judge": 16.7
+    },
+    "wall_seconds": 49.36,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 0,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "cadf59841ca6a23cf179331573dd83a133be8c2a4a018bd014237498fbd4e472",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/suites/methods-v2/p1",
+    "source": "lifesim",
+    "method": "p1",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 60.0,
+      "PA": 14.3,
+      "EA": 80.0,
+      "RR": 0.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 55,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3179,
+      "actor": 43076,
+      "judge": 7688
+    },
+    "request_seconds": {
+      "user": 3.58,
+      "actor": 60.85,
+      "judge": 16.76
+    },
+    "wall_seconds": 84.79,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 1,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "978fe274ae1fd27a7758ab292c61edb84def92d42e4cabf46201bbcc036ccd5c",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/suites/methods-v2/stateforge_revoir",
+    "source": "lifesim",
+    "method": "stateforge_revoir",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 40.0,
+      "PA": 28.6,
+      "EA": 80.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 51,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3180,
+      "actor": 31308,
+      "judge": 7695
+    },
+    "request_seconds": {
+      "user": 5.26,
+      "actor": 89.07,
+      "judge": 18.27
+    },
+    "wall_seconds": 116.26,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 2,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "e8b0725e9f947e796c745d1ea3897075f44262194367fe23ef0fceece166c5bb",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/suites/methods-v2/stitch",
+    "source": "lifesim",
+    "method": "stitch",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 60.0,
+      "COH": 60.0,
+      "PA": 14.3,
+      "EA": 80.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 7,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3301,
+      "actor": 3706,
+      "judge": 8047
+    },
+    "request_seconds": {
+      "user": 3.99,
+      "actor": 12.53,
+      "judge": 20.39
+    },
+    "wall_seconds": 41.77,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 1,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "89ee462223396c33fbe9422d9b9ed75be455cc8208cffb4c54d2ad046be83b72",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": null,
+    "eligible_for_smoke_claims": true
+  },
+  {
+    "run": ".local/suites/methods-v2/stitch_revoir",
+    "source": "lifesim",
+    "method": "stitch_revoir",
+    "status": {
+      "status": "complete"
+    },
+    "native_metrics": {
+      "IR_explicit": 0.0,
+      "IR_implicit": 0.0,
+      "IC_explicit": 0.0,
+      "IC_implicit": 0.0,
+      "NAT": 40.0,
+      "COH": 40.0,
+      "PA": 28.6,
+      "EA": 60.0,
+      "RR": 100.0
+    },
+    "calls": {
+      "user": 4,
+      "actor": 41,
+      "judge": 7
+    },
+    "tokens": {
+      "user": 3174,
+      "actor": 22935,
+      "judge": 7613
+    },
+    "request_seconds": {
+      "user": 3.43,
+      "actor": 49.76,
+      "judge": 16.73
+    },
+    "wall_seconds": 74.36,
+    "actions": {
+      "respond": 2
+    },
+    "intent_diagnostics": 2,
+    "source_versions": {
+      "Pi-Bench": "4f545be5d289b28ff022d2904d455007358ed3b7",
+      "lifesim": "44e3cb8fa26d296a9a29c663035ea7d2f7370272",
+      "MemPABench": "45dea874cc5cf9dad4bec5646cd2456eaab5bc3a",
+      "ProAgentBench": "b5388f02dd99777af1d5ea473ccb3436276e7c05"
+    },
+    "config_sha256": "ad616c3fb255880256079592e034e9bee4f9a3d9728665b0a6c273c9fb5b201e",
+    "pi_call_accounting": null,
+    "models": {
+      "actor": "Qwen3-8B",
+      "user": "deepseek-v4-flash",
+      "judge": "deepseek-v4-flash"
+    },
+    "code_hashes": {
+      "novours/agents.py": "43548daf78399c1970e872103f0906e1f0b6a53d08d908bfee58091c52958c25",
+      "novours/__init__.py": "16233a7a4fb2a3f77c659b1d3464e3984ec16a3b203439993d233d48ac8465a1",
+      "novours/stitch.py": "23f8805ae4e7ecfa9c3c9592a01384d27ef9d86d42ab21a7eeb072e5d31ee687",
+      "novours/in3.py": "7edb86082d55b1b1dbcdd50aa3bedb489cc92d514543d8c8d43798993a1ed821",
+      "novours/mempa_hook.py": "31b0ef9b1049b8528e7b31ca43d6670f85d80b209658db6dcbf548b37145b8eb",
+      "novours/gateway.py": "48bdc89f6952e06e3c8104e7fbd670bab9cd4e1bf949aa45e0ba1b16ba841171",
+      "novours/__main__.py": "b7a42dc7327ee3d53a9ca490b70a375a5938f5dbe76bbcdef6896a35780cbe41",
+      "novours/rpc.py": "3544d5c08762719aead85b607afd5fea3cc81b93d049edb17678710586d8f856",
+      "novours/methods.py": "5cc76a3d98c80b53685c7f78a0a114542519b0930490c982ec618c5ef9637859",
+      "novours/core.py": "a0a17c03f59e359496e6fff1dcc3a076051a6dc7d30189d75a4940d7d8c58319",
+      "novours/inventory.py": "8e08f1b9bcaffc7a1fae9877f1289c6749e6a238b07fa6c004c8e1065618dc3f",
+      "novours/adapters/lifesim.py": "561211d31c79272378fed13e867226ceeaf35aa548e399eacb680e377ccfe43f",
+      "novours/adapters/mempa.py": "3b8e2d732bc7251ae4aad7d139c687f2f4d9314ee6dbc6fe91dd2e8e05ad1d93",
+      "novours/adapters/pi.py": "bb5c74f39710e7211aeb14c571e453bed7817febce34f626420d73dfef5b8f03",
+      "novours/adapters/proagent.py": "94dcabdf9327cbcb08bdde878319819c435828340defb58467cd80077bd75e16"
+    },
+    "eligible_for_smoke_claims": true
+  }
+]

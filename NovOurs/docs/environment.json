@@ -1,0 +1,39 @@
+{
+  "tim": {
+    "python": "3.11.14 (main, Oct 21 2025, 18:31:21) [GCC 11.2.0]",
+    "prefix": "/home/tim/miniconda3/envs/tim",
+    "packages": {
+      "vllm": "0.30.0",
+      "mcp": "2.3.0",
+      "openai": "3.24.0",
+      "numpy": "2.2.6",
+      "protobuf": "6.33.5"
+    }
+  },
+  "mempa": {
+    "python": "3.11.14 (main, Oct 21 2025, 18:31:21) [GCC 11.2.0]",
+    "prefix": "/home/tim/Proj/I3Agent/NovOurs/.local/venv",
+    "packages": {
+      "vllm": "0.30.0",
+      "mcp": "1.30.0",
+      "json-repair": "0.64.8",
+      "openai": "3.24.0",
+      "numpy": "2.2.6",
+      "protobuf": "6.33.5"
+    }
+  },
+  "stitch": {
+    "python": "3.11.14 (main, Oct 21 2025, 18:31:21) [GCC 11.2.0]",
+    "prefix": "/home/tim/Proj/I3Agent/NovOurs/.local/stitch-venv",
+    "packages": {
+      "vllm": "0.30.0",
+      "mcp": "2.3.0",
+      "json-repair": "0.64.8",
+      "dspy": "3.4.1",
+      "litellm": "1.74.15",
+      "openai": "1.109.1",
+      "numpy": "1.26.4",
+      "protobuf": "6.33.5"
+    }
+  }
+}

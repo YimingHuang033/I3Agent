@@ -1,0 +1,47 @@
+{
+  "source": "lifesim",
+  "setting": "single_session",
+  "sequence_index": 0,
+  "events": 1,
+  "rounds": 2,
+  "agent": {
+    "method": "direct"
+  },
+  "embedding_path": "models/Qwen3-Embedding-0.6B",
+  "actor": {
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "key_env": "MODEL_API_KEY",
+    "temperature": 0,
+    "max_tokens": 4096,
+    "extra_body": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "user": {
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "key_env": "MODEL_API_KEY",
+    "temperature": 0,
+    "max_tokens": 4096,
+    "extra_body": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "judge": {
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "key_env": "MODEL_API_KEY",
+    "temperature": 0,
+    "max_tokens": 4096,
+    "extra_body": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  }
+}
